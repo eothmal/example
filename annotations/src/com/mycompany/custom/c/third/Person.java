@@ -1,25 +1,27 @@
-package com.mycompany.custom.fifthRetention;
+package com.mycompany.custom.c.third;
 
+//@Required
 public class Person {
+//@Required
     public enum Type {
         STUDENT,
         STAFF
     }
 
-    @Required
+//    @Required
     private long id;
-    @Required
     private String name;
-    @Required
     private Type type;
 
+//    @Required
     public Person() {
         this.id = Math.round(Math.random()) * 10000;
     }
 
     private String physicalAddress;
 
-    public void setId(long id) {
+//    @Required
+    public void setId(@Required long id) {
         this.id = id;
     }
 
@@ -37,6 +39,7 @@ public class Person {
 
     @Override
     public String toString() {
+//        @Required
         String stringRepresentation = "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +

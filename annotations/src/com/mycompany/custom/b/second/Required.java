@@ -1,9 +1,9 @@
-package com.mycompany.custom.third;
+package com.mycompany.custom.b.second;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
-@Target(value = ElementType.PARAMETER)
+@Target(value = ElementType.TYPE)
 public @interface Required {
 }
 

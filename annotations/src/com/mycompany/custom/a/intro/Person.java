@@ -1,4 +1,4 @@
-package com.mycompany.custom.intro;
+package com.mycompany.custom.a.intro;
 
 public class Person {
     public enum Type{

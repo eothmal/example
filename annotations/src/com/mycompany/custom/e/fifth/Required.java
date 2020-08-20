@@ -1,4 +1,4 @@
-package com.mycompany.custom.fifthRetention;
+package com.mycompany.custom.e.fifth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

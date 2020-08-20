@@ -1,4 +1,4 @@
-package com.mycompany.custom.second;
+package com.mycompany.custom.b.second;
 
 public class MainTargetTypeTest {
     public static void main(String[] args) {

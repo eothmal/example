@@ -1,9 +1,9 @@
-package com.mycompany.custom.second;
+package com.mycompany.custom.d.fourth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
-@Target(value = ElementType.TYPE)
+@Target({ElementType.METHOD,ElementType.LOCAL_VARIABLE,ElementType.FIELD})
 public @interface Required {
 }
 

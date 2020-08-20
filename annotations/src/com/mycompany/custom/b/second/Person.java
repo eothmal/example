@@ -1,14 +1,14 @@
-package com.mycompany.custom.fourth;
+package com.mycompany.custom.b.second;
 
-//@Required
+@Required
 public class Person {
-//@Required
+@Required
     public enum Type {
         STUDENT,
         STAFF
     }
 
-    @Required
+//    @Required
     private long id;
     private String name;
     private Type type;
@@ -20,13 +20,10 @@ public class Person {
 
     private String physicalAddress;
 
+//    @Required
 //    public void setId(@Required long id) {
 //        this.id = id;
 //    }
-    @Required
-    public void setId( long id) {
-        this.id = id;
-    }
 
     public void setName(String name) {
         this.name = name;
@@ -42,7 +39,7 @@ public class Person {
 
     @Override
     public String toString() {
-        @Required
+//        @Required
         String stringRepresentation = "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +

@@ -1,27 +1,25 @@
-package com.mycompany.custom.third;
+package com.mycompany.custom.e.fifth;
 
-//@Required
 public class Person {
-//@Required
     public enum Type {
         STUDENT,
         STAFF
     }
 
-//    @Required
+    @Required
     private long id;
+    @Required
     private String name;
+    @Required
     private Type type;
 
-//    @Required
     public Person() {
         this.id = Math.round(Math.random()) * 10000;
     }
 
     private String physicalAddress;
 
-//    @Required
-    public void setId(@Required long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -39,7 +37,6 @@ public class Person {
 
     @Override
     public String toString() {
-//        @Required
         String stringRepresentation = "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
