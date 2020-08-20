@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -24,51 +24,51 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mycompany/custom/k/eleventh/readonly" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\annotations\src\com\mycompany\custom\fifth" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\annotations\src\com\mycompany\custom\fourth" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\annotations\src\com\mycompany\custom\third" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\annotations\src\com\mycompany\custom\second" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\annotations\src\com\mycompany\functionalinterface\second" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\k\eleventh\readonly" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\k\eleventh" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\h\eighth\c\value\array" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\i\ninth" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\h\eightth\b\value" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainRetentionRuntimeTest">
-    <configuration name="MainFunctionalInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.functionalinterface.intro.MainFunctionalInterfaceTest" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.j.tenth.Main" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainNotEffectiveRequiredTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.aintro.MainNotEffectiveRequiredTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.k.eleventh.notnull.Main" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRetentionRuntimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.dfifth.MainRetentionRuntimeTest" />
+    <configuration name="MainRetentionRuntimeTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.h.eightth.b.value.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTargetTypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.bsecond.MainTargetTypeTest" />
+    <configuration name="MainRetentionRuntimeTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.i.ninth.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainUnSafevargsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.varargs.fourth.MainUnSafevargsTest" />
+    <configuration name="MainRetentionRuntimeTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.h.eighth.c.value.array.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,39 +76,39 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRetentionRuntimeTest" />
-        <item itemvalue="Application.MainTargetTypeTest" />
-        <item itemvalue="Application.MainNotEffectiveRequiredTest" />
-        <item itemvalue="Application.MainFunctionalInterfaceTest" />
-        <item itemvalue="Application.MainUnSafevargsTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainRetentionRuntimeTest (5)" />
+        <item itemvalue="Application.MainRetentionRuntimeTest (4)" />
+        <item itemvalue="Application.MainRetentionRuntimeTest (3)" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1597867098037">
+    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1597940148547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1597867098037" />
+    <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1597940148547" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1597861482572">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597861482572" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1597874560180">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1597940364337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597874560180" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1597874560180">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
+    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1597940364337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597874560180" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1597874560180">
+    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
+    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1597940364337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597874560180" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1597874560180">
+    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1597940364337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597874560180" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1597861487131">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
