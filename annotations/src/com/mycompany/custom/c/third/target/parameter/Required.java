@@ -1,4 +1,4 @@
-package com.mycompany.custom.c.third;
+package com.mycompany.custom.c.third.target.parameter;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;

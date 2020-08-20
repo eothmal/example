@@ -1,4 +1,4 @@
-package com.mycompany.custom.c.third;
+package com.mycompany.custom.d.fourth.target.multiple.elementtype;
 
 //@Required
 public class Person {
@@ -8,9 +8,11 @@ public class Person {
         STAFF
     }
 
-//    @Required
+    @Required
     private long id;
+    @Required
     private String name;
+    @Required
     private Type type;
 
 //    @Required
@@ -20,8 +22,11 @@ public class Person {
 
     private String physicalAddress;
 
-//    @Required
-    public void setId(@Required long id) {
+//    public void setId(@Required long id) {
+//        this.id = id;
+//    }
+    @Required
+    public void setId( long id) {
         this.id = id;
     }
 
@@ -39,7 +44,7 @@ public class Person {
 
     @Override
     public String toString() {
-//        @Required
+        @Required
         String stringRepresentation = "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +

@@ -1,4 +1,4 @@
-package com.mycompany.custom.d.fourth;
+package com.mycompany.custom.d.fourth.target.multiple.elementtype;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
@@ -7,4 +7,4 @@ import java.lang.annotation.Target;
 public @interface Required {
 }
 
-// NOTE: Required annotation will only apply on Type
+// NOTE: Required annotation will apply, Method, local variable, field

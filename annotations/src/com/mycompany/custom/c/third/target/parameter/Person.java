@@ -1,4 +1,4 @@
-package com.mycompany.custom.d.fourth;
+package com.mycompany.custom.c.third.target.parameter;
 
 //@Required
 public class Person {
@@ -8,7 +8,7 @@ public class Person {
         STAFF
     }
 
-    @Required
+//    @Required
     private long id;
     private String name;
     private Type type;
@@ -20,11 +20,8 @@ public class Person {
 
     private String physicalAddress;
 
-//    public void setId(@Required long id) {
-//        this.id = id;
-//    }
-    @Required
-    public void setId( long id) {
+//    @Required
+    public void setId(@Required long id) {
         this.id = id;
     }
 
@@ -42,7 +39,7 @@ public class Person {
 
     @Override
     public String toString() {
-        @Required
+//        @Required
         String stringRepresentation = "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
