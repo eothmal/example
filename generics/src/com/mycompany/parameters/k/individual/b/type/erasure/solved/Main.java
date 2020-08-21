@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("Original list: " + nameList);
 
-        Utilities<String> utilities = new Utilities();
+        Utilities<String> utilities = new Utilities<>();
         utilities.swap(nameList, 0, 4);
 
         System.out.println("\nSwapped list: " + nameList);
@@ -18,12 +18,12 @@ public class Main {
 
         System.out.println("Original list: " + numberList);
 
-        Utilities<Integer> utilities1 = new Utilities();
+        Utilities<Integer> utilities1 = new Utilities<>();
         utilities1.swap(numberList, 0, 4);
 
         System.out.println("\nSwapped list: " + numberList);
 
- 
+
 
     }
 }
