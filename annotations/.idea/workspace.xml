@@ -38,16 +38,9 @@
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\h\eightth\b\value" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.j.tenth.Main" />
-      <module name="annotations" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.k.eleventh.notnull.Main" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,9 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.k.eleventh.notnull.Main" />
+      <module name="annotations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainRetentionRuntimeTest (5)" />
         <item itemvalue="Application.MainRetentionRuntimeTest (4)" />
@@ -93,22 +92,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597861482572" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1597940364337">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1597944472456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1597940364337">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
+    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1597944472456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1597940364337">
+    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
+    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1597944472456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1597940364337">
+    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1597944472456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597940364337" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1597861487131">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
