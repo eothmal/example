@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mycompany/parameters/f/sixth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mycompany/parameters/k/individual/b/type/erasure/solved" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
@@ -31,13 +31,14 @@
       <recent name="com.mycompany.parameters.b.second" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\k\individual\b\type\erasure\solved" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\f\sixth" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\e\fifth" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\d\ fourth" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\c\third" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.h.eighth.convention.Main" />
       <module name="generics" />
@@ -45,22 +46,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.i.ninth.convention.Main" />
+      <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.k.individual.Main" />
+      <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.k.individual.b.type.erasure.solved.Main" />
+      <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.g.seventh.rawtype.Main" />
-      <module name="generics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.d.fourth.main" />
-      <module name="generics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.e.fifth.main" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.j.tenth.multiple.Main" />
       <module name="generics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,38 +83,38 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main (5)" />
-        <item itemvalue="Application.main (4)" />
-        <item itemvalue="Application.main (3)" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1598023052765">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1598026433631">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598023052765" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598026433631" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598020941939">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598020941939" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1598024660174">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1598029115806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598024660174" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1598024660173">
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598029115806" />
+    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1598029115806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598024660173" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1598024660173">
+    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598029115806" />
+    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1598029115806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598024660173" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1598024660173">
+    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598029115806" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1598029115806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598024660173" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598029115806" />
   </component>
 </project>
