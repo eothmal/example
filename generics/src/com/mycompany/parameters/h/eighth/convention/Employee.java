@@ -1,6 +1,8 @@
 package com.mycompany.parameters.h.eighth.convention;
 
 public class Employee<N> {
+    // NOTE: type parameter convention uppercase (it will work with lower case too)
+    //       N - for numeric K - Key  V - Value etc
 
     private N id;
     private N salary;
