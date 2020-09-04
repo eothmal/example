@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/generics.iml" filepath="$PROJECT_DIR$/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../course_jsb20/base_jsb20/javasb20/day5/changemerest/src/main/main.iml" filepath="$PROJECT_DIR$/../../../course_jsb20/base_jsb20/javasb20/day5/changemerest/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../course_jsb20/base_jsb20/javasb20/day5/changemerest/src/test/test.iml" filepath="$PROJECT_DIR$/../../../course_jsb20/base_jsb20/javasb20/day5/changemerest/src/test/test.iml" />
     </modules>
   </component>
 </project>

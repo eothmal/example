@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../course_jsb20/base_jsb20/javasb20/day5" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -31,21 +31,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.parameters.n.constraints.c" />
+      <recent name="com.mycompany.parameters.n.constraints.b" />
+      <recent name="com.mycompany.parameters.m.bounded.a.not.effective" />
       <recent name="com.mycompany.parameters.l.tweleveth.c.third.vargs" />
       <recent name="com.mycompany.parameters.l.tweleveth.d.fourth.array" />
-      <recent name="com.mycompany.parameters.l.tweleveth" />
-      <recent name="com.mycompany.parameters.k.individual.d.anotherstatic" />
-      <recent name="com.mycompany.parameters.k.individual.c.statictype" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\m\bounded\c\fixed" />
+      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\m\bounded\a\not\effective" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\l\tweleveth\c\third" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\l\tweleveth\b\second" />
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\k\individual\b\type\erasure\solved" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\f\sixth" />
-      <recent name="C:\Dev\cygwin64\home\eothmal\course\example\generics\src\com\mycompany\parameters\e\fifth" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.m.a.intro.Main" />
       <module name="generics" />
@@ -67,8 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.n.constraints.b.Main" />
+      <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.l.twelevth.c.third.vargs.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.n.constraints.c.Main" />
       <module name="generics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,52 +95,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.parameters.a.intro.main" />
-      <module name="generics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1598043027269">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1598368160059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598043027269" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598020941939">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1598368160059" />
+    <state x="461" y="32" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1598370368563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598020941939" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598284595839">
+    <state x="461" y="32" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598370368563" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598310161171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598284595839" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1598051810806">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598310161171" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598311350861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598051810806" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1598051810806">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598311350861" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1598370391185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598051810806" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1598051810806">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598370391185" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1598370391185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598051810806" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1598051810806">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598370391185" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1598370391185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598051810806" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598370391185" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1598370391185">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598370391185" />
+    <state x="328" y="122" width="686" height="436" key="NewModule_or_Project.wizard" timestamp="1598311373954">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="328" y="122" width="686" height="436" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1598311373954" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1598298751356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -142,5 +151,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598295981531" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598368061944">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598368061944" />
   </component>
 </project>
