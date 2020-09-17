@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dae9b09-7349-49ab-b05e-2bdb5c76167d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hLJZQVC1jbF4BNLuFjWKqe5paS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sample.dstream" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StringBlankSupperss">
+    <configuration name="AggregateOperationI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationI" />
+      <module name="javaeight" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregateOperationJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationJ" />
+      <module name="javaeight" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregateOperationK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationK" />
+      <module name="javaeight" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregateOperationL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationL" />
+      <module name="javaeight" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBlankSupperss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.StringBlankSupperss" />
+      <module name="javaeight" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AggregateOperationI" />
+      <item itemvalue="Application.AggregateOperationJ" />
+      <item itemvalue="Application.AggregateOperationK" />
+      <item itemvalue="Application.AggregateOperationL" />
+      <item itemvalue="Application.StringBlankSupperss" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringBlankSupperss" />
+        <item itemvalue="Application.AggregateOperationL" />
+        <item itemvalue="Application.AggregateOperationK" />
+        <item itemvalue="Application.AggregateOperationJ" />
+        <item itemvalue="Application.AggregateOperationI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1600098254201">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600098254201" />
+    <state x="421" y="66" key="FileChooserDialogImpl" timestamp="1599929613647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="66" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599929613647" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600135945648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600135945648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600135945647">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600135945647" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600135945648">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600093656333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600093656333" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600093656332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600093656332" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600093656332">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600093656332" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600093656333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600093656333" />
+    <state x="328" y="122" width="755" height="436" key="NewModule_or_Project.wizard" timestamp="1599929649092">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="328" y="122" width="755" height="436" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1599929649092" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1599791496695">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599791496695" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1600135872123">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1600135872123" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600106271163">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600106271163" />
+  </component>
+</project>

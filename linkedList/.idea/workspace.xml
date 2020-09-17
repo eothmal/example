@@ -24,11 +24,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.linkedlist.doubly" />
       <recent name="com.company.linkedlist.singly.g.lessthan" />
       <recent name="com.company.linkedlist.singly.f.delete" />
       <recent name="com.company.linkedlist.singly.e.pop" />
       <recent name="com.company.linkedlist.singly.d.index" />
-      <recent name="com.company.linkedlist.singly.b.head" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\linkedList\src\com\company\linkedlist\singly\c\tail" />
@@ -39,9 +39,9 @@
       <command value="run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainFindAllLessThanTest">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.singly.b.head.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.linkedlist.doubly.a.insert.Main" />
       <module name="linkedList" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -87,64 +87,76 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.MainPopTest" />
       <item itemvalue="Application.MainContainsTest" />
       <item itemvalue="Application.MainDeleteTest" />
       <item itemvalue="Application.MainFindAllLessThanTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainFindAllLessThanTest" />
         <item itemvalue="Application.MainDeleteTest" />
         <item itemvalue="Application.MainContainsTest" />
         <item itemvalue="Application.MainPopTest" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1599146005443">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1599333748022">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599146005443" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599333748022" />
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599233164492">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="424" y="235" width="432" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1599233164492" />
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1599250592024">
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599251829099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599250592024" />
-    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1599250592024">
+    <state x="310" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1599251829099" />
+    <state x="421" y="80" key="FileChooserDialogImpl" timestamp="1599341258212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599250592024" />
-    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1599250592024">
+    <state x="421" y="80" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599341258212" />
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1599417148200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599250592024" />
-    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1599250592024">
+    <state width="1237" height="202" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599417148200" />
+    <state width="1237" height="202" key="GridCell.Tab.0.center" timestamp="1599417148200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599250592024" />
-    <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1599250592539">
+    <state width="1237" height="202" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599417148200" />
+    <state width="1237" height="202" key="GridCell.Tab.0.left" timestamp="1599417148200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599250592539" />
-    <state width="1237" height="202" key="GridCell.Tab.1.center" timestamp="1599250592539">
+    <state width="1237" height="202" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599417148200" />
+    <state width="1237" height="202" key="GridCell.Tab.0.right" timestamp="1599417148200">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599250592539" />
-    <state width="1237" height="202" key="GridCell.Tab.1.left" timestamp="1599250592539">
+    <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599417148200" />
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1599417148201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599250592539" />
-    <state width="1237" height="202" key="GridCell.Tab.1.right" timestamp="1599250592539">
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599417148201" />
+    <state width="1237" height="202" key="GridCell.Tab.1.center" timestamp="1599417148201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599250592539" />
+    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599417148201" />
+    <state width="1237" height="202" key="GridCell.Tab.1.left" timestamp="1599417148201">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599417148201" />
+    <state width="1237" height="202" key="GridCell.Tab.1.right" timestamp="1599417148201">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599417148201" />
+    <state x="232" y="0" key="new project wizard" timestamp="1599341316059">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599341316059" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1599232970913">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
