@@ -1,5 +1,7 @@
 
 1. forEach() method in Iterable interface
+https://github.com/eothmal/example/blob/master/javaeight/src/com/sample/aforeach/Java8ForEachExample.java
+
 2. default and static methods in Interfaces
 3. Functional Interfaces and Lambda Expressions
 4. Java Stream API for Bulk Data Operations on Collections
