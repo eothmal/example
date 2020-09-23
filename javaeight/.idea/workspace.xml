@@ -25,7 +25,7 @@
       <recent name="com.sample.dstream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AggregateOperationDfilter">
+  <component name="RunManager" selected="Application.StringBlankSupperss">
     <configuration name="AggregateOperationDfilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationDfilter" />
       <module name="javaeight" />
@@ -34,8 +34,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AggregateOperationJcollect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationJcollect" />
+    <configuration name="AggregateOperationICollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sample.dstream.AggregateOperationICollector" />
       <module name="javaeight" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -76,16 +76,16 @@
       <item itemvalue="Application.StringBlankSupperss" />
       <item itemvalue="Application.AggregateOperationLparallel" />
       <item itemvalue="Application.AggregateOperationKcollect" />
-      <item itemvalue="Application.AggregateOperationJcollect" />
       <item itemvalue="Application.AggregateOperationDfilter" />
+      <item itemvalue="Application.AggregateOperationICollector" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AggregateOperationDfilter" />
         <item itemvalue="Application.StringBlankSupperss" />
+        <item itemvalue="Application.AggregateOperationICollector" />
+        <item itemvalue="Application.AggregateOperationDfilter" />
         <item itemvalue="Application.AggregateOperationLparallel" />
         <item itemvalue="Application.AggregateOperationKcollect" />
-        <item itemvalue="Application.AggregateOperationJcollect" />
       </list>
     </recent_temporary>
   </component>
@@ -99,22 +99,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="66" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599929613647" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600135945648">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600830329485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600135945648">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600830329485" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600830329485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600135945647">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600830329485" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600830329485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600135945647" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600135945648">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600830329485" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600830329485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600135945648" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600830329485" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600093656333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
