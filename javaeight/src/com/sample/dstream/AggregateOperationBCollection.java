@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Stream;
 
-public class AggregateOperationB {
+public class AggregateOperationBCollection {
     public static void main(String[] args) {
         Integer[] intArray = new Integer[]
                 {23, 24, 100, 200, 20, 100};

@@ -1,9 +1,14 @@
 package com.sample.dstream;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
-public class AggregateOperationJ {
+public class AggregateOperationLparallel {
+
+
     public static void main(String[] args) {
 
         Collection<Person> collection = new ArrayList<>();
@@ -18,19 +23,11 @@ public class AggregateOperationJ {
         collection.add(new Person("Irina", Person.Gender.Female, 43, "Boston"));
         collection.add(new Person("Julia", Person.Gender.Female, 29, "New York"));
 
-        List<String> citiesList = collection.stream()
-                .filter(person -> person.getGender() == Person.Gender.Male)
-                .map(Person::getCity)
-                .collect(ArrayList::new, ArrayList::add, ArrayList::addAll);
-
-        System.out.println("\nList of cities (males): " + citiesList);
-
-        Set<String> citiesSet = collection.stream()
-                .filter(person -> person.getGender() == Person.Gender.Male)
-                .map(person -> person.getCity())
-                .collect(HashSet::new, HashSet::add, HashSet::addAll);
-
-        System.out.println("\nSet of cities (males): " + citiesSet);
+        collection.parallelStream()
+                .filter(person -> person.getGender() == Person.Gender.Female)
+                .map(person -> person.getName() + ", " + person.getCity())
+                .map(s -> s.toUpperCase())
+                .forEach(s -> System.out.println(s));
 
     }
 }

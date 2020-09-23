@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-public class AggregateOperationF {
+public class AggregateOperationFfilter {
     public static void main(String[] args) {
 
         Collection<Person> collection = new ArrayList<>();

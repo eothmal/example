@@ -3,7 +3,7 @@ package com.sample.dstream;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class AggregateOperationK {
+public class AggregateOperationKcollect {
 
     private static class Averager {
         private int total = 0;

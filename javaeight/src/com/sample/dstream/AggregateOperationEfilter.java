@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
-public class AggregateOperationE {
+public class AggregateOperationEfilter {
     public static void main(String[] args) {
 
         Collection<Person> collection = new ArrayList<>();

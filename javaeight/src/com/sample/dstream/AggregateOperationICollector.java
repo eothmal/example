@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.function.IntBinaryOperator;
 import java.util.stream.Collectors;
 
-public class AggregateOperationI {
+public class AggregateOperationICollector {
     public static void main(String[] args) {
 
         Collection<Person> collection = new ArrayList<>();
