@@ -13,21 +13,20 @@ public class StringBlankSupperss {
         char[] ch = before.toCharArray();
         int len = before.length();
         StringBuffer buffer = new StringBuffer();
-        for (int n = 0; n < len; n++){
-            if (ch[n] != ' '){
+        for (int n = 0; n < len; n++) {
+            if (ch[n] != ' ') {
                 buffer.append(ch[n]);
             }
         }
         System.out.println("wo stream: " + buffer);
 
-        String after =
-                before.chars()
-                        .mapToObj(e -> (char) e)
-                        .filter(character -> character != ' ')
-                        .collect(Collectors.toList())
-                        .stream().map(e -> e.toString()).reduce((accStr, s) -> accStr + s).get();
+        String after = before.chars()
+                .mapToObj(e -> (char) e)
+                .filter(character -> character != ' ')
+                .collect(Collectors.toList())
+                .stream().map(e -> e.toString()).reduce((accStr, s) -> accStr + s).get();
 
-        System.out.println("w/ stream: " + after);
+        System.out.println("wi stream: " + after);
 
     }
 }

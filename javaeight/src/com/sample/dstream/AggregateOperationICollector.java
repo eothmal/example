@@ -47,6 +47,7 @@ public class AggregateOperationICollector {
 
         System.out.println("\nComa separated names: " + nameString);
 
+        //method reference :: example Person::getAge
         double averageAge = collection.stream()
                 .filter(person -> person.getGender() == Person.Gender.Female)
                 .collect(Collectors.averagingInt(Person::getAge));
