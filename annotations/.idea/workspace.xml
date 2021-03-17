@@ -24,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mycompany/custom/k/eleventh/readonly" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -38,9 +38,16 @@
       <recent name="C:\Dev\cygwin64\home\eothmal\course\example\annotations\src\com\mycompany\custom\h\eightth\b\value" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainRetentionRuntimeTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.j.tenth.Main" />
+      <module name="annotations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainRetentionRuntimeTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.c.custom.i.ninth.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,15 +60,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRetentionRuntimeTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.i.ninth.MainRetentionRuntimeTest" />
+    <configuration name="MainRetentionRuntimeTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.h.eighth.c.value.array.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRetentionRuntimeTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.h.eighth.c.value.array.MainRetentionRuntimeTest" />
+    <configuration name="MainRetentionRuntimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.custom.i.ninth.MainRetentionRuntimeTest" />
       <module name="annotations" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +83,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainRetentionRuntimeTest (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainRetentionRuntimeTest (5)" />
-        <item itemvalue="Application.MainRetentionRuntimeTest (4)" />
         <item itemvalue="Application.MainRetentionRuntimeTest (3)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
     <state x="446" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1597940148547">
       <screen x="0" y="0" width="1280" height="680" />
@@ -92,22 +100,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597861482572" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1597944472456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1300" height="175" key="GridCell.Tab.0.bottom" timestamp="1605817342694">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1597944472456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1300" height="175" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605817342694" />
+    <state width="1300" height="175" key="GridCell.Tab.0.center" timestamp="1605817342693">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1597944472456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1300" height="175" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605817342693" />
+    <state width="1300" height="175" key="GridCell.Tab.0.left" timestamp="1605817342693">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1597944472456">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1300" height="175" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605817342693" />
+    <state width="1300" height="175" key="GridCell.Tab.0.right" timestamp="1605817342694">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597944472456" />
+    <state width="1300" height="175" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605817342694" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1597861487131">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

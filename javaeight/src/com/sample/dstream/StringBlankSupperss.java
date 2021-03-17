@@ -1,14 +1,12 @@
 package com.sample.dstream;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class StringBlankSupperss {
     public static void main(String[] args) {
         String before = "abc defg xyz";
+
+        System.out.println(" before: " + before);
 
         char[] ch = before.toCharArray();
         int len = before.length();

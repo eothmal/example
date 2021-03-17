@@ -1,4 +1,4 @@
-package com.mycompany.custom.i.ninth;
+package com.mycompany.c.custom.i.ninth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

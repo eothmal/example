@@ -1,4 +1,4 @@
-package com.mycompany.custom.i.ninth;
+package com.mycompany.c.custom.i.ninth;
 
 public class Person {
     public enum Type {
