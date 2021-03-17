@@ -4,5 +4,5 @@
 mkdir -p ~/.vim/plugin && \
 cp *.vim ~/.vim/plugin/. && \
 cscope -b
-cp dotvirc ~/.vimrc
+cp dotvimrc ~/.vimrc
 
