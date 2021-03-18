@@ -10,4 +10,10 @@ USER gitpod
 #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/config-docker/
+USER gitpod
+RUN sudo touch /var/log/workspace-image.log \
+    && sudo chmod 666 /var/log/workspace-image.log
+
+COPY --chown=gitpod:gitpod bash/update-composer.sh /tmp
+RUN sudo bash -c ". /tmp/update-composer.sh" && rm /tmp/update-composer.sh
 RUN sudo apt-get -y update && sudo apt-get install -y cscope
