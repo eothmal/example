@@ -14,6 +14,6 @@ USER gitpod
 RUN sudo touch /var/log/workspace-image.log \
     && sudo chmod 666 /var/log/workspace-image.log
 
-COPY --chown=gitpod:gitpod bash/update-composer.sh /tmp
+COPY --chown=gitpod:gitpod update-composer.sh /tmp
 RUN sudo bash -c ". /tmp/update-composer.sh" && rm /tmp/update-composer.sh
 RUN sudo apt-get -y update && sudo apt-get install -y cscope
