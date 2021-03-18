@@ -1,0 +1,29011 @@
+cscope 15 /workspace/example               0000143541
+	@annotations/src/com/mycompany/a/varargs/a/intro/Calculator.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.a.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cC®cuÏtÜ
+ {
+
+4 
+public
+ 
+	$addNumb”
+(
+num1
+, 
+num2
+){
+
+5  
+num1
+ + 
+num2
+;
+
+7 
+public
+ 
+	$addNumb”
+(
+num1
+, 
+num2
+, 
+num3
+){
+
+8  
+num1
+ + 
+num2
+ + 
+num3
+;
+
+9 
+	}
+}
+
+	@annotations/src/com/mycompany/a/varargs/a/intro/MainFixVaragsTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.a.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cMašFixV¬agsTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+C®cuÏtÜ
+ 
+ÿlcuÏtÜ
+ = 
+Ãw
+ 
+	`C®cuÏtÜ
+();
+
+6 
+Sy¡em
+.
+out
+.
+	`´šn
+("AddšgwØnumb”s: " + 
+ÿlcuÏtÜ
+.
+	`addNumb”
+(1,2));
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+("Addšgh»numb”s: " + 
+ÿlcuÏtÜ
+.
+	`addNumb”
+(1,2,3));
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/a/varargs/b/second/Calculator.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gb
+.
+	g£cÚd
+;
+
+3 
+public
+ cÏs 
+	cC®cuÏtÜ
+ {
+
+4 
+public
+ 
+	$addNumb”s
+(... 
+numbs
+){
+
+5 
+sum
+ = 0;
+
+6  
+num
+ : 
+numbs
+){
+
+7 
+sum
+ +=
+num
+;
+
+9  
+sum
+;
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/a/varargs/b/second/MainVarargsTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gb
+.
+	g£cÚd
+;
+
+3 
+public
+ cÏs 
+	cMašV¬¬gsTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+C®cuÏtÜ
+ 
+ÿlcuÏtÜ
+ = 
+Ãw
+ 
+	`C®cuÏtÜ
+();
+
+6 
+Sy¡em
+.
+out
+.
+	`´šn
+("AddšgwØnumb”s: " + 
+ÿlcuÏtÜ
+.
+	`addNumb”s
+(1,2));
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+("Addšgh»numb”s: " + 
+ÿlcuÏtÜ
+.
+	`addNumb”s
+(1,2,3));
+
+8 
+Sy¡em
+.
+out
+.
+	`´šn
+("Addšg fou¸numb”s: " + 
+ÿlcuÏtÜ
+.
+	`addNumb”s
+(1,2,3,4));
+
+10 
+	}
+}
+
+	@annotations/src/com/mycompany/a/varargs/c/three/ListConverter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gc
+.
+	gth»e
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ 
+şass
+ 
+	gLi¡CÚv”‹r
+<
+	gT
+> {
+
+9 @
+SaãV¬¬gs
+
+
+10 
+public
+ 
+fš®
+ 
+	gLi¡
+<
+	gT
+> 
+cŞËù
+(
+T
+... 
+™ems
+){
+
+11 
+	gLi¡
+<
+	gT
+> 
+	gli¡
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+13 
+T
+ 
+	g™em
+: 
+™ems
+){
+
+14 
+li¡
+.
+add
+(
+™em
+);
+
+16  
+	gli¡
+;
+
+	@annotations/src/com/mycompany/a/varargs/c/three/MainSafeVarargsTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gc
+.
+	gth»e
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cMašSaãV¬¬gsTe¡
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+Li¡CÚv”‹r
+<
+IÁeg”
+> 
+lc
+ = 
+Ãw
+ ListConverter<>();
+
+9 
+Li¡
+<
+IÁeg”
+> 
+numLi¡
+ = 
+lc
+.
+	`cŞËù
+(1,2,3);
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+("Li¡ oàš‹g”: " + 
+numLi¡
+);
+
+13 
+	}
+}
+
+	@annotations/src/com/mycompany/a/varargs/d/fourth/ListConverter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gd
+.
+	gfou¹h
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ 
+şass
+ 
+	gLi¡CÚv”‹r
+<
+	gT
+> {
+
+9 @
+SaãV¬¬gs
+
+
+10 
+public
+ 
+fš®
+ 
+³rfÜmUn§ãO³¿tiÚ
+(
+Li¡
+<
+SŒšg
+>... 
+¡ršgLi¡
+){
+
+11 
+	gObjeù
+[] 
+	g¬¿y
+ = 
+¡ršgLi¡
+;
+
+13 
+	gLi¡
+<
+	gIÁeg”
+> 
+	gtmpLi¡
+ = 
+A¼ays
+.
+asLi¡
+(42);
+
+16 
+	g¬¿y
+[0] = 
+tmpLi¡
+;
+
+17 
+SŒšg
+ 
+	gs
+ = 
+¡ršgLi¡
+[0].
+g‘
+(0);
+
+	@annotations/src/com/mycompany/a/varargs/d/fourth/MainUnSafevargsTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	ga
+.
+	gv¬¬gs
+.
+	gd
+.
+	gfou¹h
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ cÏs 
+	cMašUnSaãv¬gsTe¡
+ {
+
+12 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+13 
+Li¡CÚv”‹r
+<
+IÁeg”
+> 
+lc
+ = 
+Ãw
+ ListConverter<Integer>();
+
+14 
+Li¡
+<
+SŒšg
+> 
+li¡1
+ = 
+Ãw
+ 
+A¼ayLi¡
+<String >();
+
+15 
+lc
+.
+	`³rfÜmUn§ãO³¿tiÚ
+(
+li¡1
+,†ist1,†ist1);
+
+17 
+	}
+}
+
+	@annotations/src/com/mycompany/b/functionalinterface/intro/Action.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	gšŒo
+;
+
+3 @
+FunùiÚ®IÁ”çû
+
+
+4 
+public
+ 
+š‹rçû
+ 
+	gAùiÚ
+<
+	gT
+> {
+
+5 
+³rfÜmAùiÚ
+(
+T
+ 
+šput
+);
+
+	@annotations/src/com/mycompany/b/functionalinterface/intro/MainFunctionalInterfaceTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cMašFunùiÚ®IÁ”çûTe¡
+ {
+
+5 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+MyLi¡
+<
+SŒšg
+> 
+myLi¡
+ = 
+Ãw
+ MyList<>();
+
+9 
+myLi¡
+.
+	`add
+("Austin");
+
+10 
+myLi¡
+.
+	`add
+("Bertie");
+
+11 
+myLi¡
+.
+	`add
+("Cheryl");
+
+12 
+myLi¡
+.
+	`add
+("Desmond");
+
+14 
+myLi¡
+.
+	`³rfÜmAùiÚOnEach
+(
+Ãw
+ 
+AùiÚ
+<
+SŒšg
+>() {
+
+15 @
+Ov”ride
+
+
+16 
+public
+ 
+	`³rfÜmAùiÚ
+(
+SŒšg
+ 
+šput
+) {
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+šput
+);
+
+21 
+MyLi¡
+<
+SŒšg
+> 
+ŒªsfÜmedLi¡
+ = 
+myLi¡
+.
+	`­¶yT¿nsfÜm©iÚOnEach
+(
+Ãw
+ 
+T¿nsfÜm©iÚ
+<String, String>() {
+
+22 @
+Ov”ride
+
+
+23 
+public
+ 
+SŒšg
+ 
+	`³rfÜmT¿nsfÜm©iÚ
+(SŒšg 
+šput
+) {
+
+24  
+šput
+.
+	`toUµ”Ca£
+();
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+();
+
+29 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+ŒªsfÜmedLi¡
+);
+
+33 
+	}
+}
+
+	@annotations/src/com/mycompany/b/functionalinterface/intro/MyList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gMyLi¡
+<
+	gT
+> 
+ex‹nds
+ 
+	gA¼ayLi¡
+<T> {
+
+6 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+8 
+public
+ 
+³rfÜmAùiÚOnEach
+(
+AùiÚ
+<
+T
+> 
+aùiÚ
+){
+
+9 
+T
+ 
+	g–em’t
+ : 
+this
+){
+
+10 
+aùiÚ
+.
+³rfÜmAùiÚ
+(
+–em’t
+);
+
+14 
+	gpublic
+ <
+	gV
+> 
+	gMyLi¡
+<V> 
+­¶yT¿nsfÜm©iÚOnEach
+(
+T¿nsfÜm©iÚ
+<
+T
+, 
+V
+> 
+ŒªsfÜm©iÚ
+){
+
+15 
+	gMyLi¡
+<
+	gV
+> 
+	gmyLi¡
+ = 
+Ãw
+ 
+MyLi¡
+<
+V
+>();
+
+17 
+T
+ 
+	g–em’t
+ : 
+this
+){
+
+18 
+myLi¡
+.
+add
+(
+ŒªsfÜm©iÚ
+.
+³rfÜmT¿nsfÜm©iÚ
+(
+–em’t
+));
+
+20  
+	gmyLi¡
+;
+
+	@annotations/src/com/mycompany/b/functionalinterface/intro/Transformation.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	gšŒo
+;
+
+3 
+public
+ 
+š‹rçû
+ 
+	gT¿nsfÜm©iÚ
+<
+	gT
+, 
+	gV
+> {
+
+4 
+V
+ 
+³rfÜmT¿nsfÜm©iÚ
+(
+T
+ 
+šput
+);
+
+	@annotations/src/com/mycompany/b/functionalinterface/second/Action.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	g£cÚd
+;
+
+3 @
+FunùiÚ®IÁ”çû
+
+
+4 
+public
+ 
+š‹rçû
+ 
+	gAùiÚ
+<
+	gT
+> {
+
+5 
+³rfÜmAùiÚ
+(
+T
+ 
+šput
+);
+
+7  
+³rfÜmAnÙh”AùiÚ
+(
+T
+ 
+šput
+){
+
+8 
+	gSy¡em
+.
+	gout
+.
+´šn
+(
+šput
+);
+
+	@annotations/src/com/mycompany/b/functionalinterface/second/MainFunctionalInterfaceTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	g£cÚd
+;
+
+3 
+public
+ cÏs 
+	cMašFunùiÚ®IÁ”çûTe¡
+ {
+
+5 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+MyLi¡
+<
+SŒšg
+> 
+myLi¡
+ = 
+Ãw
+ MyList<>();
+
+9 
+myLi¡
+.
+	`add
+("Austin");
+
+10 
+myLi¡
+.
+	`add
+("Bertie");
+
+11 
+myLi¡
+.
+	`add
+("Cheryl");
+
+12 
+myLi¡
+.
+	`add
+("Desmond");
+
+14 
+myLi¡
+.
+	`³rfÜmAùiÚOnEach
+(
+Ãw
+ 
+AùiÚ
+<
+SŒšg
+>() {
+
+15 @
+Ov”ride
+
+
+16 
+public
+ 
+	`³rfÜmAùiÚ
+(
+SŒšg
+ 
+šput
+) {
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+šput
+);
+
+21 
+MyLi¡
+<
+SŒšg
+> 
+ŒªsfÜmedLi¡
+ = 
+myLi¡
+.
+	`­¶yT¿nsfÜm©iÚOnEach
+(
+Ãw
+ 
+T¿nsfÜm©iÚ
+<String, String>() {
+
+22 @
+Ov”ride
+
+
+23 
+public
+ 
+SŒšg
+ 
+	`³rfÜmT¿nsfÜm©iÚ
+(SŒšg 
+šput
+) {
+
+24  
+šput
+.
+	`toUµ”Ca£
+();
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+();
+
+29 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+ŒªsfÜmedLi¡
+);
+
+33 
+	}
+}
+
+	@annotations/src/com/mycompany/b/functionalinterface/second/MyList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	g£cÚd
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gMyLi¡
+<
+	gT
+> 
+ex‹nds
+ 
+	gA¼ayLi¡
+<T> {
+
+6 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+8 
+public
+ 
+³rfÜmAùiÚOnEach
+(
+AùiÚ
+<
+T
+> 
+aùiÚ
+){
+
+9 
+T
+ 
+	g–em’t
+ : 
+this
+){
+
+10 
+aùiÚ
+.
+³rfÜmAùiÚ
+(
+–em’t
+);
+
+14 
+	gpublic
+ <
+	gV
+> 
+	gMyLi¡
+<V> 
+­¶yT¿nsfÜm©iÚOnEach
+(
+T¿nsfÜm©iÚ
+<
+T
+, 
+V
+> 
+ŒªsfÜm©iÚ
+){
+
+15 
+	gMyLi¡
+<
+	gV
+> 
+	gmyLi¡
+ = 
+Ãw
+ 
+MyLi¡
+<
+V
+>();
+
+17 
+T
+ 
+	g–em’t
+ : 
+this
+){
+
+18 
+myLi¡
+.
+add
+(
+ŒªsfÜm©iÚ
+.
+³rfÜmT¿nsfÜm©iÚ
+(
+–em’t
+));
+
+20  
+	gmyLi¡
+;
+
+	@annotations/src/com/mycompany/b/functionalinterface/second/Transformation.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gb
+.
+	gfunùiÚ®š‹rçû
+.
+	g£cÚd
+;
+
+3 
+public
+ 
+š‹rçû
+ 
+	gT¿nsfÜm©iÚ
+<
+	gT
+, 
+	gV
+> {
+
+4 
+V
+ 
+³rfÜmT¿nsfÜm©iÚ
+(
+T
+ 
+šput
+);
+
+6 @
+Ov”ride
+
+
+7 
+public
+ 
+boŞ—n
+ 
+equ®s
+(
+Objeù
+ 
+obj
+);
+
+	@annotations/src/com/mycompany/c/custom/a/intro/MainNotEffectiveRequiredTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cMašNÙEfãùiveRequœedTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+P”sÚ
+ 
+p1
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+6 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STUDENT
+);
+
+7 
+p1
+.
+	`£tName
+("John");
+
+9 
+P”sÚ
+ 
+p2
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+10 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STAFF
+);
+
+12 
+P”sÚ
+ 
+p3
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+13 
+p3
+.
+	`£tName
+("Lucy");
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ1: " + 
+p1
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ2: " + 
+p2
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ3: " + 
+p2
+);
+
+20 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/a/intro/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+{
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+9 @
+Requœed
+
+
+10 
+´iv©e
+ 
+	gid
+;
+
+11 @
+Requœed
+
+
+12 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+13 @
+Requœed
+
+
+14 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+16 
+´iv©e
+ 
+SŒšg
+ 
+	gphysiÿlAdd»ss
+;
+
+18 
+public
+ 
+	$£tId
+(
+id
+) {
+
+19 
+this
+.
+id
+ = id;
+
+20 
+	}
+}
+
+22 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+23 
+this
+.
+Çme
+ =‚ame;
+
+24 
+	}
+}
+
+26 
+public
+ 
+	$£tTy³
+(
+Ty³
+ 
+ty³
+) {
+
+27 
+this
+.
+ty³
+ =ype;
+
+28 
+	}
+}
+
+30 
+public
+ 
+	$£tPhysiÿlAdd»ss
+(
+SŒšg
+ 
+physiÿlAdd»ss
+) {
+
+31 
+this
+.
+physiÿlAdd»ss
+ =…hysicalAddress;
+
+32 
+	}
+}
+
+34 @
+Ov”ride
+
+
+35 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+37 "id=" + 
+id
+ +
+
+38 ",‚ame='" + 
+Çme
+ + '\'' +
+
+39 ",y³=" + 
+ty³
+ +
+
+40 ",…hysiÿlAdd»ss='" + 
+physiÿlAdd»ss
+ + '\'' +
+
+42 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/a/intro/Required.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+	gpublic
+ @
+š‹rçû
+ 
+	gRequœed
+ {
+
+	@annotations/src/com/mycompany/c/custom/b/second/MainTargetTypeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gb
+.
+	g£cÚd
+;
+
+3 
+public
+ cÏs 
+	cMašT¬g‘Ty³Te¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+P”sÚ
+ 
+p1
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+6 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STUDENT
+);
+
+7 
+p1
+.
+	`£tName
+("John");
+
+9 
+P”sÚ
+ 
+p2
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+10 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STAFF
+);
+
+12 
+P”sÚ
+ 
+p3
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+13 
+p3
+.
+	`£tName
+("Lucy");
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ1: " + 
+p1
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ2: " + 
+p2
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ3: " + 
+p2
+);
+
+20 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/b/second/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gb
+.
+	g£cÚd
+;
+
+3 @
+Requœed
+
+
+4 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+5 @
+Requœed
+
+
+6 
+public
+ 
+	eTy³
+ {
+
+7 
+	mSTUDENT
+,
+
+8 
+	mSTAFF
+
+
+12 
+´iv©e
+ 
+	gid
+;
+
+13 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+14 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+17 
+public
+ 
+	$P”sÚ
+() {
+
+18 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+()) * 10000;
+
+19 
+	}
+}
+
+21 
+´iv©e
+ 
+SŒšg
+ 
+	gphysiÿlAdd»ss
+;
+
+28 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+29 
+this
+.
+Çme
+ =‚ame;
+
+30 
+	}
+}
+
+32 
+public
+ 
+	$£tTy³
+(
+Ty³
+ 
+ty³
+) {
+
+33 
+this
+.
+ty³
+ =ype;
+
+34 
+	}
+}
+
+36 
+public
+ 
+	$£tPhysiÿlAdd»ss
+(
+SŒšg
+ 
+physiÿlAdd»ss
+) {
+
+37 
+this
+.
+physiÿlAdd»ss
+ =…hysicalAddress;
+
+38 
+	}
+}
+
+40 @
+Ov”ride
+
+
+41 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+43 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+44 "id=" + 
+id
+ +
+
+45 ",‚ame='" + 
+Çme
+ + '\'' +
+
+46 ",y³=" + 
+ty³
+ +
+
+47 ",…hysiÿlAdd»ss='" + 
+physiÿlAdd»ss
+ + '\'' +
+
+49  
+¡ršgR•»£Á©iÚ
+;
+
+50 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/b/second/Required.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gb
+.
+	g£cÚd
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+6 @
+	$T¬g‘
+(
+v®ue
+ = 
+EËm’tTy³
+.
+TYPE
+)
+
+7 
+public
+ @
+š‹rçû
+ 
+Requœed
+ {
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/c/third/target/parameter/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.c.
+	gthœd
+.
+	grg‘
+.
+	g·¿m‘”
+;
+
+4 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+6 
+public
+ 
+	eTy³
+ {
+
+7 
+	mSTUDENT
+,
+
+8 
+	mSTAFF
+
+
+12 
+´iv©e
+ 
+	gid
+;
+
+13 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+14 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+17 
+public
+ 
+	$P”sÚ
+() {
+
+18 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+()) * 10000;
+
+19 
+	}
+}
+
+21 
+´iv©e
+ 
+SŒšg
+ 
+	gphysiÿlAdd»ss
+;
+
+24 
+public
+ 
+£tId
+(@
+Requœed
+ 
+id
+) {
+
+25 
+	gthis
+.
+	gid
+ = 
+id
+;
+
+28 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+29 
+this
+.
+Çme
+ =‚ame;
+
+30 
+	}
+}
+
+32 
+public
+ 
+	$£tTy³
+(
+Ty³
+ 
+ty³
+) {
+
+33 
+this
+.
+ty³
+ =ype;
+
+34 
+	}
+}
+
+36 
+public
+ 
+	$£tPhysiÿlAdd»ss
+(
+SŒšg
+ 
+physiÿlAdd»ss
+) {
+
+37 
+this
+.
+physiÿlAdd»ss
+ =…hysicalAddress;
+
+38 
+	}
+}
+
+40 @
+Ov”ride
+
+
+41 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+43 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+44 "id=" + 
+id
+ +
+
+45 ",‚ame='" + 
+Çme
+ + '\'' +
+
+46 ",y³=" + 
+ty³
+ +
+
+47 ",…hysiÿlAdd»ss='" + 
+physiÿlAdd»ss
+ + '\'' +
+
+49  
+¡ršgR•»£Á©iÚ
+;
+
+50 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/c/third/target/parameter/Required.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.c.
+	gthœd
+.
+	grg‘
+.
+	g·¿m‘”
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+6 @
+	$T¬g‘
+(
+v®ue
+ = 
+EËm’tTy³
+.
+PARAMETER
+)
+
+7 
+public
+ @
+š‹rçû
+ 
+Requœed
+ {
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/d/fourth/target/multiple/elementtype/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gd
+.
+	gfou¹h
+.
+	grg‘
+.
+	gmuÉË
+.
+	g–em’‰y³
+;
+
+4 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+6 
+public
+ 
+	eTy³
+ {
+
+7 
+	mSTUDENT
+,
+
+8 
+	mSTAFF
+
+
+11 @
+Requœed
+
+
+12 
+´iv©e
+ 
+	gid
+;
+
+13 @
+Requœed
+
+
+14 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+15 @
+Requœed
+
+
+16 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+19 
+public
+ 
+	$P”sÚ
+() {
+
+20 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+()) * 10000;
+
+21 
+	}
+}
+
+23 
+´iv©e
+ 
+SŒšg
+ 
+	gphysiÿlAdd»ss
+;
+
+28 @
+Requœed
+
+
+29 
+public
+ 
+	$£tId
+Ğ
+id
+) {
+
+30 
+this
+.
+id
+ = id;
+
+31 
+	}
+}
+
+33 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+34 
+this
+.
+Çme
+ =‚ame;
+
+35 
+	}
+}
+
+37 
+public
+ 
+	$£tTy³
+(
+Ty³
+ 
+ty³
+) {
+
+38 
+this
+.
+ty³
+ =ype;
+
+39 
+	}
+}
+
+41 
+public
+ 
+	$£tPhysiÿlAdd»ss
+(
+SŒšg
+ 
+physiÿlAdd»ss
+) {
+
+42 
+this
+.
+physiÿlAdd»ss
+ =…hysicalAddress;
+
+43 
+	}
+}
+
+45 @
+Ov”ride
+
+
+46 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+47 @
+Requœed
+
+
+48 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+49 "id=" + 
+id
+ +
+
+50 ",‚ame='" + 
+Çme
+ + '\'' +
+
+51 ",y³=" + 
+ty³
+ +
+
+52 ",…hysiÿlAdd»ss='" + 
+physiÿlAdd»ss
+ + '\'' +
+
+54  
+¡ršgR•»£Á©iÚ
+;
+
+55 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/d/fourth/target/multiple/elementtype/Required.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gd
+.
+	gfou¹h
+.
+	grg‘
+.
+	gmuÉË
+.
+	g–em’‰y³
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+6 @
+T¬g‘
+({
+EËm’tTy³
+.
+METHOD
+,EËm’tTy³.
+LOCAL_VARIABLE
+,EËm’tTy³.
+FIELD
+})
+
+7 
+	gpublic
+ @
+š‹rçû
+ 
+	gRequœed
+ {
+
+	@annotations/src/com/mycompany/c/custom/e/fifth/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ge
+.
+	gfiáh
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	g»æeù
+.
+	gF›ld
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	g»æeù
+.
+	gModif›r
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+9 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+ {
+
+12 
+P”sÚ
+ 
+p1
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+13 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STUDENT
+);
+
+14 
+p1
+.
+	`£tName
+("John");
+
+16 
+P”sÚ
+ 
+p2
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+17 
+p1
+.
+	`£tTy³
+(
+P”sÚ
+.
+Ty³
+.
+STAFF
+);
+
+19 
+P”sÚ
+ 
+p3
+ = 
+Ãw
+ 
+	`P”sÚ
+();
+
+20 
+p3
+.
+	`£tName
+("Lucy");
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ1: " + 
+p1
+);
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ2: " + 
+p2
+);
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”sÚ3: " + 
+p2
+);
+
+26 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+p1
+, 
+p2
+, 
+p3
+);
+
+28 
+	`checkRequœedF›lds
+(
+cŞËùiÚ
+);
+
+31 
+´iv©e
+ 
+	`checkRequœedF›lds
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+ {
+
+35 
+F›ld
+[] 
+f›lds
+ = 
+P”sÚ
+.
+şass
+.
+	`g‘Deş¬edF›lds
+();
+
+37 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+38 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg…”sÚ: " + 
+p
+);
+
+40 
+F›ld
+ 
+f›ld
+ : 
+f›lds
+) {
+
+42 ià(
+Modif›r
+.
+	`isPriv©e
+(
+f›ld
+.
+	`g‘Modif›rs
+())) {
+
+46 
+f›ld
+.
+	`£tAcûssibË
+(
+Œue
+);
+
+48 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+f›ld
+.
+	`g‘Deş¬edAÂÙ©iÚs
+();
+
+49 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+51 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+Requœed
+) {
+
+53 
+Sy¡em
+.
+out
+.
+	`´šn
+("Checkšg f›ld: " + 
+f›ld
+.
+	`g‘Name
+());
+
+54 ià(
+f›ld
+.
+	`g‘
+(
+p
+è=ğ
+nuÎ
+) {
+
+55 
+Sy¡em
+.
+out
+.
+	`´šn
+("Required field: " +
+
+56 
+f›ld
+.
+	`g‘Name
+() + " does‚ot have‡ valid value");
+
+63 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/e/fifth/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ge
+.
+	gfiáh
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+9 @
+Requœed
+
+
+10 
+´iv©e
+ 
+	gid
+;
+
+11 @
+Requœed
+
+
+12 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+13 @
+Requœed
+
+
+14 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+16 
+public
+ 
+	$P”sÚ
+() {
+
+17 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+()) * 10000;
+
+18 
+	}
+}
+
+20 
+´iv©e
+ 
+SŒšg
+ 
+	gphysiÿlAdd»ss
+;
+
+22 
+public
+ 
+	$£tId
+(
+id
+) {
+
+23 
+this
+.
+id
+ = id;
+
+24 
+	}
+}
+
+26 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+27 
+this
+.
+Çme
+ =‚ame;
+
+28 
+	}
+}
+
+30 
+public
+ 
+	$£tTy³
+(
+Ty³
+ 
+ty³
+) {
+
+31 
+this
+.
+ty³
+ =ype;
+
+32 
+	}
+}
+
+34 
+public
+ 
+	$£tPhysiÿlAdd»ss
+(
+SŒšg
+ 
+physiÿlAdd»ss
+) {
+
+35 
+this
+.
+physiÿlAdd»ss
+ =…hysicalAddress;
+
+36 
+	}
+}
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+40 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+41 "id=" + 
+id
+ +
+
+42 ",‚ame='" + 
+Çme
+ + '\'' +
+
+43 ",y³=" + 
+ty³
+ +
+
+44 ",…hysiÿlAdd»ss='" + 
+physiÿlAdd»ss
+ + '\'' +
+
+46  
+¡ršgR•»£Á©iÚ
+;
+
+47 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/e/fifth/Required.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	ge
+.
+	gfiáh
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+11 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+12 @
+	$T¬g‘
+(
+v®ue
+ = 
+EËm’tTy³
+.
+FIELD
+)
+
+13 
+public
+ @
+š‹rçû
+ 
+Requœed
+ {
+
+14 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/f/sixth/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gf
+.
+	gsixth
+;
+
+3 @
+MajÜ
+(
+¥ecŸliz©iÚ
+ = "Programming Languages")
+
+4 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+5 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/f/sixth/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gf
+.
+	gsixth
+;
+
+3 @
+MajÜ
+(
+¥ecŸliz©iÚ
+ = "Network")
+
+4 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+{
+
+5 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/f/sixth/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gf
+.
+	gsixth
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+majÜ
+.
+	`¥ecŸliz©iÚ
+());
+
+35 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/f/sixth/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gf
+.
+	gsixth
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+ 
+	`¥ecŸliz©iÚ
+();
+
+12 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/f/sixth/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gf
+.
+	gsixth
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/g/seventh/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gg
+.
+	g£v’th
+;
+
+3 @
+MajÜ
+(
+¥ecŸliz©iÚ
+ = "Programming Languages",
+
+4 
+advisÜ
+ = "Prof Lang gosling")
+
+5 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+6 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+7 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+9 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/g/seventh/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gg
+.
+	g£v’th
+;
+
+3 @
+MajÜ
+(
+¥ecŸliz©iÚ
+ = "Network",
+
+4 
+advisÜ
+ = "Prof Nate Claus")
+
+5 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+6 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+7 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+9 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/g/seventh/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gg
+.
+	g£v’th
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+majÜ
+.
+	`¥ecŸliz©iÚ
+());
+
+31 
+Sy¡em
+.
+out
+.
+	`´šn
+("AdvisÜ: " + 
+majÜ
+.
+	`advisÜ
+());
+
+36 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/g/seventh/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gg
+.
+	g£v’th
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+ 
+	`¥ecŸliz©iÚ
+();
+
+13 
+SŒšg
+ 
+	`advisÜ
+();
+
+14 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/g/seventh/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gg
+.
+	g£v’th
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/a/value/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	ga
+.
+	gv®ue
+;
+
+3 @
+MajÜ
+(
+v®ue
+ = "Programming Languages")
+
+4 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+5 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/a/value/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	ga
+.
+	gv®ue
+;
+
+3 @
+MajÜ
+(
+v®ue
+ = "Network")
+
+4 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+5 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/a/value/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	ga
+.
+	gv®ue
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+majÜ
+.
+	`v®ue
+());
+
+35 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/a/value/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	ga
+.
+	gv®ue
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+ 
+	`v®ue
+();
+
+12 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/a/value/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	ga
+.
+	gv®ue
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	gb
+.
+	gv®ue
+.
+	guÂame
+;
+
+3 @
+MajÜ
+("Programming Languages")
+
+4 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+	mP”sÚ
+ {
+
+5 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	gb
+.
+	gv®ue
+.
+	guÂame
+;
+
+3 @
+MajÜ
+("Network")
+
+4 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+	mP”sÚ
+ {
+
+5 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	gb
+.
+	gv®ue
+.
+	guÂame
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+majÜ
+.
+	`v®ue
+());
+
+35 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	gb
+.
+	gv®ue
+.
+	guÂame
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+ 
+	`v®ue
+();
+
+12 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.
+	gb
+.
+	gv®ue
+.
+	guÂame
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.c.
+	gv®ue
+.
+	g¬¿y
+;
+
+3 @
+MajÜ
+("Programming Languages")
+
+4 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+	mP”sÚ
+ {
+
+5 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.c.
+	gv®ue
+.
+	g¬¿y
+;
+
+3 @
+MajÜ
+({"Network", "Communication "})
+
+4 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+	mP”sÚ
+ {
+
+5 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.c.
+	gv®ue
+.
+	g¬¿y
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+A¼ays
+.
+	`asLi¡
+(
+majÜ
+.
+	`v®ue
+()));
+
+35 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.c.
+	gv®ue
+.
+	g¬¿y
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+[] 
+	`v®ue
+();
+
+12 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gh
+.
+	geighth
+.c.
+	gv®ue
+.
+	g¬¿y
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/i/ninth/ComputerScienceStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gi
+.
+	gnšth
+;
+
+3 @
+MajÜ
+(
+¥ecŸliz©iÚ
+ = "Programming Languages")
+
+4 
+public
+ cÏs 
+	cCompu‹rSc›nûStud’t
+ 
+ex‹nds
+ 
+P”sÚ
+ {
+
+5 
+public
+ 
+	$Compu‹rSc›nûStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/i/ninth/ElectricalEngineeringStudent.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gi
+.
+	gnšth
+;
+
+3 @
+MajÜ
+
+
+4 
+public
+ cÏs 
+	cEËùriÿlEngš“ršgStud’t
+ 
+ex‹nds
+ 
+	mP”sÚ
+ {
+
+5 
+public
+ 
+	$EËùriÿlEngš“ršgStud’t
+(
+SŒšg
+ 
+Çme
+) {
+
+6 
+	`su³r
+(
+Çme
+, 
+Ty³
+.
+STUDENT
+);
+
+8 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/i/ninth/MainRetentionRuntimeTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gi
+.
+	gnšth
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gAÂÙ©iÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+7 
+public
+ cÏs 
+	cMašR‘’tiÚRuÁimeTe¡
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IÎeg®AcûssExû±iÚ
+, IllegalAccessException {
+
+9 
+Compu‹rSc›nûStud’t
+ 
+scStud’t
+ = 
+Ãw
+ 
+	`Compu‹rSc›nûStud’t
+("John");
+
+10 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t1
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Laura");
+
+11 
+EËùriÿlEngš“ršgStud’t
+ 
+“Stud’t2
+ = 
+Ãw
+ 
+	`EËùriÿlEngš“ršgStud’t
+("Catalina");
+
+13 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+scStud’t
+, 
+“Stud’t1
+, 
+“Stud’t2
+);
+
+15 
+	`´štD‘asStud’ts
+(
+cŞËùiÚ
+);
+
+18 
+´iv©e
+ 
+	`´štD‘asStud’ts
+(
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+)
+
+19 
+throws
+ 
+IÎeg®Argum’tExû±iÚ
+, 
+IÎeg®AcûssExû±iÚ
+ {
+
+21 
+P”sÚ
+ 
+p
+ : 
+cŞËùiÚ
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCheckšg P”sÚ: " + 
+p
+);
+
+25 
+AÂÙ©iÚ
+[] 
+ªnÙ©iÚs
+ = 
+p
+.
+	`g‘CÏss
+().
+	`g‘AÂÙ©iÚs
+();
+
+26 
+AÂÙ©iÚ
+ 
+ªnÙ©iÚ
+ : 
+ªnÙ©iÚs
+) {
+
+27 ià(
+ªnÙ©iÚ
+ 
+š¡ªûof
+ 
+MajÜ
+) {
+
+28 
+MajÜ
+ 
+majÜ
+ = (MajÜè
+ªnÙ©iÚ
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cŸliz©iÚ: " + 
+majÜ
+.
+	`¥ecŸliz©iÚ
+());
+
+35 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/i/ninth/Major.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gi
+.
+	gnšth
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+MajÜ
+ {
+
+11 
+SŒšg
+ 
+	`¥ecŸliz©iÚ
+()  "Computer Network";
+
+12 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/i/ninth/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gi
+.
+	gnšth
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+4 
+public
+ 
+	eTy³
+ {
+
+5 
+	mSTUDENT
+,
+
+6 
+	mSTAFF
+
+
+8 
+´iv©e
+ 
+	gid
+;
+
+9 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+10 
+´iv©e
+ 
+Ty³
+ 
+	gty³
+;
+
+12 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+Ty³
+ 
+ty³
+) {
+
+13 
+this
+.
+id
+ = 
+M©h
+.
+	`round
+(M©h.
+	`¿ndom
+() * 10000);
+
+15 
+this
+.
+Çme
+ =‚ame;
+
+16 
+this
+.
+ty³
+ =ype;
+
+17 
+	}
+}
+
+19 @
+Ov”ride
+
+
+20 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+21 
+SŒšg
+ 
+¡ršgR•»£Á©iÚ
+ = "Person{" +
+
+22 "id=" + 
+id
+ +
+
+23 ",‚ame='" + 
+Çme
+ + '\'' +
+
+24 ",y³=" + 
+ty³
+ +
+
+26  
+¡ršgR•»£Á©iÚ
+;
+
+27 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/j/tenth/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gj
+.
+	g‹Áh
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+Num”icLi¡
+<
+IÁeg”
+> 
+š‹g”s
+ = 
+Ãw
+ NumericList<>();
+
+8 
+š‹g”s
+.
+	`add
+(2);
+
+9 
+š‹g”s
+.
+	`add
+(3);
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+š‹g”s
+);
+
+13 
+Num”icLi¡
+<
+SŒšg
+> 
+¡ršgs
+ = 
+Ãw
+ NumericList<>();
+
+15 
+¡ršgs
+.
+	`add
+("Java");
+
+16 
+¡ršgs
+.
+	`add
+("golang");
+
+18 
+	`checkLi¡D©aTy³
+(
+¡ršgs
+);
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡ršgs
+);
+
+22 
+´iv©e
+ <
+T
+> 
+	`checkLi¡D©aTy³
+(
+Num”icLi¡
+<T> 
+li¡
+) {
+
+23 
+T
+ 
+t
+: 
+li¡
+){
+
+24 ià((
+t
+ 
+š¡ªûof
+ 
+IÁeg”
+)||
+
+25 (
+t
+ 
+š¡ªûof
+ 
+Flßt
+) ||
+
+26 (
+t
+ 
+š¡ªûof
+ 
+LÚg
+) ||
+
+27 (
+t
+ 
+š¡ªûof
+ 
+DoubË
+))
+
+30 
+throw
+ 
+Ãw
+ 
+	`IÎeg®Argum’tExû±iÚ
+();
+
+31 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/j/tenth/Numeric.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gj
+.
+	g‹Áh
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_PARAMETER
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+Num”ic
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/j/tenth/NumericList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gj
+.
+	g‹Áh
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gNum”icLi¡
+<@
+Num”ic
+ 
+	gT
+> 
+ex‹nds
+ 
+	gA¼ayLi¡
+<T> {
+
+7 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/ReadOnly.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_USE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+R—dOÆy
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/ExtractTransformLoadJob.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+public
+ cÏs 
+	cExŒaùT¿nsfÜmLßdJob
+ {
+
+4 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+6 
+public
+ 
+	$ExŒaùT¿nsfÜmLßdJob
+(
+SŒšg
+ 
+Çme
+) {
+
+7 
+this
+.
+Çme
+ =‚ame;
+
+10 @
+Ov”ride
+
+
+11 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+13 "Çme='" + 
+Çme
+ + '\'' +
+
+15 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 @
+NÙNuÎ
+ 
+ExŒaùT¿nsfÜmLßdJob
+ 
+‘lJob
+ = 
+Ãw
+ 
+	`ExŒaùT¿nsfÜmLßdJob
+("sale_data");
+
+7 @
+NÙNuÎ
+ 
+W“klyR•ÜtJob
+ 
+w“klyJob
+ = 
+Ãw
+ 
+	`W“klyR•ÜtJob
+("trend_reports");
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+‘lJob
+);
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+w“klyJob
+);
+
+14 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/NotNull.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_USE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+NÙNuÎ
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/Numeric.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_PARAMETER
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+Num”ic
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/NumericList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gNum”icLi¡
+<@
+Num”ic
+ 
+	gT
+> 
+ex‹nds
+ 
+	gA¼ayLi¡
+<T> {
+
+7 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/notnull/WeeklyReportJob.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gnÙnuÎ
+;
+
+3 
+public
+ cÏs 
+	cW“klyR•ÜtJob
+ {
+
+5 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+7 
+public
+ 
+	$W“klyR•ÜtJob
+(
+SŒšg
+ 
+Çme
+) {
+
+8 
+this
+.
+Çme
+ =‚ame;
+
+11 @
+Ov”ride
+
+
+12 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+14 "Çme='" + 
+Çme
+ + '\'' +
+
+16 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/ExtractTransformLoadJob.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+public
+ cÏs 
+	cExŒaùT¿nsfÜmLßdJob
+ {
+
+4 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+6 
+public
+ 
+	$ExŒaùT¿nsfÜmLßdJob
+(
+SŒšg
+ 
+Çme
+) {
+
+7 
+this
+.
+Çme
+ =‚ame;
+
+10 @
+Ov”ride
+
+
+11 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+13 "Çme='" + 
+Çme
+ + '\'' +
+
+15 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	gR—dOÆy
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 @
+NÙNuÎ
+ 
+ExŒaùT¿nsfÜmLßdJob
+ 
+‘lJob
+ = 
+Ãw
+ @
+R—dOÆy
+ 
+	`ExŒaùT¿nsfÜmLßdJob
+("sale_data");
+
+9 @
+NÙNuÎ
+ 
+W“klyR•ÜtJob
+ 
+w“klyJob
+ = 
+Ãw
+ @
+R—dOÆy
+ 
+	`W“klyR•ÜtJob
+("trend_reports");
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+‘lJob
+);
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+w“klyJob
+);
+
+16 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/NotNull.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_USE
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+NÙNuÎ
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/Numeric.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gEËm’tTy³
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gR‘’tiÚPŞicy
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gªnÙ©iÚ
+.
+	gT¬g‘
+;
+
+8 @
+R‘’tiÚ
+(
+R‘’tiÚPŞicy
+.
+RUNTIME
+)
+
+9 @
+	$T¬g‘
+(
+EËm’tTy³
+.
+TYPE_PARAMETER
+)
+
+10 
+public
+ @
+š‹rçû
+ 
+Num”ic
+ {
+
+11 
+	}
+}
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/NumericList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gNum”icLi¡
+<@
+Num”ic
+ 
+	gT
+> 
+ex‹nds
+ 
+	gA¼ayLi¡
+<T> {
+
+7 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+	@annotations/src/com/mycompany/c/custom/k/eleventh/readonly/WeeklyReportJob.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	gc
+.
+	gcu¡om
+.
+	gk
+.
+	g–ev’th
+.
+	g»adÚly
+;
+
+3 
+public
+ cÏs 
+	cW“klyR•ÜtJob
+ {
+
+5 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+7 
+public
+ 
+	$W“klyR•ÜtJob
+(
+SŒšg
+ 
+Çme
+) {
+
+8 
+this
+.
+Çme
+ =‚ame;
+
+11 @
+Ov”ride
+
+
+12 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+14 "Çme='" + 
+Çme
+ + '\'' +
+
+16 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/a/intro/IntegerContainer.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cIÁeg”CÚš”
+ {
+
+4 
+´iv©e
+ 
+IÁeg”
+ 
+	mv®ue
+;
+
+6 
+public
+ 
+	$IÁeg”CÚš”
+(
+IÁeg”
+ 
+v®ue
+) {
+
+7 
+this
+.
+v®ue
+ = value;
+
+10 
+public
+ 
+IÁeg”
+ 
+	$g‘V®ue
+() {
+
+11  
+v®ue
+;
+
+12 
+	}
+}
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+17 "v®ue=" + 
+v®ue
+ +
+
+19 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/a/intro/StringContainer.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cSŒšgCÚš”
+ {
+
+4 
+´iv©e
+ 
+SŒšg
+ 
+	mv®ue
+;
+
+6 
+public
+ 
+	$SŒšgCÚš”
+(
+SŒšg
+ 
+v®ue
+) {
+
+7 
+this
+.
+v®ue
+ = value;
+
+10 
+public
+ 
+SŒšg
+ 
+	$g‘V®ue
+() {
+
+11  
+v®ue
+;
+
+12 
+	}
+}
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+17 "v®ue='" + 
+v®ue
+ + '\'' +
+
+19 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/a/intro/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cmaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+IÁeg”CÚš”
+ 
+štCÚš”
+ = 
+Ãw
+ 
+	`IÁeg”CÚš”
+(11);
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+9 
+SŒšgCÚš”
+ 
+¡rCÚš”
+ = 
+Ãw
+ 
+	`SŒšgCÚš”
+("Test");
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+13 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/b/object/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gb
+.
+	gobjeù
+;
+
+3 
+public
+ cÏs 
+	cCÚš”
+ {
+
+4 
+´iv©e
+ 
+Objeù
+ 
+	mv®ue
+;
+
+6 
+public
+ 
+	$CÚš”
+(
+Objeù
+ 
+v®ue
+) {
+
+7 
+this
+.
+v®ue
+ = value;
+
+10 
+public
+ 
+Objeù
+ 
+	$g‘V®ue
+() {
+
+11  
+v®ue
+;
+
+12 
+	}
+}
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+17 "v®ue=" + 
+v®ue
+ +
+
+19 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/b/object/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gb
+.
+	gobjeù
+;
+
+3 
+public
+ cÏs 
+	cmaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+CÚš”
+ 
+štCÚš”
+ = 
+Ãw
+ 
+	`CÚš”
+(11);
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+9 
+CÚš”
+ 
+¡rCÚš”
+ = 
+Ãw
+ 
+	`CÚš”
+("Test");
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+13 
+SŒšg
+ 
+¡ršg
+ = (SŒšgè
+štCÚš”
+.
+	`g‘V®ue
+();
+
+16 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/c/type/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gc
+.
+	gty³
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 
+T
+ 
+	gv®ue
+;
+
+	@generics/src/com/mycompany/parameters/c/type/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gc
+.
+	gty³
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+5 
+public
+ cÏs 
+	cmaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+CÚš”
+<
+IÁeg”
+> 
+štCÚš”
+ = 
+Ãw
+ Container<>();
+
+9 
+štCÚš”
+.
+v®ue
+ = 11;
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+14 
+CÚš”
+<
+SŒšg
+> 
+¡rCÚš”
+ = 
+Ãw
+ Container<>();
+
+15 
+¡rCÚš”
+.
+v®ue
+ = "Test";
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+20 
+CÚš”
+<
+D©e
+> 
+d©eCÚš”
+ = 
+Ãw
+ Container<>();
+
+21 
+d©eCÚš”
+.
+v®ue
+ = 
+Ãw
+ 
+	`D©e
+();
+
+24 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/d/type/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gd
+.
+	gty³
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gv®ue
+;
+
+6 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+7 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+10 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+11  
+	gv®ue
+;
+
+14 
+public
+ 
+£tV®ue
+(
+T
+ 
+v®ue
+) {
+
+15 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+18 @
+Ov”ride
+
+
+19 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+21 "v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/d/type/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gd
+.
+	gty³
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+5 
+public
+ cÏs 
+	cmaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+CÚš”
+<
+IÁeg”
+> 
+štCÚš”
+ = 
+Ãw
+ Container<>(11);
+
+10 
+CÚš”
+<
+SŒšg
+> 
+¡rCÚš”
+ = 
+Ãw
+ Container<>("Test");
+
+12 
+CÚš”
+<
+D©e
+> 
+d©eCÚš”
+ = 
+Ãw
+ CÚš”<>Òew 
+	`D©e
+());
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©eCÚš”
+);
+
+18 
+štCÚš”
+.
+	`£tV®ue
+(100);
+
+19 
+¡rCÚš”
+.
+	`£tV®ue
+("hundred");
+
+20 
+d©eCÚš”
+.
+	`£tV®ue
+(
+Ãw
+ 
+	`D©e
+());
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nUpdated values: ");
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©eCÚš”
+);
+
+29 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/e/type/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ge
+.
+	gty³
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+7 
+´iv©e
+ 
+T
+ 
+	gv®ue
+;
+
+9 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+10 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+13 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+14  
+	gv®ue
+;
+
+17 
+public
+ 
+£tV®ue
+(
+T
+ 
+v®ue
+) {
+
+18 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+21 @
+Ov”ride
+
+
+22 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+24 "v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/e/type/Employee.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ge
+.
+	gty³
+;
+
+3 
+public
+ cÏs 
+	cEm¶oy“
+ {
+
+4 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+5 
+´iv©e
+ 
+SŒšg
+ 
+	md•¬tm’t
+;
+
+6 
+´iv©e
+ 
+SŒšg
+ 
+	mt™Ë
+;
+
+8 
+public
+ 
+	$Em¶oy“
+(
+SŒšg
+ 
+Çme
+, SŒšg 
+d•¬tm’t
+, SŒšg 
+t™Ë
+) {
+
+9 
+this
+.
+Çme
+ =‚ame;
+
+10 
+this
+.
+d•¬tm’t
+ = department;
+
+11 
+this
+.
+t™Ë
+ =itle;
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+17 "Çme='" + 
+Çme
+ + '\'' +
+
+18 ", d•¬tm’t='" + 
+d•¬tm’t
+ + '\'' +
+
+19 ",™Ë='" + 
+t™Ë
+ + '\'' +
+
+21 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/e/type/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	ge
+.
+	gty³
+;
+
+3 
+public
+ cÏs 
+	cmaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+Em¶oy“
+ 
+e
+ = 
+Ãw
+ 
+	`Em¶oy“
+("name","depart", "title");
+
+7 
+CÚš”
+<
+Em¶oy“
+> 
+empCÚš”
+ = 
+Ãw
+ CÚš”<>(
+e
+);
+
+8 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+empCÚš”
+);
+
+12 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/f/error/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gf
+.
+	g”rÜ
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+8 @
+Suµ»ssW¬nšgs
+("unchecked")
+
+9 
+´iv©e
+ 
+T
+ 
+	gv®ue
+ = (T) "Test";
+
+11 
+public
+ 
+CÚš”
+() {
+
+14 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+15 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+18 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+19  
+	gv®ue
+;
+
+22 
+public
+ 
+£tV®ue
+(
+T
+ 
+v®ue
+) {
+
+23 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+26 @
+Ov”ride
+
+
+27 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+29 "v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/f/error/Employee.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gf
+.
+	g”rÜ
+;
+
+3 
+public
+ cÏs 
+	cEm¶oy“
+ {
+
+4 
+´iv©e
+ 
+SŒšg
+ 
+	mÇme
+;
+
+5 
+´iv©e
+ 
+SŒšg
+ 
+	md•¬tm’t
+;
+
+6 
+´iv©e
+ 
+SŒšg
+ 
+	mt™Ë
+;
+
+8 
+public
+ 
+	$Em¶oy“
+(
+SŒšg
+ 
+Çme
+, SŒšg 
+d•¬tm’t
+, SŒšg 
+t™Ë
+) {
+
+9 
+this
+.
+Çme
+ =‚ame;
+
+10 
+this
+.
+d•¬tm’t
+ = department;
+
+11 
+this
+.
+t™Ë
+ =itle;
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+17 "Çme='" + 
+Çme
+ + '\'' +
+
+18 ", d•¬tm’t='" + 
+d•¬tm’t
+ + '\'' +
+
+19 ",™Ë='" + 
+t™Ë
+ + '\'' +
+
+21 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/f/error/main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gf
+.
+	g”rÜ
+;
+
+3 
+public
+ cÏs 
+	cmaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+CÚš”
+<
+SŒšg
+> 
+¡rCÚš”
+ = 
+Ãw
+ Container<>("Hello");
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rCÚš”
+);
+
+9 
+CÚš”
+<
+IÁeg”
+> 
+štCÚš”
+ = 
+Ãw
+ Container<>();
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štCÚš”
+);
+
+12 
+IÁeg”
+ 
+v®ue
+ = 
+štCÚš”
+.
+	`g‘V®ue
+();
+
+14 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/g/rawtype/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gg
+.
+	g¿wty³
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 @
+Suµ»ssW¬nšgs
+("unchecked")
+
+5 
+´iv©e
+ 
+T
+ 
+	gv®ue
+ = (T) "Test";
+
+7 
+public
+ 
+CÚš”
+() {
+
+10 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+11 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+14 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+15  
+	gv®ue
+;
+
+18 
+public
+ 
+£tV®ue
+(
+T
+ 
+v®ue
+) {
+
+19 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+22 @
+Ov”ride
+
+
+23 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+25 "v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/g/rawtype/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gg
+.
+	g¿wty³
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+CÚš”
+ 
+¿wSŒšgCÚš”
+ = 
+Ãw
+ 
+	`CÚš”
+("Hello World");
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¿wSŒšgCÚš”
+);
+
+11 
+Objeù
+ 
+¡rObj
+ = 
+¿wSŒšgCÚš”
+.
+	`g‘V®ue
+();
+
+13 
+CÚš”
+ 
+¿wFlßtCÚš”
+ = 
+Ãw
+ 
+	`CÚš”
+(10.5f);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¿wFlßtCÚš”
+);
+
+17 
+CÚš”
+<
+SŒšg
+> 
+¿wSŒCÚš”
+ = 
+Ãw
+ Container<>("Hello");
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¿wSŒCÚš”
+);
+
+21 
+Objeù
+ 
+¡ršgObj
+ = 
+¿wSŒCÚš”
+.
+	`g‘V®ue
+();
+
+23 
+¿wSŒCÚš”
+.
+	`£tV®ue
+("Hi");
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¿wSŒCÚš”
+);
+
+27 
+Objeù
+ 
+æßtObj
+ = 
+¿wFlßtCÚš”
+.
+	`g‘V®ue
+();
+
+30 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/h/convention/Employee.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gh
+.
+	gcÚv’tiÚ
+;
+
+3 
+public
+ 
+şass
+ 
+	gEm¶oy“
+<
+	gN
+> {
+
+7 
+´iv©e
+ 
+N
+ 
+	gid
+;
+
+8 
+´iv©e
+ 
+N
+ 
+	g§Ïry
+;
+
+9 
+´iv©e
+ 
+N
+ 
+	gbÚus
+;
+
+11 
+public
+ 
+Em¶oy“
+(
+N
+ 
+id
+, N 
+§Ïry
+, N 
+bÚus
+) {
+
+12 
+	gthis
+.
+	gid
+ = 
+id
+;
+
+13 
+	gthis
+.
+	g§Ïry
+ = 
+§Ïry
+;
+
+14 
+	gthis
+.
+	gbÚus
+ = 
+bÚus
+;
+
+17 @
+Ov”ride
+
+
+18 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+20 "id=" + 
+	gid
+ +
+
+21 ", s®¬y=" + 
+	g§Ïry
+ +
+
+22 ", bÚus=" + 
+	gbÚus
+ +
+
+	@generics/src/com/mycompany/parameters/h/convention/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gh
+.
+	gcÚv’tiÚ
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+Em¶oy“
+<
+IÁeg”
+> 
+em¶oy“1
+ = 
+Ãw
+ Employee<>(123, 1000, 100);
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+em¶oy“1
+);
+
+11 
+Em¶oy“
+<
+BigIÁeg”
+> 
+em¶oy“2
+ = 
+Ãw
+ Employee<>(
+
+12 
+BigIÁeg”
+.
+	`v®ueOf
+(123456),
+
+13 
+BigIÁeg”
+.
+	`v®ueOf
+(1234567),
+
+14 
+BigIÁeg”
+.
+	`v®ueOf
+(123456) );
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+em¶oy“2
+);
+
+18 
+Em¶oy“
+<
+DoubË
+> 
+em¶oy“3
+ = 
+Ãw
+ Employee<>(1230000.0, 100000.34, 10000.34);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+em¶oy“3
+);
+
+23 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/i/convention/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gi
+.
+	gcÚv’tiÚ
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Paœ
+<
+IÁeg”
+, 
+SŒšg
+> 
+·œ1
+ = 
+Ãw
+ Pair<>(11, "Edwin");
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” SŒšg Paœ: " + 
+·œ1
+);
+
+11 
+Paœ
+<
+IÁeg”
+, 
+DoubË
+> 
+·œ2
+ = 
+Ãw
+ Pair<>(11, 100000.51);
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” DoubË Paœ: " + 
+·œ2
+);
+
+14 
+Paœ
+<
+SŒšg
+, 
+D©e
+> 
+·œ3
+ = 
+Ãw
+ Paœ<>("Edo",‚ew 
+	`D©e
+());
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” DoubË Paœ: " + 
+·œ3
+);
+
+17 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/i/convention/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gi
+.
+	gcÚv’tiÚ
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+	gK
+,
+	gV
+> {
+
+6 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+7 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+9 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+10 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+11 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+14 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+15  
+	gkey
+;
+
+18 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+19 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+22 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+23  
+	gv®ue
+;
+
+26 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+27 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+30 @
+Ov”ride
+
+
+31 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+33 "key=" + 
+	gkey
+ +
+
+34 ", v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/j/multiple/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gj
+.
+	gmuÉË
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gC®’d¬
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gG»gÜŸnC®’d¬
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+9 
+public
+ cÏs 
+	cMaš
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+11 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, SŒšg> 
+t1
+ = 
+Ãw
+ Triplet<>(11, "AAAA", "BBBB");
+
+12 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, SŒšg> 
+t2
+ = 
+Ãw
+ Triplet<>(12, "CCCC", "DDDD");
+
+13 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, SŒšg> 
+t3
+ = 
+Ãw
+ Triplet<>(13, "EEEEE", "FFFFF");
+
+15 
+Li¡
+<
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, SŒšg>> 
+li¡
+ = 
+A¼ays
+.
+	`asLi¡
+(
+t1
+, 
+t2
+, 
+t3
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nInteger-String-Stringriplets: ");
+
+19 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, SŒšg> 
+ŒËt
+ : 
+li¡
+){
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+ŒËt
+);
+
+23 
+C®’d¬
+ 
+ÿËnd¬
+ = 
+Ãw
+ 
+	`G»gÜŸnC®’d¬
+(2014, 2, 11);
+
+24 
+D©e
+ 
+d©e
+ = 
+ÿËnd¬
+.
+	`g‘Time
+();
+
+26 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, 
+D©e
+> 
+t4
+ = 
+Ãw
+ TrËt<>(11, "AAAA", 
+d©e
+);
+
+27 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, 
+D©e
+> 
+t5
+ = 
+Ãw
+ TrËt<>(12, "CCCC", 
+d©e
+);
+
+28 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, 
+D©e
+> 
+t6
+ = 
+Ãw
+ TrËt<>(13, "EEEEE", 
+d©e
+);
+
+30 
+Li¡
+<
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, 
+D©e
+>> 
+li¡1
+ = 
+A¼ays
+.
+	`asLi¡
+(
+t4
+, 
+t5
+, 
+t6
+);
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nInteger-String-Dateriplets: ");
+
+34 
+TrËt
+<
+IÁeg”
+, 
+SŒšg
+, 
+D©e
+> 
+ŒËt
+ : 
+li¡1
+){
+
+35 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+ŒËt
+);
+
+39 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/j/multiple/Triplet.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gj
+.
+	gmuÉË
+;
+
+3 
+public
+ 
+şass
+ 
+	gTrËt
+<
+	gT
+, 
+	gS
+, 
+	gU
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gfœ¡
+;
+
+5 
+´iv©e
+ 
+S
+ 
+	g£cÚd
+;
+
+6 
+´iv©e
+ 
+U
+ 
+	gthœd
+;
+
+8 
+public
+ 
+TrËt
+(
+T
+ 
+fœ¡
+, 
+S
+ 
+£cÚd
+, 
+U
+ 
+thœd
+) {
+
+9 
+	gthis
+.
+	gfœ¡
+ = 
+fœ¡
+;
+
+10 
+	gthis
+.
+	g£cÚd
+ = 
+£cÚd
+;
+
+11 
+	gthis
+.
+	gthœd
+ = 
+thœd
+;
+
+14 
+public
+ 
+T
+ 
+g‘Fœ¡
+() {
+
+15  
+	gfœ¡
+;
+
+18 
+public
+ 
+£tFœ¡
+(
+T
+ 
+fœ¡
+) {
+
+19 
+	gthis
+.
+	gfœ¡
+ = 
+fœ¡
+;
+
+22 
+public
+ 
+S
+ 
+g‘SecÚd
+() {
+
+23  
+	g£cÚd
+;
+
+26 
+public
+ 
+£tSecÚd
+(
+S
+ 
+£cÚd
+) {
+
+27 
+	gthis
+.
+	g£cÚd
+ = 
+£cÚd
+;
+
+30 
+public
+ 
+U
+ 
+g‘Thœd
+() {
+
+31  
+	gthœd
+;
+
+34 
+public
+ 
+£tThœd
+(
+U
+ 
+thœd
+) {
+
+35 
+	gthis
+.
+	gthœd
+ = 
+thœd
+;
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+41 "fœ¡=" + 
+	gfœ¡
+ +
+
+42 ", secÚd=" + 
+	g£cÚd
+ +
+
+43 ",hœd=" + 
+	gthœd
+ +
+
+	@generics/src/com/mycompany/parameters/k/individual/a/intro/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Li¡
+<
+SŒšg
+> 
+ÇmeLi¡
+ = 
+A¼ays
+.
+	`asLi¡
+("AAAA", "BBBB", "CCCC", "DDDD", "EEEE");
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+ÇmeLi¡
+);
+
+12 
+Ut™›s
+ 
+ut™›s
+ = 
+Ãw
+ 
+	`Ut™›s
+();
+
+13 
+ut™›s
+.
+	`sw­
+(
+ÇmeLi¡
+, 0, 4);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+ÇmeLi¡
+);
+
+17 
+Li¡
+<
+IÁeg”
+> 
+ÇmeLi¡1
+ = 
+A¼ays
+.
+	`asLi¡
+(1, 2, 3, 4, 5);
+
+23 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/k/individual/a/intro/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+7 
+public
+ 
+sw­
+(
+Li¡
+<
+SŒšg
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+8 
+SŒšg
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+9 
+SŒšg
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+12 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+	@generics/src/com/mycompany/parameters/k/individual/b/type/erasure/solved/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gb
+.
+	gty³
+.
+	g”asu»
+.
+	gsŞved
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Li¡
+<
+SŒšg
+> 
+ÇmeLi¡
+ = 
+A¼ays
+.
+	`asLi¡
+("AAAA", "BBBB", "CCCC", "DDDD", "EEEE");
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+ÇmeLi¡
+);
+
+12 
+Ut™›s
+<
+SŒšg
+> 
+ut™›s
+ = 
+Ãw
+ Utilities<>();
+
+13 
+ut™›s
+.
+	`sw­
+(
+ÇmeLi¡
+, 0, 4);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+ÇmeLi¡
+);
+
+17 
+Li¡
+<
+IÁeg”
+> 
+numb”Li¡
+ = 
+A¼ays
+.
+	`asLi¡
+(1, 2, 3, 4, 5);
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+numb”Li¡
+);
+
+21 
+Ut™›s
+<
+IÁeg”
+> 
+ut™›s1
+ = 
+Ãw
+ Utilities<>();
+
+22 
+ut™›s1
+.
+	`sw­
+(
+numb”Li¡
+, 0, 4);
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+numb”Li¡
+);
+
+29 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/k/individual/b/type/erasure/solved/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gb
+.
+	gty³
+.
+	g”asu»
+.
+	gsŞved
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ 
+şass
+ 
+	gUt™›s
+<
+	gT
+> {
+
+7 
+public
+ 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+8 
+T
+ 
+	gÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+9 
+T
+ 
+	gtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+11 
+	gli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+12 
+	gli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+	@generics/src/com/mycompany/parameters/k/individual/c/statictype/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gc
+.
+	g¡©iùy³
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Li¡
+<
+SŒšg
+> 
+ÇmeLi¡
+ = 
+A¼ays
+.
+	`asLi¡
+("AAAA", "BBBB", "CCCC", "DDDD", "EEEE");
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+ÇmeLi¡
+);
+
+12 
+Ut™›s
+.
+	`sw­
+(
+ÇmeLi¡
+, 0, 4);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+ÇmeLi¡
+);
+
+16 
+Li¡
+<
+IÁeg”
+> 
+numb”Li¡
+ = 
+A¼ays
+.
+	`asLi¡
+(1, 2, 3, 4, 5);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+numb”Li¡
+);
+
+20 
+Ut™›s
+.
+	`sw­
+(
+numb”Li¡
+, 0, 4);
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+numb”Li¡
+);
+
+27 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/k/individual/c/statictype/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gc
+.
+	g¡©iùy³
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+7 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+8 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+9 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+12 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+	@generics/src/com/mycompany/parameters/k/individual/d/anotherstatic/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gd
+.
+	gªÙh”¡©ic
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+8 
+public
+ cÏs 
+	cMaš
+ {
+
+9 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+10 
+Li¡
+<
+IÁeg”
+> 
+numb”Li¡
+ = 
+A¼ays
+.
+	`asLi¡
+(1, 2, 3, 4, 5);
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("Origš®†i¡: " + 
+numb”Li¡
+);
+
+14 
+Ut™›s
+.<
+IÁeg”
+>
+	`sw­
+(
+numb”Li¡
+, 0, 4);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d†i¡: " + 
+numb”Li¡
+);
+
+19 
+Ut™›s
+.
+	`sw­
+(
+numb”Li¡
+, 4, 0);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSw­³d back†i¡: " + 
+numb”Li¡
+);
+
+23 
+Ut™›s
+.<
+D©e
+>
+	`di¥ÏyEËm’t
+(
+Ãw
+ 
+	`D©e
+());
+
+26 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(
+Ãw
+ 
+	`D©e
+());
+
+29 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/k/individual/d/anotherstatic/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gk
+.
+	gšdividu®
+.
+	gd
+.
+	gªÙh”¡©ic
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+6 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+7 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+8 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+10 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+14 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t
+){
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+19 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/a/intro/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", "World");
+
+6 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(10.5f, 29.3f);
+
+9 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", 11);
+
+10 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(12.2f, "World");
+
+12 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/a/intro/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+6 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+7 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+8 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+10 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+14 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t
+){
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+19 
+	}
+}
+
+21 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t1
+, T 
+–em’t2
+ ){
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t1
+);
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t2
+);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+27 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/b/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gb
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", "World");
+
+6 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(10.5f, 29.3f);
+
+9 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", 11);
+
+10 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(12.2f, "World");
+
+12 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/b/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gb
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+6 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+){
+
+7 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+8 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+10 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+14 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t
+){
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+19 
+	}
+}
+
+21 
+public
+ <
+	gT
+, 
+	gS
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t1
+, 
+S
+ 
+–em’t2
+ ){
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t1
+);
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t2
+);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+27 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/c/vargs/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gc
+.
+	gv¬gs
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("H–lo", 10, 10.33f, 
+Ãw
+ 
+	`D©e
+());
+
+8 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", "World");
+
+9 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(10.5f, 29.3f);
+
+10 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+("Hello", 11);
+
+11 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(12.2f, "World");
+
+13 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/c/vargs/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gc
+.
+	gv¬gs
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+6 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+) {
+
+7 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+8 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+10 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+14 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t
+) {
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+19 
+	}
+}
+
+21 @
+SaãV¬¬gs
+
+
+22 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+... 
+–em’ts
+) {
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+25 
+T
+ 
+–em’t
+ : 
+–em’ts
+) {
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+29 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/d/array/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gd
+.
+	g¬¿y
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Objeù
+[] 
+objA¼ay
+ = 
+Ãw
+ Objeù[]{"H–lo", 10, 10.33f,‚ew 
+	`D©e
+()};
+
+9 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(
+objA¼ay
+);
+
+11 
+SŒšg
+[] 
+¡rA¼ay
+ = 
+Ãw
+ String[]{"Hello", "Ami", "Chuck"};
+
+12 
+Ut™›s
+.
+	`di¥ÏyEËm’t
+(
+¡rA¼ay
+);
+
+14 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/d/array/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	gd
+.
+	g¬¿y
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+6 
+public
+ <
+	mT
+> 
+sw­
+(
+Li¡
+<
+T
+> 
+li¡
+, 
+šdex1
+, 
+šdex2
+) {
+
+7 
+T
+ 
+	mÚe
+ = 
+li¡
+.
+g‘
+(
+šdex1
+);
+
+8 
+T
+ 
+	mtwo
+ = 
+li¡
+.
+g‘
+(
+šdex2
+);
+
+10 
+	mli¡
+.
+£t
+(
+šdex1
+, 
+two
+);
+
+11 
+	mli¡
+.
+£t
+(
+šdex2
+, 
+Úe
+);
+
+14 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+ 
+–em’t
+) {
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+19 
+	}
+}
+
+21 
+public
+ <
+	gT
+> 
+	$di¥ÏyEËm’t
+(
+T
+[] 
+–em’ts
+) {
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+24 
+T
+ 
+–em’t
+ : 
+–em’ts
+) {
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+–em’t
+);
+
+27 
+Sy¡em
+.
+out
+.
+	`´šn
+("-------------------------");
+
+28 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/e/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	ge
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+Paœ
+<
+IÁeg”
+, 
+SŒšg
+> 
+·œ1
+ = 
+Ãw
+ Pair<>(11, "AAAA");
+
+7 
+Paœ
+<
+IÁeg”
+, 
+SŒšg
+> 
+·œ2
+ = 
+Ãw
+ Pair<>(11, "AAAA");
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("pair1ƒqualo…air2: " +
+
+10 
+Ut™›s
+.<
+IÁeg”
+, 
+SŒšg
+>
+	`·œEqu®s
+(
+·œ1
+,
+·œ2
+));
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("pair1ƒqualo…air2 (using inference)?: " +
+
+13 
+Ut™›s
+.
+	`·œEqu®s
+(
+·œ1
+,
+·œ2
+));
+
+15 
+Paœ
+<
+SŒšg
+, 
+IÁeg”
+> 
+·œ3
+ = 
+Ãw
+ Pair<>("AAAA", 11);
+
+16 
+Paœ
+<
+IÁeg”
+, 
+SŒšg
+> 
+·œ4
+ = 
+Ãw
+ Pair<>(11, "AAAA");
+
+22 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/l/e/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	ge
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+	gK
+, 
+	gV
+> {
+
+4 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+5 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+7 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+8 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+9 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+12 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+13  
+	gkey
+;
+
+16 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+17 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+20 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+21  
+	gv®ue
+;
+
+24 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+25 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+28 @
+Ov”ride
+
+
+29 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+31 "key=" + 
+	gkey
+ +
+
+32 ", v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/l/e/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gl
+.
+	ge
+;
+
+3 
+public
+ cÏs 
+	cUt™›s
+ {
+
+5 
+public
+ <
+	mK
+, 
+	mV
+> 
+boŞ—n
+ 
+·œEqu®s
+(
+Paœ
+<
+K
+, 
+V
+> 
+·œ1
+, Paœ<K, V> 
+·œ2
+){
+
+6 ià(
+	m·œ1
+.
+g‘Key
+().
+equ®s
+(
+·œ2
+.getKey()) &&
+
+7 
+	m·œ1
+.
+g‘V®ue
+().
+equ®s
+(
+·œ2
+.getValue())){
+
+8  
+	mŒue
+;
+
+10  
+	mçl£
+;
+
+	@generics/src/com/mycompany/parameters/m/bounded/a/intro/Calculator.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+public
+ cÏs 
+	cC®cuÏtÜ
+ {
+
+5 @
+SaãV¬¬gs
+
+
+6 
+public
+ <
+	mT
+> 
+	$add
+(
+T
+... 
+–em’ts
+){
+
+7 
+»suÉ
+ = 0;
+
+8  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+13 
+»suÉ
+ =„esuÉ + ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+15  
+»suÉ
+;
+
+18 @
+SaãV¬¬gs
+
+
+19 
+public
+ <
+T
+> 
+	$muÉly
+(
+T
+... 
+–em’ts
+){
+
+20 
+»suÉ
+ = 0;
+
+21  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+22 
+»suÉ
+ =„esuÉ * ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+24  
+»suÉ
+;
+
+25 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/m/bounded/a/intro/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+7 
+public
+ cÏs 
+	cMaš
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 5: " +
+
+10 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 5));
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2.5, 3, 4.5f, 5: " +
+
+13 
+C®cuÏtÜ
+.
+	`add
+(2.5, 3, 4.5f, 5));
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 50000000: " +
+
+16 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 
+BigIÁeg”
+.
+	`v®ueOf
+(50000000)));
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd Other objects 2, ArrayList, 4, Date: " +
+
+19 
+C®cuÏtÜ
+.
+	`add
+(2, 
+Ãw
+ 
+A¼ayLi¡
+<
+SŒšg
+>(), 4,‚ew 
+	`D©e
+()));
+
+21 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/m/bounded/b/not/effective/Calculator.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	gb
+.
+	gnÙ
+.
+	gefãùive
+;
+
+3 
+public
+ cÏs 
+	cC®cuÏtÜ
+ {
+
+5 @
+SaãV¬¬gs
+
+
+6 
+public
+ <
+T
+ 
+ex‹nds
+ 
+	mObjeù
+> 
+	$add
+(
+T
+... 
+–em’ts
+){
+
+7 
+»suÉ
+ = 0;
+
+8  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+13 
+»suÉ
+ =„esuÉ + ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+15  
+»suÉ
+;
+
+18 @
+SaãV¬¬gs
+
+
+19 
+public
+ <
+T
+ 
+ex‹nds
+ 
+Objeù
+> 
+	$muÉly
+(
+T
+... 
+–em’ts
+){
+
+20 
+»suÉ
+ = 0;
+
+21  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+22 
+»suÉ
+ =„esuÉ * ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+24  
+»suÉ
+;
+
+25 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/m/bounded/b/not/effective/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	gb
+.
+	gnÙ
+.
+	gefãùive
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+7 
+public
+ cÏs 
+	cMaš
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 5: " +
+
+10 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 5));
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2.5, 3, 4.5f, 5: " +
+
+13 
+C®cuÏtÜ
+.
+	`add
+(2.5, 3, 4.5f, 5));
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 50000000: " +
+
+16 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 
+BigIÁeg”
+.
+	`v®ueOf
+(50000000)));
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd Other objects 2, ArrayList, 4, Date: " +
+
+19 
+C®cuÏtÜ
+.
+	`add
+(2, 
+Ãw
+ 
+A¼ayLi¡
+<
+SŒšg
+>(), 4,‚ew 
+	`D©e
+()));
+
+21 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/m/bounded/c/resolved/Calculator.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	gc
+.
+	g»sŞved
+;
+
+3 
+public
+ cÏs 
+	cC®cuÏtÜ
+ {
+
+5 @
+SaãV¬¬gs
+
+
+6 
+public
+ <
+T
+ 
+ex‹nds
+ 
+	mNumb”
+> 
+	$add
+(
+T
+... 
+–em’ts
+){
+
+7 
+»suÉ
+ = 0;
+
+8  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+13 
+»suÉ
+ =„esuÉ + ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+15  
+»suÉ
+;
+
+18 @
+SaãV¬¬gs
+
+
+19 
+public
+ <
+T
+ 
+ex‹nds
+ 
+Numb”
+> 
+	$muÉly
+(
+T
+... 
+–em’ts
+){
+
+20 
+»suÉ
+ = 0;
+
+21  
+T
+ 
+–em’t
+ : 
+–em’ts
+){
+
+22 
+»suÉ
+ =„esuÉ * ((
+Numb”
+è
+–em’t
+).
+	`doubËV®ue
+();
+
+24  
+»suÉ
+;
+
+25 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/m/bounded/c/resolved/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gm
+.
+	gbounded
+.
+	gc
+.
+	g»sŞved
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+7 
+public
+ cÏs 
+	cMaš
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 5: " +
+
+10 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 5));
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2.5, 3, 4.5f, 5: " +
+
+13 
+C®cuÏtÜ
+.
+	`add
+(2.5, 3, 4.5f, 5));
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAdd‚umber 2, 3, 4, 50000000: " +
+
+16 
+C®cuÏtÜ
+.
+	`add
+(2, 3, 4, 
+BigIÁeg”
+.
+	`v®ueOf
+(50000000)));
+
+22 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/n/constraints/a/Intro/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	ga
+.
+	gIÁro
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Paœ
+<
+BigIÁeg”
+, 
+SŒšg
+> 
+·œ
+ = 
+Ãw
+ Pair<>(
+
+9 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000), "Aman");
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+·œ
+);
+
+13 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/n/constraints/a/Intro/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	ga
+.
+	gIÁro
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+	gK
+, 
+	gV
+> {
+
+5 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+6 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+8 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+9 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+10 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+13 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+14  
+	gkey
+;
+
+17 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+18 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+21 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+22  
+	gv®ue
+;
+
+25 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+26 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+29 @
+Ov”ride
+
+
+30 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+32 "key=" + 
+	gkey
+ +
+
+33 ", v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/n/constraints/b/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	gb
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+·œ1
+ = 
+Ãw
+ Pair<>(
+
+9 "Amª", 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000));
+
+11 
+Paœ
+<
+IÁeg”
+, 
+BigIÁeg”
+> 
+·œ2
+ = 
+Ãw
+ Pair<>(
+
+12 11 , 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000));
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+·œ1
+);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+·œ2
+);
+
+17 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/n/constraints/b/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	gb
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+	gK
+, 
+	gV
+> {
+
+5 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+6 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+8 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+9 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+10 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+13 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+14  
+	gkey
+;
+
+17 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+18 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+21 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+22  
+	gv®ue
+;
+
+25 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+26 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+29 @
+Ov”ride
+
+
+30 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+32 "key=" + 
+	gkey
+ +
+
+33 ", v®ue=" + 
+	gv®ue
+ +
+
+	@generics/src/com/mycompany/parameters/n/constraints/c/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	gc
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+gªif
+ = 
+Ãw
+ Pair<>(
+
+8 "Gªif", 
+BigIÁeg”
+.
+	`v®ueOf
+(100000));
+
+9 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+ÇÂa
+ = 
+Ãw
+ Pair<>(
+
+10 "NªÇ", 
+BigIÁeg”
+.
+	`v®ueOf
+(5000000));
+
+11 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+yisha
+ = 
+Ãw
+ Pair<>(
+
+12 "Yisha", 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000));
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nL¬g” oàªiàªd mÜe: " + 
+Ut™›s
+.
+	`»tuºL¬g”
+(
+gªif
+, 
+ÇÂa
+));
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nL¬g” oàªÇ‡nd mÜe: " + 
+Ut™›s
+.
+	`»tuºL¬g”
+(
+ÇÂa
+, 
+yisha
+));
+
+17 
+	}
+}
+
+	@generics/src/com/mycompany/parameters/n/constraints/c/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	gc
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+K
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gK
+>, 
+	gV
+> 
+im¶em’ts
+ Comparable<Pair<K, V>>{
+
+5 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+6 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+8 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+9 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+10 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+13 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+14  
+	gkey
+;
+
+17 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+18 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+21 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+22  
+	gv®ue
+;
+
+25 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+26 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+29 @
+Ov”ride
+
+
+30 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+32 "key=" + 
+	gkey
+ +
+
+33 ", v®ue=" + 
+	gv®ue
+ +
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+com·»To
+(
+Paœ
+<
+K
+, 
+V
+> 
+o
+) {
+
+41  
+	gthis
+.
+	gkey
+.
+com·»To
+(
+o
+.
+key
+);
+
+	@generics/src/com/mycompany/parameters/n/constraints/c/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gmycom·ny
+.
+	g·¿m‘”s
+.
+	gn
+.
+	gcÚ¡¿šts
+.
+	gc
+;
+
+3 
+public
+ cÏs 
+	cUt™›s
+ {
+
+4 
+public
+ <
+K
+ 
+ex‹nds
+ 
+	mCom·¿bË
+<
+	mK
+>, 
+	mV
+> 
+	mPaœ
+<K, V> 
+»tuºL¬g”
+(
+
+5 
+Paœ
+<
+K
+, 
+V
+> 
+·œ1
+, Paœ<K, V> 
+·œ2
+){
+
+6 ià(
+	m·œ1
+.
+com·»To
+(
+·œ2
+) > 0){
+
+7  
+	m·œ1
+;
+
+8 }ià(
+	m·œ1
+.
+com·»To
+(
+·œ2
+) < 0){
+
+9  
+	m·œ2
+;
+
+11  
+	m·œ1
+;
+
+	@javaeight/src/com/sample/aforeach/Java8ForEachExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gafÜ—ch
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gI‹¿tÜ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gCÚsum”
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gÏng
+.
+	gIÁeg”
+;
+
+9 
+public
+ cÏs 
+	cJava8FÜEachExam¶e
+ {
+
+11 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+14 
+Li¡
+<
+IÁeg”
+> 
+myLi¡
+ = 
+Ãw
+ 
+A¼ayLi¡
+<Integer>();
+
+15 
+i
+ = 0; i < 10; i++è
+myLi¡
+.
+	`add
+(i);
+
+18 
+I‹¿tÜ
+<
+IÁeg”
+> 
+™
+ = 
+myLi¡
+.
+	`™”©Ü
+();
+
+19 
+™
+.
+	`hasNext
+()) {
+
+20 
+IÁeg”
+ 
+i
+ = 
+™
+.
+	`Ãxt
+();
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+("I‹¿tÜ V®ue::" + 
+i
+);
+
+25 
+myLi¡
+.
+	`fÜEach
+(
+Ãw
+ 
+CÚsum”
+<
+IÁeg”
+>() {
+
+27 
+public
+ 
+	`acû±
+(
+IÁeg”
+ 
+t
+) {
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("fÜEach‡nÚymou şas V®ue::" + 
+t
+);
+
+34 
+MyCÚsum”
+ 
+aùiÚ
+ = 
+Ãw
+ 
+	`MyCÚsum”
+();
+
+35 
+myLi¡
+.
+	`fÜEach
+(
+aùiÚ
+);
+
+38 
+myLi¡
+.
+	`fÜEach
+((
+t
+è-> 
+Sy¡em
+.
+out
+.
+	`´šn
+("forEach Lambda::" +));
+
+41 
+	}
+}
+
+44 
+şass
+ 
+MyCÚsum”
+ 
+im¶em’ts
+ 
+	gCÚsum”
+<
+	gIÁeg”
+> {
+
+46 
+public
+ 
+acû±
+(
+IÁeg”
+ 
+t
+) {
+
+47 
+	gSy¡em
+.
+	gout
+.
+´šn
+("CÚsum” im¶ V®ue::" + 
+t
+);
+
+	@javaeight/src/com/sample/cdefaultnstaticininterface/Interface1.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gcdeçuÉn¡©icšš‹rçû
+;
+
+3 @
+FunùiÚ®IÁ”çû
+
+
+4 
+public
+ 
+š‹rçû
+ 
+	gIÁ”çû1
+ {
+
+6 
+m‘hod1
+(
+SŒšg
+ 
+¡r
+);
+
+8  
+log
+(
+SŒšg
+ 
+¡r
+){
+
+9 
+	gSy¡em
+.
+	gout
+.
+´šn
+("I1†oggšg::"+
+¡r
+);
+
+12 
+´št
+(
+SŒšg
+ 
+¡r
+){
+
+13 
+	gSy¡em
+.
+	gout
+.
+´šn
+("Prštšg "+
+¡r
+);
+
+	@javaeight/src/com/sample/cdefaultnstaticininterface/Interface2.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gcdeçuÉn¡©icšš‹rçû
+;
+
+3 @
+FunùiÚ®IÁ”çû
+
+
+4 
+public
+ 
+š‹rçû
+ 
+	gIÁ”çû2
+ {
+
+6 
+m‘hod2
+();
+
+8  
+log
+(
+SŒšg
+ 
+¡r
+){
+
+9 
+	gSy¡em
+.
+	gout
+.
+´šn
+("I2†oggšg::"+
+¡r
+);
+
+	@javaeight/src/com/sample/cdefaultnstaticininterface/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gcdeçuÉn¡©icšš‹rçû
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+MyCÚü‘eCÏss
+ 
+myCÚü‘eCÏss
+ = 
+Ãw
+ 
+	`MyCÚü‘eCÏss
+();
+
+8 
+myCÚü‘eCÏss
+.
+	`log
+("log");
+
+9 
+myCÚü‘eCÏss
+.
+	`m‘hod1
+("method");
+
+10 
+myCÚü‘eCÏss
+.
+	`m‘hod2
+();
+
+13 
+i
+=0, 
+j
+=5, 
+k
+=10;
+
+14 
+‹¡
+=0;
+
+18  (
+i
+++ < 
+j
+è|| (j < --
+k
+)) {
+
+19 
+‹¡
+++;
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+‹¡
+);
+
+23 
+	}
+}
+
+	@javaeight/src/com/sample/cdefaultnstaticininterface/MyConcreteClass.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gcdeçuÉn¡©icšš‹rçû
+;
+
+3 
+public
+ 
+şass
+ 
+MyCÚü‘eCÏss
+ 
+im¶em’ts
+ 
+	gIÁ”çû1
+, 
+	gIÁ”çû2
+{
+
+5 @
+Ov”ride
+
+
+6 
+public
+ 
+m‘hod2
+() {
+
+7 
+	gSy¡em
+.
+	gout
+.
+´šn
+("MyConcreteClass::method2");
+
+10 @
+Ov”ride
+
+
+11 
+public
+ 
+m‘hod1
+(
+SŒšg
+ 
+¡r
+) {
+
+12 
+	gSy¡em
+.
+	gout
+.
+´šn
+("MyCÚü‘eCÏss::m‘hod1: "+
+¡r
+);
+
+16 @
+Ov”ride
+
+
+17 
+public
+ 
+log
+(
+SŒšg
+ 
+¡r
+){
+
+18 
+	gSy¡em
+.
+	gout
+.
+´šn
+("MyCÚü‘eCÏs loggšg::"+
+¡r
+);
+
+19 
+	gIÁ”çû1
+.
+´št
+("abc");
+
+	@javaeight/src/com/sample/dstream/AggregateOperationAIntro.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gSŒ—m
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚAIÁro
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+IÁeg”
+[] 
+štA¼ay
+ = 
+Ãw
+ Integer[]
+
+12 
+CŞËùiÚ
+<
+IÁeg”
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+štA¼ay
+);
+
+13 
+SŒ—m
+<
+IÁeg”
+> 
+¡»am
+ = 
+cŞËùiÚ
+.
+	`¡»am
+();
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCouÁh–em’t š‡ sŒ—m: " + 
+¡»am
+.
+	`couÁ
+());
+
+22 
+SŒ—m
+<
+IÁeg”
+> 
+di¡šùSŒ—m
+ = 
+cŞËùiÚ
+.
+	`¡»am
+().
+	`di¡šù
+();
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCouÁ di¡šùƒËm’ˆš‡ sŒ—m: " + 
+di¡šùSŒ—m
+.
+	`couÁ
+());
+
+25 
+SŒ—m
+<
+IÁeg”
+> 
+lim™SŒ—m
+ = 
+cŞËùiÚ
+.
+	`¡»am
+().
+	`lim™
+(5);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCouÁƒËm’ˆš‡†im™ sŒ—m: " + 
+lim™SŒ—m
+.
+	`couÁ
+());
+
+28 
+SŒ—m
+<
+IÁeg”
+> 
+skSŒ—m
+ = 
+cŞËùiÚ
+.
+	`¡»am
+().
+	`sk
+(2);
+
+29 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCouÁƒËm’ˆš‡ sk³d sŒ—m: " + 
+skSŒ—m
+.
+	`couÁ
+());
+
+31 
+SŒ—m
+<
+IÁeg”
+> 
+sÜ‹dSŒ—m
+ = 
+cŞËùiÚ
+.
+	`¡»am
+().
+	`sÜ‹d
+();
+
+33 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCouÁƒËm’ˆš‡ sÜ‹d sŒ—m: " + 
+A¼ays
+.
+	`toSŒšg
+(
+sÜ‹dSŒ—m
+.
+	`toA¼ay
+()));
+
+35 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationBCollection.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gSŒ—m
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚBCŞËùiÚ
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+IÁeg”
+[] 
+štA¼ay
+ = 
+Ãw
+ Integer[]
+
+12 
+CŞËùiÚ
+<
+IÁeg”
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+štA¼ay
+);
+
+14 
+IÁeg”
+ 
+num
+: 
+cŞËùiÚ
+){
+
+15 ià(
+num
+ > 50){
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("There is‡t†east one‚umber >50");
+
+21 
+boŞ—n
+ 
+ËssThª0
+ = 
+çl£
+;
+
+23 
+IÁeg”
+ 
+num
+ : 
+cŞËùiÚ
+) {
+
+24 ià(
+num
+ < 0){
+
+25 
+ËssThª0
+ = 
+Œue
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nTh”i ©†—¡ oÃ‚umb” <0: " + 
+ËssThª0
+);
+
+33 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationCMatch.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gP»diÿ‹
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚCM©ch
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+IÁeg”
+[] 
+štA¼ay
+ = 
+Ãw
+ Integer[]
+
+12 
+CŞËùiÚ
+<
+IÁeg”
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+štA¼ay
+);
+
+14 
+boŞ—n
+ 
+g»©”Thª50
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+15 .
+	`®lM©ch
+(
+Ãw
+ 
+P»diÿ‹
+<
+IÁeg”
+>() {
+
+16 @
+Ov”ride
+
+
+17 
+public
+ 
+boŞ—n
+ 
+	`‹¡
+(
+IÁeg”
+ 
+t
+) {
+
+18  
+t
+ > 50;
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("A»‡Î memb” > 50: " + 
+g»©”Thª50
+);
+
+24 
+boŞ—n
+ 
+g»©”Thª0
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+25 .
+	`®lM©ch
+(
+Ãw
+ 
+P»diÿ‹
+<
+IÁeg”
+>() {
+
+26 @
+Ov”ride
+
+
+27 
+public
+ 
+boŞ—n
+ 
+	`‹¡
+(
+IÁeg”
+ 
+t
+) {
+
+28  
+t
+ > 0;
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+("A»‡Î memb” > 0: " + 
+g»©”Thª0
+);
+
+34 
+boŞ—n
+ 
+ªyLessThª0
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+35 .
+	`ªyM©ch
+Ğ
+n
+ ->‚ < 0 );
+
+37 
+Sy¡em
+.
+out
+.
+	`´šn
+("I ªy‚umb” < 0: " + 
+ªyLessThª0
+);
+
+39 
+boŞ—n
+ 
+ªyG»©”Thª100
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+40 .
+	`ªyM©ch
+Ğ
+n
+ ->‚ > 100 );
+
+42 
+Sy¡em
+.
+out
+.
+	`´šn
+("I ªy‚umb” >100: " + 
+ªyG»©”Thª100
+);
+
+44 
+boŞ—n
+ 
+nÚeLessThª0
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+45 .
+	`nÚeM©ch
+Ğ
+n
+ ->‚ < 100 );
+
+47 
+Sy¡em
+.
+out
+.
+	`´šn
+("A»‚Ønumb” <0: " + 
+nÚeLessThª0
+);
+
+50 
+boŞ—n
+ 
+nÚeG»©”Thª30
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+51 .
+	`nÚeM©ch
+Ğ
+n
+ ->‚ > 30 );
+
+53 
+Sy¡em
+.
+out
+.
+	`´šn
+("A»‚Ønumb” >30: " + 
+nÚeG»©”Thª30
+);
+
+60 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationDfilter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gSŒ—m
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚDf‹r
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+IÁeg”
+[] 
+štA¼ay
+ = 
+Ãw
+ Integer[]
+
+12 
+CŞËùiÚ
+<
+IÁeg”
+> 
+cŞËùiÚ
+ = 
+A¼ays
+.
+	`asLi¡
+(
+štA¼ay
+);
+
+14 
+SŒ—m
+<
+IÁeg”
+> 
+ËssThªk100SŒ—m
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+15 .
+	`f‹r
+(
+n
+ ->‚ < 100);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nElements†esshan 100: " +
+
+18 
+A¼ays
+.
+	`toSŒšg
+(
+ËssThªk100SŒ—m
+.
+	`toA¼ay
+()));
+
+20 
+ËssThª100Di¡šùCouÁ
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+21 .
+	`f‹r
+Ğ
+n
+ ->‚ < 100)
+
+22 .
+	`di¡šù
+()
+
+23 .
+	`couÁ
+();
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nDi¡šùƒËm’ˆËs thª 100: " + 
+ËssThª100Di¡šùCouÁ
+);
+
+28 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationEfilter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gCÚsum”
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gSŒ—m
+;
+
+9 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚEf‹r
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+12 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Sestle"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("E¡”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+18 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+20 
+numM®es
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+21 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+22 .
+	`couÁ
+();
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nNumb” oàm®e " + 
+numM®es
+);
+
+25 
+numUnd”30
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+26 .
+	`f‹r
+(
+p
+ ->….
+	`g‘Age
+() < 30)
+
+27 .
+	`couÁ
+();
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nNumb” und” 30: " + 
+numUnd”30
+);
+
+30 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+31 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+32 .
+	`fÜEach
+(
+Ãw
+ 
+CÚsum”
+<
+P”sÚ
+>() {
+
+33 @
+Ov”ride
+
+
+34 
+public
+ 
+	`acû±
+(
+P”sÚ
+ 
+³rsÚ
+) {
+
+35 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+³rsÚ
+);
+
+38 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nFemales: ");
+
+39 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+40 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+41 .
+	`fÜEach
+(
+p
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(p));
+
+44 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationFfilter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gCÚsum”
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gFunùiÚ
+;
+
+8 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚFf‹r
+ {
+
+9 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+11 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+12 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Sestle"));
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("E¡”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+19 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+20 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+21 .
+	`m­
+(
+Ãw
+ 
+FunùiÚ
+<
+P”sÚ
+, 
+SŒšg
+>() {
+
+22 
+public
+ 
+SŒšg
+ 
+	`­¶y
+(
+P”sÚ
+ 
+p
+){
+
+23  
+p
+.
+	`g‘Name
+(è+", " +….
+	`g‘C™y
+();
+
+26 .
+	`fÜEach
+(
+Ãw
+ 
+CÚsum”
+<
+SŒšg
+>() {
+
+27 @
+Ov”ride
+
+
+28 
+public
+ 
+	`acû±
+(
+SŒšg
+ 
+s
+) {
+
+29 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+s
+);
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambda: ");
+
+33 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+34 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+35 .
+	`m­
+(
+p
+ ->….
+	`g‘Name
+(è+ ", " +….
+	`g‘C™y
+())
+
+36 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+39 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambdao Femaleo upper: ");
+
+40 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+41 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+42 .
+	`m­
+(
+p
+ ->….
+	`g‘Name
+(è+ ", " +….
+	`g‘C™y
+())
+
+43 .
+	`m­
+(
+s
+ -> s.
+	`toUµ”Ca£
+())
+
+44 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+46 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambdao Femaleo method„eferences: ");
+
+47 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+48 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+49 .
+	`m­
+(
+p
+ ->….
+	`g‘Name
+(è+ ", " +….
+	`g‘C™y
+())
+
+50 .
+	`m­
+(
+SŒšg
+::
+toUµ”Ca£
+)
+
+51 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+53 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambdao Male‡ge in int: ");
+
+54 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+55 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+56 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+57 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+60 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambdao Male‡ge in†ong: ");
+
+61 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+62 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+63 .
+	`m­ToLÚg
+(
+p
+ ->….
+	`g‘Age
+())
+
+64 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+66 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nWith Lambdao Male‡ge in double: ");
+
+67 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+68 .
+	`f‹r
+(
+p
+ ->….
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+69 .
+	`m­ToDoubË
+(
+p
+ ->….
+	`g‘Age
+())
+
+70 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+73 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationGfilter.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gCÚsum”
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gFunùiÚ
+;
+
+8 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚGf‹r
+ {
+
+9 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+11 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+12 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Sestle"));
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("E¡”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+20 
+av”ageAgeOfM®es
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+21 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+22 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+23 .
+	`av”age
+()
+
+24 .
+	`g‘AsDoubË
+();
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("Av”agagoàm®es: " + 
+av”ageAgeOfM®es
+);
+
+28 
+maxAgeOfFem®es
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+29 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+30 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+31 .
+	`max
+()
+
+32 .
+	`g‘AsIÁ
+();
+
+34 
+Sy¡em
+.
+out
+.
+	`´šn
+("Av”agagoàãm®es: " + 
+maxAgeOfFem®es
+);
+
+36 
+sumAgeOfFem®es
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+37 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+38 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+39 .
+	`sum
+();
+
+41 
+Sy¡em
+.
+out
+.
+	`´šn
+("sum‡goàãm®es: " + 
+sumAgeOfFem®es
+);
+
+43 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationHReduce.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gIÁBš¬yO³¿tÜ
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚHReduû
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+10 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+11 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Sestle"));
+
+12 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("E¡”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+18 
+maxFem®eAge
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+19 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+20 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+21 .
+	`»duû
+(0, 
+Ãw
+ 
+	`IÁBš¬yO³¿tÜ
+() {
+
+22 @
+Ov”ride
+
+
+23 
+public
+ 
+	`­¶yAsIÁ
+(
+Ëá
+, 
+right
+) {
+
+24 ià(
+Ëá
+ >ğ
+right
+){
+
+25  
+Ëá
+;
+
+27  
+right
+;
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nMax fem®age: " + 
+maxFem®eAge
+);
+
+32 
+mšM®eAge
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+33 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+34 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+35 .
+	`»duû
+(
+IÁeg”
+.
+MAX_VALUE
+, (
+Ëá
+, 
+right
+) ->†eft <=„ight ?†eft :„ight);
+
+37 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nMš m®age: " + 
+mšM®eAge
+);
+
+39 
+sumFem®eAge
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+40 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+41 .
+	`m­ToIÁ
+(
+p
+ ->….
+	`g‘Age
+())
+
+42 .
+	`»duû
+(0, (
+Ëá
+, 
+right
+) ->†eft +„ight);
+
+44 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSum fem®age: " + 
+sumFem®eAge
+);
+
+46 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationICollector.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gfunùiÚ
+.
+	gIÁBš¬yO³¿tÜ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gCŞËùÜs
+;
+
+7 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚICŞËùÜ
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+10 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+11 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Seattle"));
+
+12 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak”", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("CÏœe", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Esm”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("GeÜge", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 39, "New York"));
+
+18 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Ha§n", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 29, "Seattle"));
+
+19 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Irša", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 43, "Boston"));
+
+20 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("JulŸ", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 29, "New York"));
+
+22 
+Li¡
+<
+SŒšg
+> 
+c™›sLi¡
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+23 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+24 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘C™y
+())
+
+25 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`toLi¡
+());
+
+27 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ oàc™› oà(m®es): " + 
+c™›sLi¡
+);
+
+29 
+S‘
+<
+SŒšg
+> 
+c™›sS‘
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+30 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+31 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘C™y
+())
+
+32 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`toS‘
+());
+
+34 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nS‘ oàc™› oà(m®es): " + 
+c™›sS‘
+);
+
+36 
+S‘
+<
+SŒšg
+> 
+c™›sT»eS‘
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+37 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+38 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘C™y
+())
+
+39 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`toCŞËùiÚ
+(
+T»eS‘
+::
+Ãw
+));
+
+41 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nT»eS‘ oàc™› oà(m®es): " + 
+c™›sT»eS‘
+);
+
+43 
+SŒšg
+ 
+ÇmeSŒšg
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+44 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+45 .
+	`m­
+(
+P”sÚ
+::
+g‘Name
+)
+
+46 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`joššg
+(", "));
+
+48 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCom¨£·¿‹d‚ames: " + 
+ÇmeSŒšg
+);
+
+51 
+av”ageAge
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+52 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+53 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`av”agšgIÁ
+(
+P”sÚ
+::
+g‘Age
+));
+
+55 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAv”agagfÜ fem®es: " + 
+av”ageAge
+);
+
+57 
+IÁSumm¬ySti¡ics
+ 
+summ¬ySti¡ics
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+58 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+59 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`summ¬izšgIÁ
+(
+P”sÚ
+::
+g‘Age
+));
+
+61 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nSumm¬y sti¡ic fÜ fem®es: " + 
+summ¬ySti¡ics
+);
+
+64 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationJcollect.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gCŞËùÜs
+;
+
+6 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚJcŞËù
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+10 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Seattle"));
+
+11 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+12 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+13 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+14 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Esm”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Gagu", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 39, "New York"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Ha§n", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 29, "Seattle"));
+
+18 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Irša", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 43, "Boston"));
+
+19 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("JulŸ", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 29, "New York"));
+
+21 
+Li¡
+<
+SŒšg
+> 
+c™›sLi¡
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+22 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+23 .
+	`m­
+(
+P”sÚ
+::
+g‘C™y
+)
+
+24 .
+	`cŞËù
+(
+A¼ayLi¡
+::
+Ãw
+, A¼ayLi¡::
+add
+, A¼ayLi¡::
+addAÎ
+);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ oàc™› (m®es): " + 
+c™›sLi¡
+);
+
+28 
+S‘
+<
+SŒšg
+> 
+c™›sS‘
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+29 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+30 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘C™y
+())
+
+31 .
+	`cŞËù
+(
+HashS‘
+::
+Ãw
+, HashS‘::
+add
+, HashS‘::
+addAÎ
+);
+
+33 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nS‘ oàc™› (m®es): " + 
+c™›sS‘
+);
+
+36 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationKcollect.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.*;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gCŞËùÜs
+;
+
+6 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚKcŞËù
+ {
+
+8 
+´iv©e
+ şas 
+	cAv”ag”
+ {
+
+9 
+´iv©e
+ 
+	mtÙ®
+ = 0;
+
+10 
+´iv©e
+ 
+	mcouÁ
+ = 0;
+
+12 
+public
+ 
+av”age
+() {
+
+13  
+	mcouÁ
+ > 0 ? (è
+	mtÙ®
+ / count : 0;
+
+16 
+public
+ 
+accumuÏ‹
+(
+i
+) {
+
+17 
+	mtÙ®
+ +ğ
+i
+;
+
+18 
+	mcouÁ
+++;
+
+21 
+public
+ 
+combše
+(
+Av”ag”
+ 
+Ùh”
+) {
+
+22 
+	mtÙ®
+ +ğ
+Ùh”
+.
+tÙ®
+;
+
+23 
+	mcouÁ
+ +ğ
+Ùh”
+.
+couÁ
+;
+
+27 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+29 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+30 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Seattle"));
+
+31 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+32 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+33 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+34 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Esm”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+35 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+36 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Gagu", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 39, "New York"));
+
+37 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Ha§n", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 29, "Seattle"));
+
+38 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Irša", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 43, "Boston"));
+
+39 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("JulŸ", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 29, "New York"));
+
+41 
+Av”ag”
+ 
+av”ageCŞËù
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+42 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+M®e
+)
+
+43 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘Age
+())
+
+44 .
+	`cŞËù
+(
+Av”ag”
+::
+Ãw
+, Av”ag”::
+accumuÏ‹
+, Av”ag”::
+combše
+);
+
+46 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAv”agagoàmakes: " + 
+av”ageCŞËù
+.
+	`av”age
+());
+
+48 
+M­
+<
+P”sÚ
+.
+G’d”
+, 
+Li¡
+<P”sÚ>> 
+g’d”Li¡M­
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+49 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`groupšgBy
+(
+P”sÚ
+::
+g‘G’d”
+));
+
+51 
+M­
+.
+EÁry
+<
+P”sÚ
+.
+G’d”
+, 
+Li¡
+<P”sÚ>> 
+’Œy
+ : 
+g’d”Li¡M­
+.
+	`’ŒyS‘
+()) {
+
+52 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+’Œy
+);
+
+55 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nList by cities: ");
+
+56 
+M­
+<
+SŒšg
+, 
+Li¡
+<
+P”sÚ
+>> 
+c™›sLi¡M­
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+57 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`groupšgBy
+(
+P”sÚ
+::
+g‘C™y
+));
+
+59 
+M­
+.
+EÁry
+<
+SŒšg
+, 
+Li¡
+<
+P”sÚ
+>> 
+’Œy
+ : 
+c™›sLi¡M­
+.
+	`’ŒyS‘
+()) {
+
+60 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+’Œy
+);
+
+63 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAverage‡ge by cities: ");
+
+64 
+M­
+<
+SŒšg
+, 
+DoubË
+> 
+c™›sAv”ageAgeLi¡M­
+ = 
+cŞËùiÚ
+.
+	`¡»am
+()
+
+65 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`groupšgBy
+(
+P”sÚ
+::
+g‘C™y
+, CŞËùÜs.
+	`av”agšgIÁ
+(P”sÚ::
+g‘Age
+)));
+
+67 
+M­
+.
+EÁry
+<
+SŒšg
+, 
+DoubË
+> 
+’Œy
+ : 
+c™›sAv”ageAgeLi¡M­
+.
+	`’ŒyS‘
+()) {
+
+68 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+’Œy
+);
+
+71 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/AggregateOperationLparallel.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gM­
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gCŞËùÜs
+;
+
+9 
+public
+ cÏs 
+	cAgg»g©eO³¿tiÚL·¿Î–
+ {
+
+12 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+14 
+CŞËùiÚ
+<
+P”sÚ
+> 
+cŞËùiÚ
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+15 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Amœ", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 26, "Seattle"));
+
+16 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Bak¬", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 42, "New York"));
+
+17 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Cici", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 35, "San Fransisco"));
+
+18 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("D¬ius", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 32, "San Jose"));
+
+19 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Esm”®da", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 24, "Salt Lake City"));
+
+20 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("F”ry", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 45, "Boston"));
+
+21 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Gagu", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 39, "New York"));
+
+22 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Ha§n", 
+P”sÚ
+.
+G’d”
+.
+M®e
+, 29, "Seattle"));
+
+23 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("Irša", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 43, "Boston"));
+
+24 
+cŞËùiÚ
+.
+	`add
+(
+Ãw
+ 
+	`P”sÚ
+("JulŸ", 
+P”sÚ
+.
+G’d”
+.
+Fem®e
+, 29, "New York"));
+
+26 
+cŞËùiÚ
+.
+	`·¿Î–SŒ—m
+()
+
+27 .
+	`f‹r
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘G’d”
+(è=ğ
+P”sÚ
+.
+G’d”
+.
+Fem®e
+)
+
+28 .
+	`m­
+(
+³rsÚ
+ ->…”sÚ.
+	`g‘Name
+(è+ ", " +…”sÚ.
+	`g‘C™y
+())
+
+29 .
+	`m­
+(
+s
+ -> s.
+	`toUµ”Ca£
+())
+
+30 .
+	`fÜEach
+(
+s
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+(s));
+
+33 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/Person.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+public
+ cÏs 
+	cP”sÚ
+ {
+
+5 
+public
+ 
+	eG’d”
+ {
+
+6 
+	mFem®e
+,
+
+7 
+	mM®e
+
+
+10 
+´iv©e
+ 
+SŒšg
+ 
+	gÇme
+;
+
+11 
+´iv©e
+ 
+G’d”
+ 
+	gg’d”
+;
+
+12 
+´iv©e
+ 
+	gage
+;
+
+13 
+´iv©e
+ 
+SŒšg
+ 
+	gc™y
+;
+
+15 
+public
+ 
+	$P”sÚ
+(
+SŒšg
+ 
+Çme
+, 
+G’d”
+ 
+g’d”
+, 
+age
+, SŒšg 
+c™y
+) {
+
+16 
+this
+.
+Çme
+ =‚ame;
+
+17 
+this
+.
+g’d”
+ = gender;
+
+18 
+this
+.
+age
+ =‡ge;
+
+19 
+this
+.
+c™y
+ = city;
+
+20 
+	}
+}
+
+22 
+public
+ 
+SŒšg
+ 
+	$g‘Name
+() {
+
+23  
+Çme
+;
+
+24 
+	}
+}
+
+26 
+public
+ 
+	$£tName
+(
+SŒšg
+ 
+Çme
+) {
+
+27 
+this
+.
+Çme
+ =‚ame;
+
+28 
+	}
+}
+
+30 
+public
+ 
+G’d”
+ 
+	$g‘G’d”
+() {
+
+31  
+g’d”
+;
+
+32 
+	}
+}
+
+34 
+public
+ 
+	$£tG’d”
+(
+G’d”
+ 
+g’d”
+) {
+
+35 
+this
+.
+g’d”
+ = gender;
+
+36 
+	}
+}
+
+38 
+public
+ 
+	$g‘Age
+() {
+
+39  
+age
+;
+
+40 
+	}
+}
+
+42 
+public
+ 
+	$£tAge
+(
+age
+) {
+
+43 
+this
+.
+age
+ =‡ge;
+
+44 
+	}
+}
+
+46 
+public
+ 
+SŒšg
+ 
+	$g‘C™y
+() {
+
+47  
+c™y
+;
+
+48 
+	}
+}
+
+50 
+public
+ 
+	$£tC™y
+(
+SŒšg
+ 
+c™y
+) {
+
+51 
+this
+.
+c™y
+ = city;
+
+52 
+	}
+}
+
+54 @
+Ov”ride
+
+
+55 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+57 "Çme='" + 
+Çme
+ + '\'' +
+
+58 ", g’d”=" + 
+g’d”
+ +
+
+59 ",‡ge=" + 
+age
+ +
+
+60 ", c™y='" + 
+c™y
+ + '\'' +
+
+62 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/StreamExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gSŒ—m
+;
+
+8 
+public
+ cÏs 
+	cSŒ—mExam¶e
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+12 
+Li¡
+<
+IÁeg”
+> 
+myLi¡
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+13 
+i
+=0; i<100; i++è
+myLi¡
+.
+	`add
+(i);
+
+16 
+SŒ—m
+<
+IÁeg”
+> 
+£qu’tŸlSŒ—m
+ = 
+myLi¡
+.
+	`¡»am
+();
+
+19 
+SŒ—m
+<
+IÁeg”
+> 
+·¿Î–SŒ—m
+ = 
+myLi¡
+.
+	`·¿Î–SŒ—m
+();
+
+22 
+SŒ—m
+<
+IÁeg”
+> 
+highNums
+ = 
+·¿Î–SŒ—m
+.
+	`f‹r
+(
+p
+ ->… > 90);
+
+24 
+highNums
+.
+	`fÜEach
+(
+p
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+("High Nums…arallel="+p));
+
+26 
+SŒ—m
+<
+IÁeg”
+> 
+highNumsSeq
+ = 
+£qu’tŸlSŒ—m
+.
+	`f‹r
+(
+p
+ ->… > 90);
+
+27 
+highNumsSeq
+.
+	`fÜEach
+(
+p
+ -> 
+Sy¡em
+.
+out
+.
+	`´šn
+("High Nums sequential="+p));
+
+31 
+	}
+}
+
+	@javaeight/src/com/sample/dstream/StringBlankSupperss.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gd¡»am
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	g¡»am
+.
+	gCŞËùÜs
+;
+
+5 
+public
+ cÏs 
+	cSŒšgBÏnkSuµ”ss
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+7 
+SŒšg
+ 
+befÜe
+ = "abc defg xyz";
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+(" befÜe: " + 
+befÜe
+);
+
+11 [] 
+ch
+ = 
+befÜe
+.
+	`toCh¬A¼ay
+();
+
+12 
+Ën
+ = 
+befÜe
+.
+	`Ëngth
+();
+
+13 
+SŒšgBufãr
+ 
+bufãr
+ = 
+Ãw
+ 
+	`SŒšgBufãr
+();
+
+14 
+n
+ = 0;‚ < 
+Ën
+;‚++) {
+
+15 ià(
+ch
+[
+n
+] != ' ') {
+
+16 
+bufãr
+.
+	`­³nd
+(
+ch
+[
+n
+]);
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+("wØ¡»am: " + 
+bufãr
+);
+
+21 
+SŒšg
+ 
+aá”
+ = 
+befÜe
+.
+	`ch¬s
+()
+
+22 .
+	`m­ToObj
+(
+e
+ -> ()ƒ)
+
+23 .
+	`f‹r
+(
+ch¬aù”
+ -> character != ' ')
+
+24 .
+	`cŞËù
+(
+CŞËùÜs
+.
+	`toLi¡
+())
+
+25 .
+	`¡»am
+().
+	`m­
+(
+e
+ ->ƒ.
+	`toSŒšg
+()).
+	`»duû
+((
+accSŒ
+, 
+s
+è->‡ccSŒ + s).
+	`g‘
+();
+
+27 
+Sy¡em
+.
+out
+.
+	`´šn
+("w˜¡»am: " + 
+aá”
+);
+
+30 
+	}
+}
+
+	@javaeight/src/com/sample/time/DateAPILegacySupport.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gIn¡ªt
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©eTime
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚeId
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚedD©eTime
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gC®’d¬
+;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gD©e
+;
+
+9 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gG»gÜŸnC®’d¬
+;
+
+10 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gTimeZÚe
+;
+
+12 
+public
+ cÏs 
+	cD©eAPILegacySuµÜt
+ {
+
+14 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+17 
+In¡ªt
+ 
+time¡amp
+ = 
+Ãw
+ 
+	`D©e
+().
+	`toIn¡ªt
+();
+
+19 
+LoÿlD©eTime
+ 
+d©e
+ = LoÿlD©eTime.
+	`ofIn¡ªt
+(
+time¡amp
+,
+
+20 
+ZÚeId
+.
+	`of
+(ZÚeId.
+SHORT_IDS
+.
+	`g‘
+("PST")));
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+("LoÿlD©eTimğ"+
+d©e
+);
+
+24 
+In¡ªt
+ 
+time
+ = 
+C®’d¬
+.
+	`g‘In¡ªû
+().
+	`toIn¡ªt
+();
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+("C®’d¬ØIn¡ªt: " + 
+time
+);
+
+27 
+ZÚeId
+ 
+deçuÉZÚe
+ = 
+TimeZÚe
+.
+	`g‘DeçuÉ
+().
+	`toZÚeId
+();
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("TimeZÚtØZÚeId: " + 
+deçuÉZÚe
+);
+
+31 
+ZÚedD©eTime
+ 
+g»gÜŸnC®’d¬D©eTime
+ = 
+Ãw
+ 
+	`G»gÜŸnC®’d¬
+().
+	`toZÚedD©eTime
+();
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+g»gÜŸnC®’d¬D©eTime
+);
+
+35 
+D©e
+ 
+dt
+ = D©e.
+	`äom
+(
+In¡ªt
+.
+	`now
+());
+
+36 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+dt
+);
+
+38 
+TimeZÚe
+ 
+tz
+ = TimeZÚe.
+	`g‘TimeZÚe
+(
+deçuÉZÚe
+);
+
+39 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+tz
+);
+
+41 
+G»gÜŸnC®’d¬
+ 
+gc
+ = G»gÜŸnC®’d¬.
+	`äom
+(
+g»gÜŸnC®’d¬D©eTime
+);
+
+42 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+gc
+);
+
+46 
+	}
+}
+
+	@javaeight/src/com/sample/time/DateAPIUtilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©e
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlTime
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gP”iod
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	g‹mpÜ®
+.
+	gTempÜ®Adju¡”s
+;
+
+8 
+public
+ cÏs 
+	cD©eAPIUt™›s
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+12 
+LoÿlD©e
+ 
+today
+ = LoÿlD©e.
+	`now
+();
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("Y—¸"+
+today
+.
+	`g‘Y—r
+()+" i L—°Y—r? "+today.
+	`isL—pY—r
+());
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("Today i befÜ01/01/2015? "+
+today
+.
+	`isBefÜe
+(
+LoÿlD©e
+.
+	`of
+(2015,1,1)));
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆTime="+
+today
+.
+	`©Time
+(
+LoÿlTime
+.
+	`now
+()));
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("10 day aá”oday wÈb"+
+today
+.
+	`¶usDays
+(10));
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+("3 w“k aá”oday wÈb"+
+today
+.
+	`¶usW“ks
+(3));
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+("20 mÚth aá”oday wÈb"+
+today
+.
+	`¶usMÚths
+(20));
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("10 day befÜtoday wÈb"+
+today
+.
+	`mšusDays
+(10));
+
+29 
+Sy¡em
+.
+out
+.
+	`´šn
+("3 w“k befÜtoday wÈb"+
+today
+.
+	`mšusW“ks
+(3));
+
+30 
+Sy¡em
+.
+out
+.
+	`´šn
+("20 mÚth befÜtoday wÈb"+
+today
+.
+	`mšusMÚths
+(20));
+
+33 
+Sy¡em
+.
+out
+.
+	`´šn
+("Fœ¡ d©oàthi mÚthğ"+
+today
+.
+	`w™h
+(
+TempÜ®Adju¡”s
+.
+	`fœ¡DayOfMÚth
+()));
+
+34 
+LoÿlD©e
+ 
+Ï¡DayOfY—r
+ = 
+today
+.
+	`w™h
+(
+TempÜ®Adju¡”s
+.
+	`Ï¡DayOfY—r
+());
+
+35 
+Sy¡em
+.
+out
+.
+	`´šn
+("La¡ d©oàthi y—rğ"+
+Ï¡DayOfY—r
+);
+
+37 
+P”iod
+ 
+³riod
+ = 
+today
+.
+	`uÁ
+(
+Ï¡DayOfY—r
+);
+
+38 
+Sy¡em
+.
+out
+.
+	`´šn
+("P”iod FÜm©ğ"+
+³riod
+);
+
+39 
+Sy¡em
+.
+out
+.
+	`´šn
+("MÚth »maššg iÀthy—rğ"+
+³riod
+.
+	`g‘MÚths
+());
+
+41 
+	}
+}
+
+	@javaeight/src/com/sample/time/DateParseFormatExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gIn¡ªt
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©e
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©eTime
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gfÜm©
+.
+	gD©eTimeFÜm©‹r
+;
+
+8 
+public
+ cÏs 
+	cD©eP¬£FÜm©Exam¶e
+ {
+
+10 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+13 
+LoÿlD©e
+ 
+d©e
+ = LoÿlD©e.
+	`now
+();
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("DeçuÉ fÜm© oàLoÿlD©e="+
+d©e
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©e
+.
+	`fÜm©
+(
+D©eTimeFÜm©‹r
+.
+	`ofP©‹º
+("d::MMM::uuuu")));
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©e
+.
+	`fÜm©
+(
+D©eTimeFÜm©‹r
+.
+	`ofP©‹º
+("d-MMM-uuuu")));
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©e
+.
+	`fÜm©
+(
+D©eTimeFÜm©‹r
+.
+BASIC_ISO_DATE
+));
+
+22 
+LoÿlD©eTime
+ 
+d©eTime
+ = LoÿlD©eTime.
+	`now
+();
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("DeçuÉ fÜm© oàLoÿlD©eTime="+
+d©eTime
+);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©eTime
+.
+	`fÜm©
+(
+D©eTimeFÜm©‹r
+.
+	`ofP©‹º
+("d::MMM::uuuu HH::mm::ss")));
+
+27 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+d©eTime
+.
+	`fÜm©
+(
+D©eTimeFÜm©‹r
+.
+BASIC_ISO_DATE
+));
+
+29 
+In¡ªt
+ 
+time¡amp
+ = In¡ªt.
+	`now
+();
+
+31 
+Sy¡em
+.
+out
+.
+	`´šn
+("DeçuÉ fÜm© oàIn¡ªt="+
+time¡amp
+);
+
+34 
+LoÿlD©eTime
+ 
+dt
+ = LoÿlD©eTime.
+	`·r£
+("27::Apr::2014 21::39::48",
+
+35 
+D©eTimeFÜm©‹r
+.
+	`ofP©‹º
+("d::MMM::uuuu HH::mm::ss"));
+
+36 
+Sy¡em
+.
+out
+.
+	`´šn
+("DeçuÉ fÜm©‡á”…¬sšg = "+
+dt
+);
+
+39 
+	}
+}
+
+	@javaeight/src/com/sample/time/InstantExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gDu¿tiÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gIn¡ªt
+;
+
+6 
+public
+ cÏs 
+	cIn¡ªtExam¶e
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+10 
+In¡ªt
+ 
+time¡amp
+ = In¡ªt.
+	`now
+();
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆTime¡am°ğ"+
+time¡amp
+);
+
+14 
+In¡ªt
+ 
+¥ecificTime
+ = In¡ªt.
+	`ofEpochMli
+(
+time¡amp
+.
+	`toEpochMli
+());
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cifiøTimğ"+
+¥ecificTime
+);
+
+18 
+Du¿tiÚ
+ 
+thœtyDay
+ = Du¿tiÚ.
+	`ofDays
+(30);
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+thœtyDay
+);
+
+22 
+	}
+}
+
+	@javaeight/src/com/sample/time/LocalDateExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©e
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gMÚth
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚeId
+;
+
+12 
+public
+ cÏs 
+	cLoÿlD©eExam¶e
+ {
+
+14 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+17 
+LoÿlD©e
+ 
+today
+ = LoÿlD©e.
+	`now
+();
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆD©e="+
+today
+);
+
+21 
+LoÿlD©e
+ 
+fœ¡Day_2014
+ = LoÿlD©e.
+	`of
+(2014, 
+MÚth
+.
+JANUARY
+, 1);
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cifiøD©e="+
+fœ¡Day_2014
+);
+
+31 
+LoÿlD©e
+ 
+todayKŞk©a
+ = LoÿlD©e.
+	`now
+(
+ZÚeId
+.
+	`of
+("Asia/Kolkata"));
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆD©š IST="+
+todayKŞk©a
+);
+
+38 
+LoÿlD©e
+ 
+d©eFromBa£
+ = LoÿlD©e.
+	`ofEpochDay
+(365);
+
+39 
+Sy¡em
+.
+out
+.
+	`´šn
+("365th day from ba£ d©eğ"+
+d©eFromBa£
+);
+
+41 
+LoÿlD©e
+ 
+hund»dDay2014
+ = LoÿlD©e.
+	`ofY—rDay
+(2014, 100);
+
+42 
+Sy¡em
+.
+out
+.
+	`´šn
+("100th day oà2014="+
+hund»dDay2014
+);
+
+45 
+	}
+}
+
+	@javaeight/src/com/sample/time/LocalDateTimeExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©e
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlD©eTime
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlTime
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gMÚth
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚeId
+;
+
+8 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚeOff£t
+;
+
+10 
+public
+ cÏs 
+	cLoÿlD©eTimeExam¶e
+ {
+
+12 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+15 
+LoÿlD©eTime
+ 
+today
+ = LoÿlD©eTime.
+	`now
+();
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆD©eTime="+
+today
+);
+
+19 
+today
+ = 
+LoÿlD©eTime
+.
+	`of
+(
+LoÿlD©e
+.
+	`now
+(), 
+LoÿlTime
+.now());
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆD©eTime="+
+today
+);
+
+23 
+LoÿlD©eTime
+ 
+¥ecificD©e
+ = LoÿlD©eTime.
+	`of
+(2014, 
+MÚth
+.
+JANUARY
+, 1, 10, 10, 30);
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cifiøD©e="+
+¥ecificD©e
+);
+
+34 
+LoÿlD©eTime
+ 
+todayKŞk©a
+ = LoÿlD©eTime.
+	`now
+(
+ZÚeId
+.
+	`of
+("Asia/Kolkata"));
+
+35 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆD©š IST="+
+todayKŞk©a
+);
+
+41 
+LoÿlD©eTime
+ 
+d©eFromBa£
+ = LoÿlD©eTime.
+	`ofEpochSecÚd
+(10000, 0, 
+ZÚeOff£t
+.
+UTC
+);
+
+42 
+Sy¡em
+.
+out
+.
+	`´šn
+("10000th secÚdimäom 01/01/1970ğ"+
+d©eFromBa£
+);
+
+46 
+	}
+}
+
+	@javaeight/src/com/sample/time/LocalTimeExample.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	gtime
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gLoÿlTime
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gZÚeId
+;
+
+11 
+public
+ cÏs 
+	cLoÿlTimeExam¶e
+ {
+
+13 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+16 
+LoÿlTime
+ 
+time
+ = LoÿlTime.
+	`now
+();
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆTime="+
+time
+);
+
+20 
+LoÿlTime
+ 
+¥ecificTime
+ = LoÿlTime.
+	`of
+(12,20,25,40);
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+("S³cifiøTimoàDay="+
+¥ecificTime
+);
+
+30 
+LoÿlTime
+ 
+timeKŞk©a
+ = LoÿlTime.
+	`now
+(
+ZÚeId
+.
+	`of
+("Asia/Kolkata"));
+
+31 
+Sy¡em
+.
+out
+.
+	`´šn
+("Cu¼’ˆTimš IST="+
+timeKŞk©a
+);
+
+37 
+LoÿlTime
+ 
+¥ecificSecÚdTime
+ = LoÿlTime.
+	`ofSecÚdOfDay
+(10000);
+
+38 
+Sy¡em
+.
+out
+.
+	`´šn
+("10000th secÚdimeğ"+
+¥ecificSecÚdTime
+);
+
+42 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/doubly/Node.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gdoubly
+;
+
+3 
+public
+ 
+şass
+ 
+	gNode
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gd©a
+;
+
+5 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	g´evious
+;
+
+6 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gÃxt
+;
+
+8 
+public
+ 
+Node
+(
+T
+ 
+d©a
+) {
+
+9 
+	gthis
+.
+	gd©a
+ = 
+d©a
+;
+
+10 
+	gthis
+.
+	gÃxt
+ = 
+nuÎ
+;
+
+13 
+public
+ 
+T
+ 
+g‘D©a
+() {
+
+14  
+	gd©a
+;
+
+17 
+public
+ 
+£tD©a
+(
+T
+ 
+d©a
+) {
+
+18 
+	gthis
+.
+	gd©a
+ = 
+d©a
+;
+
+21 
+public
+ 
+	gNode
+<
+	gT
+> 
+g‘P»vious
+() {
+
+22  
+	g´evious
+;
+
+25 
+public
+ 
+£tP»vious
+(
+Node
+<
+T
+> 
+´evious
+) {
+
+26 
+	gthis
+.
+	g´evious
+ = 
+´evious
+;
+
+29 
+public
+ 
+	gNode
+<
+	gT
+> 
+g‘Next
+() {
+
+30  
+	gÃxt
+;
+
+33 
+public
+ 
+£tNext
+(
+Node
+<
+T
+> 
+Ãxt
+) {
+
+34 
+	gthis
+.
+	gÃxt
+ = 
+Ãxt
+;
+
+37 @
+Ov”ride
+
+
+38 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+39  
+	gSŒšg
+.
+v®ueOf
+(
+d©a
+è+ "<-->" + (
+	gÃxt
+ =ğ
+nuÎ
+ ? "nuÎ" : 
+Ãxt
+);
+
+	@linkedList/src/com/company/linkedlist/doubly/a/insert/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gdoubly
+.
+	ga
+.
+	gš£¹
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gdoubly
+.
+	gNode
+;
+
+5 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+6 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+7 
+	gNode
+<
+	gT
+> 
+	g
+;
+
+9 
+public
+ 
+LškedLi¡
+() {
+
+12 
+public
+ 
+	gNode
+<
+	gT
+> 
+g‘H—d
+() {
+
+13  
+	gh—d
+;
+
+16 
+public
+ 
+£tH—d
+(
+Node
+<
+T
+> 
+h—d
+) {
+
+17 
+	gthis
+.
+	gh—d
+ = 
+h—d
+;
+
+20 
+public
+ 
+	gNode
+<
+	gT
+> 
+g‘Ta
+() {
+
+21  
+	g
+;
+
+24 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+25 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+26 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+27 
+h—d
+ = 
+node
+;
+
+28 
+	g
+ = 
+node
+;
+
+31 
+	gh—d
+.
+£tP»vious
+(
+node
+);
+
+32 
+	gnode
+.
+£tNext
+(
+h—d
+);
+
+33 
+	gh—d
+ = 
+node
+;
+
+36 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+){
+
+37 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+39 if(
+	gh—d
+ =ğ
+nuÎ
+){
+
+40 
+h—d
+ = 
+node
+;
+
+41 
+	g
+ = 
+node
+;
+
+44 
+	g
+.
+£tNext
+(
+node
+);
+
+45 
+	gnode
+.
+£tP»vious
+(
+
+);
+
+46 
+	g
+ = 
+node
+;
+
+50 
+public
+ 
+£tTa
+(
+Node
+<
+T
+> 
+
+) {
+
+51 
+	gthis
+.
+	g
+ = 
+
+;
+
+54 @
+Ov”ride
+
+
+55 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+56 ià(
+	gh—d
+ =ğ
+nuÎ
+){
+
+59  
+	gh—d
+.
+toSŒšg
+();
+
+	@linkedList/src/com/company/linkedlist/doubly/a/insert/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gdoubly
+.
+	ga
+.
+	gš£¹
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+6 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+LškedLi¡
+<
+IÁeg”
+> 
+lškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+10 
+lškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+11 
+lškedLi¡
+.
+	`š£¹AtTa
+(11);
+
+12 
+lškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+13 
+lškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+14 
+lškedLi¡
+.
+	`š£¹AtTa
+(14);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAfter Insert Tail");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("H—d: " + 
+lškedLi¡
+.
+	`g‘H—d
+().
+	`g‘D©a
+() +
+
+19 " Ta: " + 
+lškedLi¡
+.
+	`g‘Ta
+().
+	`g‘D©a
+());
+
+21 
+lškedLi¡
+.
+	`š£¹AtH—d
+(9);
+
+22 
+lškedLi¡
+.
+	`š£¹AtH—d
+(8);
+
+23 
+lškedLi¡
+.
+	`š£¹AtH—d
+(7);
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nAfter Insert Head");
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+27 
+Sy¡em
+.
+out
+.
+	`´šn
+("H—d: " + 
+lškedLi¡
+.
+	`g‘H—d
+().
+	`g‘D©a
+() +
+
+28 " Ta: " + 
+lškedLi¡
+.
+	`g‘Ta
+().
+	`g‘D©a
+());
+
+31 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/Node.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+;
+
+3 
+public
+ 
+şass
+ 
+	gNode
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gd©a
+;
+
+5 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gÃxt
+;
+
+7 
+public
+ 
+Node
+(
+T
+ 
+d©a
+) {
+
+8 
+	gthis
+.
+	gd©a
+ = 
+d©a
+;
+
+9 
+	gthis
+.
+	gÃxt
+ = 
+nuÎ
+;
+
+12 
+public
+ 
+T
+ 
+g‘D©a
+() {
+
+13  
+	gd©a
+;
+
+16 
+public
+ 
+£tD©a
+(
+T
+ 
+d©a
+) {
+
+17 
+	gthis
+.
+	gd©a
+ = 
+d©a
+;
+
+20 
+public
+ 
+	gNode
+<
+	gT
+> 
+g‘Next
+() {
+
+21  
+	gÃxt
+;
+
+24 
+public
+ 
+£tNext
+(
+Node
+<
+T
+> 
+Ãxt
+) {
+
+25 
+	gthis
+.
+	gÃxt
+ = 
+Ãxt
+;
+
+28 @
+Ov”ride
+
+
+29 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+30  
+	gd©a
+ + "-->" + (
+	gÃxt
+ =ğ
+nuÎ
+ ? "nuÎ" : 
+Ãxt
+.
+toSŒšg
+());
+
+	@linkedList/src/com/company/linkedlist/singly/a/intro/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	ga
+.
+	gšŒo
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+5 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+Node
+<
+IÁeg”
+> 
+štNode1
+ = 
+Ãw
+ Node<>(10);
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štNode1
+);
+
+10 
+Node
+<
+IÁeg”
+> 
+štNode2
+ = 
+Ãw
+ Node<>(20);
+
+11 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štNode1
+);
+
+12 
+štNode1
+.
+	`£tNext
+(
+štNode2
+);
+
+13 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štNode2
+);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀTwØIÁeg” LškedLi¡: " + 
+štNode1
+);
+
+16 
+Node
+<
+SŒšg
+> 
+¡rNode1
+ = 
+Ãw
+ Node<>("Java");
+
+17 
+Node
+<
+SŒšg
+> 
+¡rNode2
+ = 
+Ãw
+ Node<>("C++");
+
+18 
+¡rNode1
+.
+	`£tNext
+(
+¡rNode2
+);
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+¡rNode2
+);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀTwØSŒšg LškedLi¡: " + 
+¡rNode1
+);
+
+23 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/b/head/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gb
+.
+	gh—d
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+5 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+6 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+8 
+public
+ 
+LškedLi¡
+() {
+
+11 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+12 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+13 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+14 
+node
+.
+£tNext
+(
+h—d
+);
+
+16 
+	gh—d
+ = 
+node
+;
+
+19 
+public
+ 
+g‘NodeCouÁ
+() {
+
+20 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+23 
+	gcouÁ
+ = 1;
+
+24 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+25 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+26 
+couÁ
+++;
+
+27 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+29  
+	gcouÁ
+;
+
+32 @
+Ov”ride
+
+
+33 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+35 "h—d=" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/b/head/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gb
+.
+	gh—d
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+LškedLi¡
+<
+IÁeg”
+> 
+štLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+6 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(12);
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štLškedLi¡
+);
+
+8 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(13);
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡ 2‚odes: " + 
+štLškedLi¡
+ + " couÁ: " + iÁLškedLi¡.
+	`g‘NodeCouÁ
+());
+
+10 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(10);
+
+11 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(20);
+
+12 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(30);
+
+13 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡ 5‚odes: " + 
+štLškedLi¡
+ + " couÁ:" + iÁLškedLi¡.
+	`g‘NodeCouÁ
+() );
+
+15 
+LškedLi¡
+<
+SŒšg
+> 
+¡rLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+16 
+¡rLškedLi¡
+.
+	`š£¹AtH—d
+("Java");
+
+17 
+¡rLškedLi¡
+.
+	`š£¹AtH—d
+("C++");
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀSŒšg LškedLi¡ 2‚odes: " + 
+¡rLškedLi¡
+);
+
+21 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/c/tail/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gc
+.
+	g
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+5 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+6 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+8 
+public
+ 
+LškedLi¡
+() {
+
+11 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+12 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+13 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+14 
+node
+.
+£tNext
+(
+h—d
+);
+
+16 
+	gh—d
+ = 
+node
+;
+
+19 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+){
+
+20 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+21 ià(
+	gh—d
+ =ğ
+nuÎ
+){
+
+22 
+h—d
+ = 
+node
+;
+
+24 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+25 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+){
+
+26 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+28 
+	gcu¼
+ .
+£tNext
+(
+node
+);
+
+33 
+public
+ 
+g‘NodeCouÁ
+() {
+
+34 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+37 
+	gcouÁ
+ = 1;
+
+38 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+39 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+40 
+couÁ
+++;
+
+41 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+43  
+	gcouÁ
+;
+
+46 @
+Ov”ride
+
+
+47 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+49 "h—d=" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/c/tail/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gc
+.
+	g
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+LškedLi¡
+<
+IÁeg”
+> 
+štLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+6 
+štLškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+7 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štLškedLi¡
+);
+
+8 
+štLškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+9 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡ 2‚odes: " + 
+štLškedLi¡
+ + " couÁ: " + iÁLškedLi¡.
+	`g‘NodeCouÁ
+());
+
+10 
+štLškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+11 
+štLškedLi¡
+.
+	`š£¹AtTa
+(20);
+
+12 
+štLškedLi¡
+.
+	`š£¹AtTa
+(30);
+
+13 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡ 5‚odes: " + 
+štLškedLi¡
+ + " couÁ:" + iÁLškedLi¡.
+	`g‘NodeCouÁ
+() );
+
+15 
+LškedLi¡
+<
+SŒšg
+> 
+¡rLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+16 
+¡rLškedLi¡
+.
+	`š£¹AtTa
+("Java");
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀSŒšg LškedLi¡ 1‚ode: " + 
+¡rLškedLi¡
+);
+
+18 
+¡rLškedLi¡
+.
+	`š£¹AtTa
+("C++");
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀSŒšg LškedLi¡ 2‚odes: " + 
+¡rLškedLi¡
+);
+
+22 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/c/tail/MainTestTime.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gc
+.
+	g
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gDu¿tiÚ
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gtime
+.
+	gIn¡ªt
+;
+
+6 
+public
+ cÏs 
+	cMašTe¡Time
+ {
+
+7 
+´iv©e
+ 
+š£¹100000EËm’tAtH—d
+(
+LškedLi¡
+<
+IÁeg”
+> 
+li¡
+){
+
+8 
+	mi
+ = 0; i < 100000; i++){
+
+9 
+	mli¡
+.
+š£¹AtH—d
+(
+i
+);
+
+12 
+´iv©e
+ 
+š£¹100000EËm’tAtTa
+(
+LškedLi¡
+<
+IÁeg”
+> 
+li¡
+){
+
+13 
+	gi
+ = 0; i < 100000; i++){
+
+14 
+	gli¡
+.
+š£¹AtTa
+(
+i
+);
+
+17 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+19 
+LškedLi¡
+<
+IÁeg”
+> 
+li¡sH—d
+ = 
+Ãw
+ LinkedList<>();
+
+20 
+In¡ªt
+ 
+¡¬t
+ = In¡ªt.
+	`now
+();
+
+21 
+	`š£¹100000EËm’tAtH—d
+(
+li¡sH—d
+);
+
+22 
+In¡ªt
+ 
+’d
+ = In¡ªt.
+	`now
+();
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+(" Add 100000 EËm’t tØH—d: " + 
+Du¿tiÚ
+.
+	`b‘w“n
+(
+¡¬t
+, 
+’d
+));
+
+26 
+LškedLi¡
+<
+IÁeg”
+> 
+li¡sTa
+ = 
+Ãw
+ LinkedList<>();
+
+27 
+¡¬t
+ = 
+In¡ªt
+.
+	`now
+();
+
+28 
+	`š£¹100000EËm’tAtTa
+(
+li¡sTa
+);
+
+29 
+’d
+ = 
+In¡ªt
+.
+	`now
+();
+
+31 
+Sy¡em
+.
+out
+.
+	`´šn
+(" Add 100000 EËm’t tØTa: " + 
+Du¿tiÚ
+.
+	`b‘w“n
+(
+¡¬t
+, 
+’d
+));
+
+33 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/d/index/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gd
+.
+	gšdex
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+6 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+7 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+9 
+public
+ 
+LškedLi¡
+() {
+
+12 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+13 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+14 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+15 
+node
+.
+£tNext
+(
+h—d
+);
+
+17 
+	gh—d
+ = 
+node
+;
+
+20 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+) {
+
+21 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+22 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+23 
+h—d
+ = 
+node
+;
+
+25 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+26 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+) {
+
+27 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+29 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+34 
+public
+ 
+š£¹
+(
+T
+ 
+d©a
+, 
+i
+) {
+
+36 ià(
+	gh—d
+ =ğ
+nuÎ
+ || 
+i
+ <= 0) {
+
+37 
+š£¹AtH—d
+(
+d©a
+);
+
+40 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+41 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+42 
+	gcurIdx
+ = 1;
+
+43 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+ && 
+curIdx
+ < 
+i
+) {
+
+44 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+45 
+	gcurIdx
+++;
+
+47 
+	gnode
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+48 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+52 
+public
+ 
+g‘NodeCouÁ
+() {
+
+53 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+56 
+	gcouÁ
+ = 1;
+
+57 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+58 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+59 
+couÁ
+++;
+
+60 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+62  
+	gcouÁ
+;
+
+65 @
+Ov”ride
+
+
+66 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+68 "h—d=" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/d/index/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gd
+.
+	gšdex
+;
+
+4 
+public
+ cÏs 
+	cMaš
+ {
+
+5 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+LškedLi¡
+<
+IÁeg”
+> 
+štLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+7 
+štLškedLi¡
+.
+	`š£¹
+(0, 0);
+
+8 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štLškedLi¡
+);
+
+9 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(1);
+
+10 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+štLškedLi¡
+);
+
+11 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(2);
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡‚odes: " + 
+štLškedLi¡
+ + " couÁ: " + iÁLškedLi¡.
+	`g‘NodeCouÁ
+());
+
+13 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(3);
+
+14 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(4);
+
+15 
+štLškedLi¡
+.
+	`š£¹AtH—d
+(5);
+
+16 
+štLškedLi¡
+.
+	`š£¹
+(99, 5);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀIÁeg” LškedLi¡‚odes: " + 
+štLškedLi¡
+ + " couÁ:" + iÁLškedLi¡.
+	`g‘NodeCouÁ
+() );
+
+19 
+LškedLi¡
+<
+SŒšg
+> 
+¡rLškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+20 
+¡rLškedLi¡
+.
+	`š£¹AtH—d
+("Java");
+
+21 
+¡rLškedLi¡
+.
+	`š£¹AtH—d
+("C++");
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\ÀSŒšg LškedLi¡ 2‚odes: " + 
+¡rLškedLi¡
+);
+
+25 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/e/pop/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	ge
+.
+	gpİ
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+6 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+7 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+9 
+public
+ 
+LškedLi¡
+() {
+
+12 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+13 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+14 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+15 
+node
+.
+£tNext
+(
+h—d
+);
+
+17 
+	gh—d
+ = 
+node
+;
+
+20 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+) {
+
+21 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+22 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+23 
+h—d
+ = 
+node
+;
+
+25 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+26 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+) {
+
+27 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+29 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+34 
+public
+ 
+š£¹
+(
+T
+ 
+d©a
+, 
+i
+) {
+
+36 ià(
+	gh—d
+ =ğ
+nuÎ
+ || 
+i
+ <= 0) {
+
+37 
+š£¹AtH—d
+(
+d©a
+);
+
+40 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+41 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+42 
+	gcurIdx
+ = 1;
+
+43 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+ && 
+curIdx
+ < 
+i
+) {
+
+44 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+45 
+	gcurIdx
+++;
+
+47 
+	gnode
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+48 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+52 
+public
+ 
+T
+ 
+pİ
+(){
+
+53 ià(
+	gh—d
+ =ğ
+nuÎ
+){
+
+54  
+nuÎ
+;
+
+56 
+	gNode
+<
+	gT
+> 
+	gfœ¡
+ = 
+h—d
+.
+g‘Next
+();
+
+57 
+	gh—d
+ = 
+h—d
+.
+g‘Next
+();
+
+58  
+	gfœ¡
+.
+g‘D©a
+();
+
+61 
+public
+ 
+g‘NodeCouÁ
+() {
+
+62 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+65 
+	gcouÁ
+ = 1;
+
+66 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+67 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+68 
+couÁ
+++;
+
+69 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+71  
+	gcouÁ
+;
+
+74 
+public
+ 
+boŞ—n
+ 
+cÚš
+(
+T
+ 
+d©a
+){
+
+75 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+76 
+	gcu¼
+ !ğ
+nuÎ
+){
+
+77 ià(
+d©a
+.
+equ®s
+(
+cu¼
+.
+g‘D©a
+())){
+
+78  
+Œue
+;
+
+80 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+82  
+	gçl£
+;
+
+85 @
+Ov”ride
+
+
+86 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+88 "h—dğ" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/e/pop/MainContainsTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	ge
+.
+	gpİ
+;
+
+3 
+public
+ cÏs 
+	cMašCÚšsTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+LškedLi¡
+<
+IÁeg”
+> 
+lškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+7 
+lškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+8 
+lškedLi¡
+.
+	`š£¹AtTa
+(11);
+
+9 
+lškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+10 
+lškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+11 
+lškedLi¡
+.
+	`š£¹AtTa
+(14);
+
+12 
+lškedLi¡
+.
+	`š£¹AtTa
+(15);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ cÚš 12 " + 
+lškedLi¡
+.
+	`cÚš
+(12));
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ cÚš 10 " + 
+lškedLi¡
+.
+	`cÚš
+(10));
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ cÚš 15 " + 
+lškedLi¡
+.
+	`cÚš
+(15));
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLi¡ cÚš 16 " + 
+lškedLi¡
+.
+	`cÚš
+(16));
+
+22 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/e/pop/MainPopTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	ge
+.
+	gpİ
+;
+
+3 
+public
+ cÏs 
+	cMašPİTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+LškedLi¡
+<
+IÁeg”
+> 
+lškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+7 
+lškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+8 
+lškedLi¡
+.
+	`š£¹AtTa
+(11);
+
+9 
+lškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+10 
+lškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+11 
+lškedLi¡
+.
+	`š£¹AtTa
+(14);
+
+12 
+lškedLi¡
+.
+	`š£¹AtTa
+(15);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+();
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`pİ
+());
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+();
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`pİ
+());
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`pİ
+());
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+26 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/f/delete/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gf
+.
+	gd–‘e
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+6 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+	gT
+> {
+
+7 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+9 
+public
+ 
+LškedLi¡
+() {
+
+12 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+13 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+14 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+15 
+node
+.
+£tNext
+(
+h—d
+);
+
+17 
+	gh—d
+ = 
+node
+;
+
+20 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+) {
+
+21 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+22 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+23 
+h—d
+ = 
+node
+;
+
+25 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+26 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+) {
+
+27 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+29 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+34 
+public
+ 
+š£¹
+(
+T
+ 
+d©a
+, 
+i
+) {
+
+36 ià(
+	gh—d
+ =ğ
+nuÎ
+ || 
+i
+ <= 0) {
+
+37 
+š£¹AtH—d
+(
+d©a
+);
+
+40 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+41 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+42 
+	gcurIdx
+ = 1;
+
+43 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+ && 
+curIdx
+ < 
+i
+) {
+
+44 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+45 
+	gcurIdx
+++;
+
+47 
+	gnode
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+48 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+52 
+public
+ 
+T
+ 
+pİ
+() {
+
+53 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+54  
+nuÎ
+;
+
+56 
+	gNode
+<
+	gT
+> 
+	gfœ¡
+ = 
+h—d
+.
+g‘Next
+();
+
+57 
+	gh—d
+ = 
+h—d
+.
+g‘Next
+();
+
+58  
+	gfœ¡
+.
+g‘D©a
+();
+
+61 
+public
+ 
+g‘NodeCouÁ
+() {
+
+62 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+65 
+	gcouÁ
+ = 1;
+
+66 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+67 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+68 
+couÁ
+++;
+
+69 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+71  
+	gcouÁ
+;
+
+74 
+public
+ 
+boŞ—n
+ 
+cÚš
+(
+T
+ 
+d©a
+) {
+
+75 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+76 
+	gcu¼
+ !ğ
+nuÎ
+) {
+
+77 ià(
+d©a
+.
+equ®s
+(
+cu¼
+.
+g‘D©a
+())) {
+
+78  
+Œue
+;
+
+80 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+82  
+	gçl£
+;
+
+85 
+public
+ 
+d–‘e
+(
+T
+ 
+d©a
+) {
+
+86 
+	gNode
+<
+	gT
+> 
+	g´ev
+ = 
+nuÎ
+;
+
+87 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+89 
+	gcu¼
+ !ğ
+nuÎ
+) {
+
+90 ià(
+d©a
+.
+equ®s
+(
+cu¼
+.
+g‘D©a
+())) {
+
+91 ià(
+´ev
+ =ğ
+nuÎ
+) {
+
+92 
+h—d
+ = 
+cu¼
+.
+g‘Next
+();
+
+95 
+	g´ev
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+99 
+	g´ev
+ = 
+cu¼
+;
+
+100 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+104 @
+Ov”ride
+
+
+105 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+107 "h—dğ" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/f/delete/MainDeleteTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gf
+.
+	gd–‘e
+;
+
+3 
+public
+ cÏs 
+	cMašD–‘eTe¡
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+5 
+LškedLi¡
+<
+IÁeg”
+> 
+lškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+7 
+lškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+8 
+lškedLi¡
+.
+	`š£¹AtTa
+(11);
+
+9 
+lškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+10 
+lškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+11 
+lškedLi¡
+.
+	`š£¹AtTa
+(14);
+
+12 
+lškedLi¡
+.
+	`š£¹AtTa
+(15);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+16 
+lškedLi¡
+.
+	`d–‘e
+(12);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+19 
+lškedLi¡
+.
+	`d–‘e
+(10);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+22 
+lškedLi¡
+.
+	`d–‘e
+(15);
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+25 
+lškedLi¡
+.
+	`d–‘e
+(16);
+
+26 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+29 
+	}
+}
+
+	@linkedList/src/com/company/linkedlist/singly/g/lessthan/LinkedList.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gg
+.
+	gËs¡hª
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gNode
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+9 
+public
+ 
+şass
+ 
+	gLškedLi¡
+<
+T
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gT
+>> {
+
+10 
+´iv©e
+ 
+	gNode
+<
+	gT
+> 
+	gh—d
+;
+
+12 
+public
+ 
+LškedLi¡
+() {
+
+15 
+public
+ 
+š£¹AtH—d
+(
+T
+ 
+d©a
+) {
+
+16 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+17 ià(
+	gh—d
+ !ğ
+nuÎ
+) {
+
+18 
+node
+.
+£tNext
+(
+h—d
+);
+
+20 
+	gh—d
+ = 
+node
+;
+
+23 
+public
+ 
+š£¹AtTa
+(
+T
+ 
+d©a
+) {
+
+24 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+25 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+26 
+h—d
+ = 
+node
+;
+
+28 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+29 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+) {
+
+30 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+32 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+37 
+public
+ 
+š£¹
+(
+T
+ 
+d©a
+, 
+i
+) {
+
+39 ià(
+	gh—d
+ =ğ
+nuÎ
+ || 
+i
+ <= 0) {
+
+40 
+š£¹AtH—d
+(
+d©a
+);
+
+43 
+	gNode
+<
+	gT
+> 
+	gnode
+ = 
+Ãw
+ 
+Node
+<>(
+d©a
+);
+
+44 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+45 
+	gcurIdx
+ = 1;
+
+46 
+	gcu¼
+.
+g‘Next
+(è!ğ
+nuÎ
+ && 
+curIdx
+ < 
+i
+) {
+
+47 
+cu¼
+ = cu¼.
+g‘Next
+();
+
+48 
+	gcurIdx
+++;
+
+50 
+	gnode
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+51 
+	gcu¼
+.
+£tNext
+(
+node
+);
+
+55 
+public
+ 
+T
+ 
+pİ
+() {
+
+56 ià(
+	gh—d
+ =ğ
+nuÎ
+) {
+
+57  
+nuÎ
+;
+
+59 
+	gNode
+<
+	gT
+> 
+	gfœ¡
+ = 
+h—d
+.
+g‘Next
+();
+
+60 
+	gh—d
+ = 
+h—d
+.
+g‘Next
+();
+
+61  
+	gfœ¡
+.
+g‘D©a
+();
+
+64 
+public
+ 
+g‘NodeCouÁ
+() {
+
+65 ià(
+	gh—d
+ =ğ
+nuÎ
+)
+
+68 
+	gcouÁ
+ = 1;
+
+69 
+	gNode
+<
+	gT
+> 
+	gÃxt
+ = 
+h—d
+.
+g‘Next
+();
+
+70 
+	gÃxt
+ !ğ
+nuÎ
+) {
+
+71 
+couÁ
+++;
+
+72 
+	gÃxt
+ = 
+Ãxt
+.
+g‘Next
+();
+
+74  
+	gcouÁ
+;
+
+77 
+public
+ 
+boŞ—n
+ 
+cÚš
+(
+T
+ 
+d©a
+) {
+
+78 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+79 
+	gcu¼
+ !ğ
+nuÎ
+) {
+
+80 ià(
+d©a
+.
+equ®s
+(
+cu¼
+.
+g‘D©a
+())) {
+
+81  
+Œue
+;
+
+83 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+85  
+	gçl£
+;
+
+88 
+public
+ 
+d–‘e
+(
+T
+ 
+d©a
+) {
+
+89 
+	gNode
+<
+	gT
+> 
+	g´ev
+ = 
+nuÎ
+;
+
+90 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+92 
+	gcu¼
+ !ğ
+nuÎ
+) {
+
+93 ià(
+d©a
+.
+equ®s
+(
+cu¼
+.
+g‘D©a
+())) {
+
+94 ià(
+´ev
+ =ğ
+nuÎ
+) {
+
+95 
+h—d
+ = 
+cu¼
+.
+g‘Next
+();
+
+98 
+	g´ev
+.
+£tNext
+(
+cu¼
+.
+g‘Next
+());
+
+102 
+	g´ev
+ = 
+cu¼
+;
+
+103 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+107 
+public
+ 
+	gLi¡
+<
+	gT
+> 
+fšdAÎLessThª
+(
+T
+ 
+d©a
+) {
+
+108 
+	gNode
+<
+	gT
+> 
+	gcu¼
+ = 
+h—d
+;
+
+109 
+	gLi¡
+<
+	gT
+> 
+	gli¡
+ = 
+Ãw
+ 
+A¼ayLi¡
+<>();
+
+110 
+	gcu¼
+ !ğ
+nuÎ
+) {
+
+111 ià(
+cu¼
+.
+g‘D©a
+().
+com·»To
+(
+d©a
+) < 0) {
+
+112 
+li¡
+.
+add
+(
+cu¼
+.
+g‘D©a
+());
+
+114 
+	gcu¼
+ = 
+cu¼
+.
+g‘Next
+();
+
+116  
+	gli¡
+;
+
+119 @
+Ov”ride
+
+
+120 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+122 "h—dğ" + 
+	gh—d
+ +
+
+	@linkedList/src/com/company/linkedlist/singly/g/lessthan/MainFindAllLessThanTest.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	glškedli¡
+.
+	gsšgly
+.
+	gg
+.
+	gËs¡hª
+;
+
+4 
+public
+ cÏs 
+	cMašFšdAÎLessThªTe¡
+ {
+
+5 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+LškedLi¡
+<
+IÁeg”
+> 
+lškedLi¡
+ = 
+Ãw
+ LinkedList<>();
+
+8 
+lškedLi¡
+.
+	`š£¹AtTa
+(10);
+
+9 
+lškedLi¡
+.
+	`š£¹AtTa
+(11);
+
+10 
+lškedLi¡
+.
+	`š£¹AtTa
+(12);
+
+11 
+lškedLi¡
+.
+	`š£¹AtTa
+(13);
+
+12 
+lškedLi¡
+.
+	`š£¹AtTa
+(14);
+
+13 
+lškedLi¡
+.
+	`š£¹AtTa
+(15);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`fšdAÎLessThª
+(12));
+
+19 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`fšdAÎLessThª
+(10));
+
+21 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`fšdAÎLessThª
+(15));
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+lškedLi¡
+.
+	`fšdAÎLessThª
+(16));
+
+26 
+	}
+}
+
+	@stack/src/com/sample/stack/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	g§m¶e
+.
+	g¡ack
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+5 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+8 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/a/comparable/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	ga
+.
+	gcom·¿bË
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ays
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚ
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gCŞËùiÚs
+;
+
+7 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+9 
+public
+ cÏs 
+	cMaš
+ {
+
+11 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+13 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+jul›
+ = 
+Ãw
+ Pair<>(
+
+14 "Jul›", 
+BigIÁeg”
+.
+	`v®ueOf
+(100000));
+
+15 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+g»gÜy
+ = 
+Ãw
+ Pair<>(
+
+16 "G»gÜy", 
+BigIÁeg”
+.
+	`v®ueOf
+(100000));
+
+17 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+nÜa
+ = 
+Ãw
+ Pair<>(
+
+18 "NÜa", 
+BigIÁeg”
+.
+	`v®ueOf
+(5000000));
+
+19 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+yves
+ = 
+Ãw
+ Pair<>(
+
+20 "Yves", 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000));
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLarger of gregory‡nd‚ora: " +
+
+23 
+Ut™›s
+.
+	`»tuºL¬g”
+(
+g»gÜy
+,
+nÜa
+));
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLarger of‚ora‡nd yves: " +
+
+26 
+Ut™›s
+.
+	`»tuºL¬g”
+(
+nÜa
+, 
+yves
+));
+
+28 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nLarger of gregory‡nd julie: " +
+
+29 
+Ut™›s
+.
+	`»tuºL¬g”
+(
+g»gÜy
+,
+jul›
+));
+
+31 
+Li¡
+<
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+>> 
+·œLi¡
+ = 
+A¼ays
+.
+	`asLi¡
+(
+jul›
+, 
+g»gÜy
+, 
+nÜa
+, 
+yves
+);
+
+32 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nOrigš®†i¡: " + 
+·œLi¡
+);
+
+34 
+CŞËùiÚs
+.
+	`sÜt
+(
+·œLi¡
+);
+
+36 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nsÜ‹d†i¡: " + 
+·œLi¡
+);
+
+38 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/a/comparable/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	ga
+.
+	gcom·¿bË
+;
+
+3 
+public
+ 
+şass
+ 
+	gPaœ
+<
+K
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gK
+>, 
+V
+ƒx‹nd Com·¿bË<
+	gV
+>>
+
+4 
+im¶em’ts
+ 
+	gCom·¿bË
+<
+	gPaœ
+<
+	gK
+, 
+	gV
+>> {
+
+6 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+7 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+9 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+10 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+11 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+14 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+15  
+	gkey
+;
+
+18 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+19 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+22 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+23  
+	gv®ue
+;
+
+26 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+27 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+30 @
+Ov”ride
+
+
+31 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+33 "key=" + 
+	gkey
+ +
+
+34 ", v®ue=" + 
+	gv®ue
+ +
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+com·»To
+(
+Paœ
+<
+K
+, 
+V
+> 
+o
+) {
+
+40 
+	gcom·»To
+ = 
+this
+.
+v®ue
+.
+com·»To
+(
+o
+.value);
+
+42 ià(
+	gcom·»To
+ == 0){
+
+43  
+this
+.
+key
+.
+com·»To
+(
+o
+.key);
+
+45  
+	gcom·»To
+;
+
+	@wildcard/src/com/company/wildcard/a/comparable/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	ga
+.
+	gcom·¿bË
+;
+
+3 
+public
+ cÏs 
+	cUt™›s
+ {
+
+5 
+public
+ <
+K
+ 
+ex‹nds
+ 
+	mCom·¿bË
+<
+	mK
+>, 
+V
+ƒx‹nd Com·¿bË<
+	mV
+>> 
+	mPaœ
+<K, V>
+
+6 
+»tuºL¬g”
+(
+Paœ
+<
+K
+, 
+V
+> 
+·œ1
+, Paœ<K, V> 
+·œ2
+){
+
+8 ià(
+	m·œ1
+.
+com·»To
+(
+·œ2
+) > 0){
+
+9  
+	m·œ1
+;
+
+10 } ià(
+	m·œ1
+.
+com·»To
+(
+·œ2
+) < 0){
+
+11  
+	m·œ2
+;
+
+15  
+	m·œ1
+;
+
+	@wildcard/src/com/company/wildcard/b/serializable/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gb
+.
+	g£rŸlizabË
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gIOExû±iÚ
+;
+
+5 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigIÁeg”
+;
+
+7 
+public
+ cÏs 
+	cMaš
+ {
+
+8 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+è
+throws
+ 
+IOExû±iÚ
+ {
+
+10 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+jul›
+ = 
+Ãw
+ Pair<>(
+
+11 "Jul›", 
+BigIÁeg”
+.
+	`v®ueOf
+(100000));
+
+12 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+g»gÜy
+ = 
+Ãw
+ Pair<>(
+
+13 "G»gÜy", 
+BigIÁeg”
+.
+	`v®ueOf
+(100000));
+
+14 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+nÜa
+ = 
+Ãw
+ Pair<>(
+
+15 "NÜa", 
+BigIÁeg”
+.
+	`v®ueOf
+(5000000));
+
+16 
+Paœ
+<
+SŒšg
+, 
+BigIÁeg”
+> 
+yves
+ = 
+Ãw
+ Pair<>(
+
+17 "Yves", 
+BigIÁeg”
+.
+	`v®ueOf
+(1000000));
+
+19 
+Ut™›s
+.
+	`§veL¬g”
+(
+nÜa
+, 
+yves
+);
+
+20 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+Ut™›s
+.
+	`»adL¬g”
+());
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+();
+
+24 
+Ut™›s
+.
+	`§veL¬g”
+(
+jul›
+, 
+g»gÜy
+);
+
+25 
+Sy¡em
+.
+out
+.
+	`´šn
+(
+Ut™›s
+.
+	`»adL¬g”
+());
+
+27 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/b/serializable/Pair.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gb
+.
+	g£rŸlizabË
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gS”ŸlizabË
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gÃt
+.
+	gIDN
+;
+
+6 
+public
+ 
+şass
+ 
+	gPaœ
+<
+K
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gK
+> & 
+	gS”ŸlizabË
+,
+
+7 
+V
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gV
+> & 
+	gS”ŸlizabË
+>
+
+8 
+im¶em’ts
+ 
+	gCom·¿bË
+<
+	gPaœ
+<
+	gK
+, 
+	gV
+>>, 
+	gS”ŸlizabË
+ {
+
+12 
+´iv©e
+ 
+fš®
+ 
+	g£rŸlV”siÚUID
+ = 1L;
+
+14 
+´iv©e
+ 
+K
+ 
+	gkey
+;
+
+15 
+´iv©e
+ 
+V
+ 
+	gv®ue
+;
+
+17 
+public
+ 
+Paœ
+(
+K
+ 
+key
+, 
+V
+ 
+v®ue
+) {
+
+18 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+19 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+22 
+public
+ 
+K
+ 
+g‘Key
+() {
+
+23  
+	gkey
+;
+
+26 
+public
+ 
+£tKey
+(
+K
+ 
+key
+) {
+
+27 
+	gthis
+.
+	gkey
+ = 
+key
+;
+
+30 
+public
+ 
+V
+ 
+g‘V®ue
+() {
+
+31  
+	gv®ue
+;
+
+34 
+public
+ 
+£tV®ue
+(
+V
+ 
+v®ue
+) {
+
+35 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+41 "key=" + 
+	gkey
+ +
+
+42 ", v®ue=" + 
+	gv®ue
+ +
+
+46 @
+Ov”ride
+
+
+47 
+public
+ 
+com·»To
+(
+Paœ
+<
+K
+, 
+V
+> 
+o
+) {
+
+48 
+	gcom·»To
+ = 
+this
+.
+v®ue
+.
+com·»To
+(
+o
+.value);
+
+50 ià(
+	gcom·»To
+ == 0){
+
+51  
+this
+.
+key
+.
+com·»To
+(
+o
+.key);
+
+53  
+	gcom·»To
+;
+
+	@wildcard/src/com/company/wildcard/b/serializable/Utilities.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gb
+.
+	g£rŸlizabË
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gio
+.*;
+
+5 
+public
+ cÏs 
+	cUt™›s
+ {
+
+7 
+public
+ <
+K
+ 
+ex‹nds
+ 
+	mCom·¿bË
+<
+	mK
+> & 
+	mS”ŸlizabË
+,
+
+8 
+V
+ 
+ex‹nds
+ 
+	mCom·¿bË
+<
+	mV
+> & 
+	mS”ŸlizabË
+>
+
+9 
+§veL¬g”
+(
+Paœ
+<
+K
+, 
+V
+> 
+·œ1
+, Paœ<K, V> 
+·œ2
+è
+throws
+ 
+	mIOExû±iÚ
+ {
+
+11 
+	mPaœ
+<
+	mK
+, 
+	mV
+> 
+	mÏrg”
+ = 
+nuÎ
+;
+
+12 ià(
+	m·œ1
+.
+com·»To
+(
+·œ2
+) > 0) {
+
+13 
+	mÏrg”
+ = 
+·œ1
+;
+
+15 
+	mÏrg”
+ = 
+·œ2
+;
+
+18 
+SŒšg
+ 
+	mfeName
+ = "src\\larger_pair.txt";
+
+20 
+Œy
+ (
+ObjeùOuutSŒ—m
+ 
+objOut
+ = 
+Ãw
+ ObjectOutputStream(
+
+21 
+Ãw
+ 
+Bufã»dOuutSŒ—m
+Òew 
+FeOuutSŒ—m
+(
+feName
+)))) {
+
+22 
+objOut
+.
+wr™eObjeù
+(
+Ïrg”
+);
+
+24 } 
+	mfš®ly
+ {
+
+25 
+	mSy¡em
+.
+	mout
+.
+´šn
+("Completed writingo†arger_pair.txt");
+
+30 
+public
+ <
+K
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gK
+> & 
+	gS”ŸlizabË
+,
+
+31 
+V
+ 
+ex‹nds
+ 
+	gCom·¿bË
+<
+	gV
+> & 
+	gS”ŸlizabË
+>
+
+32 
+	gPaœ
+<
+	gK
+, 
+	gV
+> 
+	$»adL¬g”
+(è
+throws
+ 
+IOExû±iÚ
+ {
+
+34 
+SŒšg
+ 
+feName
+ = "src\\larger_pair.txt";
+
+36 
+	`Œy
+ (
+ObjeùIÅutSŒ—m
+ 
+objIn
+ = 
+Ãw
+ 
+	`ObjeùIÅutSŒ—m
+(
+
+37 
+Ãw
+ 
+	`Bufã»dIÅutSŒ—m
+Òew 
+	`FeIÅutSŒ—m
+(
+feName
+)))) {
+
+39 @
+	`Suµ»ssW¬nšgs
+("unchecked")
+
+40 
+Paœ
+<
+K
+, 
+V
+> 
+Ïrg”
+ = (Paœ<K, V>è
+objIn
+.
+	`»adObjeù
+();
+
+42  
+Ïrg”
+;
+
+44 } 
+	`ÿtch
+ (
+CÏssNÙFoundExû±iÚ
+ 
+e
+) {
+
+46 
+Sy¡em
+.
+out
+.
+	`´šn
+("Throw whenhe class„ead in using„eadObject is‚ot found");
+
+47 } 
+fš®ly
+ {
+
+48 
+Sy¡em
+.
+out
+.
+	`´šn
+("Completed„eading from†arge_pair.txt");
+
+51  
+nuÎ
+;
+
+52 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/a/Box.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+;
+
+3 
+public
+ cÏs 
+	cBox
+ 
+ex‹nds
+ 
+	mCÚš”
+ {
+
+5 
+public
+ 
+	$Box
+(
+Objeù
+ 
+v®ue
+) {
+
+6 
+	`su³r
+(
+v®ue
+);
+
+9 @
+Ov”ride
+
+
+10 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+11  "Box{} cÚš: " + 
+	`g‘V®ue
+();
+
+12 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/a/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+;
+
+3 
+public
+ cÏs 
+	cCÚš”
+ {
+
+5 
+´iv©e
+ 
+Objeù
+ 
+	mv®ue
+;
+
+7 
+public
+ 
+	$CÚš”
+(
+Objeù
+ 
+v®ue
+) {
+
+8 
+this
+.
+v®ue
+ = value;
+
+11 
+public
+ 
+Objeù
+ 
+	$g‘V®ue
+() {
+
+12  
+v®ue
+;
+
+13 
+	}
+}
+
+15 @
+Ov”ride
+
+
+16 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+18 "v®ue=" + 
+v®ue
+ +
+
+20 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/a/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+;
+
+3 
+public
+ cÏs 
+	cMaš
+ {
+
+4 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+6 
+Box
+ 
+box
+ = 
+Ãw
+ 
+	`Box
+(10);
+
+8 
+CÚš”
+ 
+cÚš”
+ = 
+Ãw
+ 
+	`Box
+(100);
+
+10 
+Objeù
+ 
+objeù
+ = 
+Ãw
+ 
+	`Box
+(1000);
+
+12 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Box: " + 
+box
+);
+
+13 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨CÚš”: " + 
+cÚš”
+);
+
+14 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Objeù: " + 
+objeù
+);
+
+16 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/b/Box.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gb
+;
+
+3 
+public
+ cÏs 
+	cBox
+ 
+ex‹nds
+ 
+	mCÚš”
+{
+
+4 
+public
+ 
+	$Box
+(
+Objeù
+ 
+v®ue
+) {
+
+5 
+	`su³r
+(
+v®ue
+);
+
+8 @
+Ov”ride
+
+
+9 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+10  "Box{} cÚš: " + 
+	`g‘V®ue
+();
+
+11 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/b/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gb
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gv®ue
+;
+
+6 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+7 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+10 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+11  
+	gv®ue
+;
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+17 "v®ue=" + 
+	gv®ue
+ +
+
+	@wildcard/src/com/company/wildcard/c/inherited/b/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gb
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gBox
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gCÚš”
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+com
+.
+com·ny
+.
+wdÿrd
+.
+c
+.
+šh”™ed
+.
+a
+.
+Box
+ 
+box
+ = 
+Ãw
+ com.com·ny.wdÿrd.c.šh”™ed.a.
+	`Box
+(10);
+
+11 
+CÚš”
+ 
+cÚš”
+ = 
+Ãw
+ 
+com
+.
+com·ny
+.
+wdÿrd
+.
+c
+.
+šh”™ed
+.
+a
+.
+	`Box
+(100);
+
+13 
+Objeù
+ 
+objeù
+ = 
+Ãw
+ 
+	`Box
+(1000);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Box: " + 
+box
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨CÚš”: " + 
+cÚš”
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Objeù: " + 
+objeù
+);
+
+19 
+Objeù
+ 
+boxV®ue
+ = 
+box
+.
+	`g‘V®ue
+();
+
+20 
+Objeù
+ 
+cÚš”V®ue
+ = 
+cÚš”
+.
+	`g‘V®ue
+();
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nBox v®ue: " + 
+boxV®ue
+);
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCÚš” v®ue: " + 
+cÚš”V®ue
+);
+
+25 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/c/Box.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.c;
+
+3 
+public
+ 
+şass
+ 
+Box
+ 
+ex‹nds
+ 
+	gCÚš”
+<
+	gObjeù
+> {
+
+4 
+public
+ 
+Box
+(
+Objeù
+ 
+v®ue
+) {
+
+5 
+su³r
+(
+v®ue
+);
+
+8 @
+Ov”ride
+
+
+9 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+10  "Box{} cÚš: " + 
+g‘V®ue
+();
+
+	@wildcard/src/com/company/wildcard/c/inherited/c/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.c;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gv®ue
+;
+
+6 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+7 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+10 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+11  
+	gv®ue
+;
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+17 "v®ue=" + 
+	gv®ue
+ +
+
+	@wildcard/src/com/company/wildcard/c/inherited/c/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.c;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gBox
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gCÚš”
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+9 
+Box
+ 
+box
+ = 
+Ãw
+ 
+	`Box
+(10);
+
+11 
+CÚš”
+ 
+cÚš”
+ = 
+Ãw
+ 
+	`Box
+(100);
+
+13 
+Objeù
+ 
+objeù
+ = 
+Ãw
+ 
+	`Box
+(1000);
+
+15 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Box: " + 
+box
+);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨CÚš”: " + 
+cÚš”
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Objeù: " + 
+objeù
+);
+
+19 
+Objeù
+ 
+boxV®ue
+ = 
+box
+.
+	`g‘V®ue
+();
+
+20 
+Objeù
+ 
+cÚš”V®ue
+ = 
+cÚš”
+.
+	`g‘V®ue
+();
+
+22 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nBox v®ue: " + 
+boxV®ue
+);
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCÚš” v®ue: " + 
+cÚš”V®ue
+);
+
+25 
+	}
+}
+
+	@wildcard/src/com/company/wildcard/c/inherited/d/Box.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gd
+;
+
+3 
+public
+ 
+şass
+ 
+Box
+ 
+ex‹nds
+ 
+	gCÚš”
+<
+	gIÁeg”
+> {
+
+4 
+public
+ 
+Box
+(
+IÁeg”
+ 
+v®ue
+) {
+
+5 
+su³r
+(
+v®ue
+);
+
+8 @
+Ov”ride
+
+
+9 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+10  "Box{} cÚš: " + 
+g‘V®ue
+();
+
+	@wildcard/src/com/company/wildcard/c/inherited/d/Container.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gd
+;
+
+3 
+public
+ 
+şass
+ 
+	gCÚš”
+<
+	gT
+> {
+
+4 
+´iv©e
+ 
+T
+ 
+	gv®ue
+;
+
+6 
+public
+ 
+CÚš”
+(
+T
+ 
+v®ue
+) {
+
+7 
+	gthis
+.
+	gv®ue
+ = 
+v®ue
+;
+
+10 
+public
+ 
+T
+ 
+g‘V®ue
+() {
+
+11  
+	gv®ue
+;
+
+14 @
+Ov”ride
+
+
+15 
+public
+ 
+SŒšg
+ 
+toSŒšg
+() {
+
+17 "v®ue=" + 
+	gv®ue
+ +
+
+	@wildcard/src/com/company/wildcard/c/inherited/d/Main.java
+
+1 
+·ckage
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	gd
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gBox
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	gcom·ny
+.
+	gwdÿrd
+.
+	gc
+.
+	gšh”™ed
+.
+	ga
+.
+	gCÚš”
+;
+
+6 
+public
+ cÏs 
+	cMaš
+ {
+
+7 
+public
+ 
+	$maš
+(
+SŒšg
+[] 
+¬gs
+) {
+
+10 
+Box
+ 
+box
+ = 
+Ãw
+ 
+	`Box
+(10);
+
+12 
+CÚš”
+ 
+cÚš”
+ = 
+Ãw
+ 
+	`Box
+(100);
+
+14 
+Objeù
+ 
+objeù
+ = 
+Ãw
+ 
+	`Box
+(1000);
+
+16 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Box: " + 
+box
+);
+
+17 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨CÚš”: " + 
+cÚš”
+);
+
+18 
+Sy¡em
+.
+out
+.
+	`´šn
+("Box is-¨Objeù: " + 
+objeù
+);
+
+20 
+Objeù
+ 
+boxV®ue
+ = 
+box
+.
+	`g‘V®ue
+();
+
+21 
+Objeù
+ 
+cÚš”V®ue
+ = 
+cÚš”
+.
+	`g‘V®ue
+();
+
+23 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nBox v®ue: " + 
+boxV®ue
+);
+
+24 
+Sy¡em
+.
+out
+.
+	`´šn
+("\nCÚš” v®ue: " + 
+cÚš”V®ue
+);
+
+26 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+195
+13125
+annotations/src/com/mycompany/a/varargs/a/intro/Calculator.java
+annotations/src/com/mycompany/a/varargs/a/intro/MainFixVaragsTest.java
+annotations/src/com/mycompany/a/varargs/b/second/Calculator.java
+annotations/src/com/mycompany/a/varargs/b/second/MainVarargsTest.java
+annotations/src/com/mycompany/a/varargs/c/three/ListConverter.java
+annotations/src/com/mycompany/a/varargs/c/three/MainSafeVarargsTest.java
+annotations/src/com/mycompany/a/varargs/d/fourth/ListConverter.java
+annotations/src/com/mycompany/a/varargs/d/fourth/MainUnSafevargsTest.java
+annotations/src/com/mycompany/b/functionalinterface/intro/Action.java
+annotations/src/com/mycompany/b/functionalinterface/intro/MainFunctionalInterfaceTest.java
+annotations/src/com/mycompany/b/functionalinterface/intro/MyList.java
+annotations/src/com/mycompany/b/functionalinterface/intro/Transformation.java
+annotations/src/com/mycompany/b/functionalinterface/second/Action.java
+annotations/src/com/mycompany/b/functionalinterface/second/MainFunctionalInterfaceTest.java
+annotations/src/com/mycompany/b/functionalinterface/second/MyList.java
+annotations/src/com/mycompany/b/functionalinterface/second/Transformation.java
+annotations/src/com/mycompany/c/custom/a/intro/MainNotEffectiveRequiredTest.java
+annotations/src/com/mycompany/c/custom/a/intro/Person.java
+annotations/src/com/mycompany/c/custom/a/intro/Required.java
+annotations/src/com/mycompany/c/custom/b/second/MainTargetTypeTest.java
+annotations/src/com/mycompany/c/custom/b/second/Person.java
+annotations/src/com/mycompany/c/custom/b/second/Required.java
+annotations/src/com/mycompany/c/custom/c/third/target/parameter/Person.java
+annotations/src/com/mycompany/c/custom/c/third/target/parameter/Required.java
+annotations/src/com/mycompany/c/custom/d/fourth/target/multiple/elementtype/Person.java
+annotations/src/com/mycompany/c/custom/d/fourth/target/multiple/elementtype/Required.java
+annotations/src/com/mycompany/c/custom/e/fifth/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/e/fifth/Person.java
+annotations/src/com/mycompany/c/custom/e/fifth/Required.java
+annotations/src/com/mycompany/c/custom/f/sixth/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/f/sixth/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/f/sixth/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/f/sixth/Major.java
+annotations/src/com/mycompany/c/custom/f/sixth/Person.java
+annotations/src/com/mycompany/c/custom/g/seventh/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/g/seventh/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/g/seventh/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/g/seventh/Major.java
+annotations/src/com/mycompany/c/custom/g/seventh/Person.java
+annotations/src/com/mycompany/c/custom/h/eighth/a/value/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/a/value/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/a/value/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/h/eighth/a/value/Major.java
+annotations/src/com/mycompany/c/custom/h/eighth/a/value/Person.java
+annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/Major.java
+annotations/src/com/mycompany/c/custom/h/eighth/b/value/unname/Person.java
+annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/Major.java
+annotations/src/com/mycompany/c/custom/h/eighth/c/value/array/Person.java
+annotations/src/com/mycompany/c/custom/i/ninth/ComputerScienceStudent.java
+annotations/src/com/mycompany/c/custom/i/ninth/ElectricalEngineeringStudent.java
+annotations/src/com/mycompany/c/custom/i/ninth/MainRetentionRuntimeTest.java
+annotations/src/com/mycompany/c/custom/i/ninth/Major.java
+annotations/src/com/mycompany/c/custom/i/ninth/Person.java
+annotations/src/com/mycompany/c/custom/j/tenth/Main.java
+annotations/src/com/mycompany/c/custom/j/tenth/Numeric.java
+annotations/src/com/mycompany/c/custom/j/tenth/NumericList.java
+annotations/src/com/mycompany/c/custom/k/eleventh/ReadOnly.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/ExtractTransformLoadJob.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/Main.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/NotNull.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/Numeric.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/NumericList.java
+annotations/src/com/mycompany/c/custom/k/eleventh/notnull/WeeklyReportJob.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/ExtractTransformLoadJob.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/Main.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/NotNull.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/Numeric.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/NumericList.java
+annotations/src/com/mycompany/c/custom/k/eleventh/readonly/WeeklyReportJob.java
+generics/src/com/mycompany/parameters/a/intro/IntegerContainer.java
+generics/src/com/mycompany/parameters/a/intro/StringContainer.java
+generics/src/com/mycompany/parameters/a/intro/main.java
+generics/src/com/mycompany/parameters/b/object/Container.java
+generics/src/com/mycompany/parameters/b/object/main.java
+generics/src/com/mycompany/parameters/c/type/Container.java
+generics/src/com/mycompany/parameters/c/type/main.java
+generics/src/com/mycompany/parameters/d/type/Container.java
+generics/src/com/mycompany/parameters/d/type/main.java
+generics/src/com/mycompany/parameters/e/type/Container.java
+generics/src/com/mycompany/parameters/e/type/Employee.java
+generics/src/com/mycompany/parameters/e/type/main.java
+generics/src/com/mycompany/parameters/f/error/Container.java
+generics/src/com/mycompany/parameters/f/error/Employee.java
+generics/src/com/mycompany/parameters/f/error/main.java
+generics/src/com/mycompany/parameters/g/rawtype/Container.java
+generics/src/com/mycompany/parameters/g/rawtype/Main.java
+generics/src/com/mycompany/parameters/h/convention/Employee.java
+generics/src/com/mycompany/parameters/h/convention/Main.java
+generics/src/com/mycompany/parameters/i/convention/Main.java
+generics/src/com/mycompany/parameters/i/convention/Pair.java
+generics/src/com/mycompany/parameters/j/multiple/Main.java
+generics/src/com/mycompany/parameters/j/multiple/Triplet.java
+generics/src/com/mycompany/parameters/k/individual/a/intro/Main.java
+generics/src/com/mycompany/parameters/k/individual/a/intro/Utilities.java
+generics/src/com/mycompany/parameters/k/individual/b/type/erasure/solved/Main.java
+generics/src/com/mycompany/parameters/k/individual/b/type/erasure/solved/Utilities.java
+generics/src/com/mycompany/parameters/k/individual/c/statictype/Main.java
+generics/src/com/mycompany/parameters/k/individual/c/statictype/Utilities.java
+generics/src/com/mycompany/parameters/k/individual/d/anotherstatic/Main.java
+generics/src/com/mycompany/parameters/k/individual/d/anotherstatic/Utilities.java
+generics/src/com/mycompany/parameters/l/a/intro/Main.java
+generics/src/com/mycompany/parameters/l/a/intro/Utilities.java
+generics/src/com/mycompany/parameters/l/b/Main.java
+generics/src/com/mycompany/parameters/l/b/Utilities.java
+generics/src/com/mycompany/parameters/l/c/vargs/Main.java
+generics/src/com/mycompany/parameters/l/c/vargs/Utilities.java
+generics/src/com/mycompany/parameters/l/d/array/Main.java
+generics/src/com/mycompany/parameters/l/d/array/Utilities.java
+generics/src/com/mycompany/parameters/l/e/Main.java
+generics/src/com/mycompany/parameters/l/e/Pair.java
+generics/src/com/mycompany/parameters/l/e/Utilities.java
+generics/src/com/mycompany/parameters/m/bounded/a/intro/Calculator.java
+generics/src/com/mycompany/parameters/m/bounded/a/intro/Main.java
+generics/src/com/mycompany/parameters/m/bounded/b/not/effective/Calculator.java
+generics/src/com/mycompany/parameters/m/bounded/b/not/effective/Main.java
+generics/src/com/mycompany/parameters/m/bounded/c/resolved/Calculator.java
+generics/src/com/mycompany/parameters/m/bounded/c/resolved/Main.java
+generics/src/com/mycompany/parameters/n/constraints/a/Intro/Main.java
+generics/src/com/mycompany/parameters/n/constraints/a/Intro/Pair.java
+generics/src/com/mycompany/parameters/n/constraints/b/Main.java
+generics/src/com/mycompany/parameters/n/constraints/b/Pair.java
+generics/src/com/mycompany/parameters/n/constraints/c/Main.java
+generics/src/com/mycompany/parameters/n/constraints/c/Pair.java
+generics/src/com/mycompany/parameters/n/constraints/c/Utilities.java
+javaeight/src/com/sample/aforeach/Java8ForEachExample.java
+javaeight/src/com/sample/cdefaultnstaticininterface/Interface1.java
+javaeight/src/com/sample/cdefaultnstaticininterface/Interface2.java
+javaeight/src/com/sample/cdefaultnstaticininterface/Main.java
+javaeight/src/com/sample/cdefaultnstaticininterface/MyConcreteClass.java
+javaeight/src/com/sample/dstream/AggregateOperationAIntro.java
+javaeight/src/com/sample/dstream/AggregateOperationBCollection.java
+javaeight/src/com/sample/dstream/AggregateOperationCMatch.java
+javaeight/src/com/sample/dstream/AggregateOperationDfilter.java
+javaeight/src/com/sample/dstream/AggregateOperationEfilter.java
+javaeight/src/com/sample/dstream/AggregateOperationFfilter.java
+javaeight/src/com/sample/dstream/AggregateOperationGfilter.java
+javaeight/src/com/sample/dstream/AggregateOperationHReduce.java
+javaeight/src/com/sample/dstream/AggregateOperationICollector.java
+javaeight/src/com/sample/dstream/AggregateOperationJcollect.java
+javaeight/src/com/sample/dstream/AggregateOperationKcollect.java
+javaeight/src/com/sample/dstream/AggregateOperationLparallel.java
+javaeight/src/com/sample/dstream/Person.java
+javaeight/src/com/sample/dstream/StreamExample.java
+javaeight/src/com/sample/dstream/StringBlankSupperss.java
+javaeight/src/com/sample/time/DateAPILegacySupport.java
+javaeight/src/com/sample/time/DateAPIUtilities.java
+javaeight/src/com/sample/time/DateParseFormatExample.java
+javaeight/src/com/sample/time/InstantExample.java
+javaeight/src/com/sample/time/LocalDateExample.java
+javaeight/src/com/sample/time/LocalDateTimeExample.java
+javaeight/src/com/sample/time/LocalTimeExample.java
+linkedList/src/com/company/linkedlist/doubly/Node.java
+linkedList/src/com/company/linkedlist/doubly/a/insert/LinkedList.java
+linkedList/src/com/company/linkedlist/doubly/a/insert/Main.java
+linkedList/src/com/company/linkedlist/singly/Node.java
+linkedList/src/com/company/linkedlist/singly/a/intro/Main.java
+linkedList/src/com/company/linkedlist/singly/b/head/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/b/head/Main.java
+linkedList/src/com/company/linkedlist/singly/c/tail/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/c/tail/Main.java
+linkedList/src/com/company/linkedlist/singly/c/tail/MainTestTime.java
+linkedList/src/com/company/linkedlist/singly/d/index/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/d/index/Main.java
+linkedList/src/com/company/linkedlist/singly/e/pop/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/e/pop/MainContainsTest.java
+linkedList/src/com/company/linkedlist/singly/e/pop/MainPopTest.java
+linkedList/src/com/company/linkedlist/singly/f/delete/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/f/delete/MainDeleteTest.java
+linkedList/src/com/company/linkedlist/singly/g/lessthan/LinkedList.java
+linkedList/src/com/company/linkedlist/singly/g/lessthan/MainFindAllLessThanTest.java
+stack/src/com/sample/stack/Main.java
+wildcard/src/com/company/wildcard/a/comparable/Main.java
+wildcard/src/com/company/wildcard/a/comparable/Pair.java
+wildcard/src/com/company/wildcard/a/comparable/Utilities.java
+wildcard/src/com/company/wildcard/b/serializable/Main.java
+wildcard/src/com/company/wildcard/b/serializable/Pair.java
+wildcard/src/com/company/wildcard/b/serializable/Utilities.java
+wildcard/src/com/company/wildcard/c/inherited/a/Box.java
+wildcard/src/com/company/wildcard/c/inherited/a/Container.java
+wildcard/src/com/company/wildcard/c/inherited/a/Main.java
+wildcard/src/com/company/wildcard/c/inherited/b/Box.java
+wildcard/src/com/company/wildcard/c/inherited/b/Container.java
+wildcard/src/com/company/wildcard/c/inherited/b/Main.java
+wildcard/src/com/company/wildcard/c/inherited/c/Box.java
+wildcard/src/com/company/wildcard/c/inherited/c/Container.java
+wildcard/src/com/company/wildcard/c/inherited/c/Main.java
+wildcard/src/com/company/wildcard/c/inherited/d/Box.java
+wildcard/src/com/company/wildcard/c/inherited/d/Container.java
+wildcard/src/com/company/wildcard/c/inherited/d/Main.java
